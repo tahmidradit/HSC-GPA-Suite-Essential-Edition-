@@ -357,22 +357,11 @@ namespace HSC_GPA
                 float IndiSubTotal = float.Parse(BanglaIndiTotalPoint.Text) + float.Parse(BiologyIndiTotalPoint.Text) + float.Parse(ChemistryIndiTotalPoint.Text) + float.Parse(EnglishIndiTotalPoint.Text) + float.Parse(HMIndiTotalPoint.Text) + float.Parse(ICTIndiTotalPoint.Text) + float.Parse(PhysicsIndiTotalPoint.Text);
                 float avg = (IndiSubTotal - 2) / 6;
                 IndividualResultBox.Text = avg.ToString();
-                ///>>> OUTPUT Subject Total >>>
-
-                //BanglaSubTotal.Text = st.BanglaSubTotal.ToString();
-                //BiologySubTotal.Text = st.BiologySubTotal.ToString();
-                //ChemistrySubTotal.Text = st.ChemistrySubTotal.ToString();
-                //EnglishSubTotal.Text = st.EnglishSubTotal.ToString();
-                //HMSubTotal.Text = st.HigherMathSubTotal.ToString();
-                //ICTSubTotal.Text = st.ICTSubTotal.ToString();
-                //PhysicsSubTotal.Text = st.PhysicsSubTotal.ToString();
-
-
-
+                
             }
             catch
             {
-                MessageBox.Show("ERROR", "ERROR");
+                MessageBox.Show("An unexpected error occured !", "Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
         }
 
