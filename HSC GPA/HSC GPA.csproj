@@ -50,18 +50,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnySubRes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnySubRes.Designer.cs">
+      <DependentUpon>AnySubRes.cs</DependentUpon>
+    </Compile>
     <Compile Include="GetIndividualSub.cs" />
-    <Compile Include="Individual Result.cs">
+    <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Individual Result.Designer.cs">
-      <DependentUpon>Individual Result.cs</DependentUpon>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
     </Compile>
-    <Compile Include="Overall Result.cs">
+    <Compile Include="IndividualResult.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Overall Result.Designer.cs">
-      <DependentUpon>Overall Result.cs</DependentUpon>
+    <Compile Include="IndividualResult.Designer.cs">
+      <DependentUpon>IndividualResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OverallResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OverallResult.Designer.cs">
+      <DependentUpon>OverallResult.cs</DependentUpon>
     </Compile>
     <Compile Include="GetFinalResult.cs" />
     <Compile Include="GetIndividualTotal.cs" />
@@ -71,18 +83,24 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SubAve.cs" />
-    <Compile Include="SubBothPapers.cs">
+    <Compile Include="IndividualSubjectResult.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SubBothPapers.Designer.cs">
-      <DependentUpon>SubBothPapers.cs</DependentUpon>
+    <Compile Include="IndividualSubjectResult.Designer.cs">
+      <DependentUpon>IndividualSubjectResult.cs</DependentUpon>
     </Compile>
     <Compile Include="SubjectTotal.cs" />
-    <EmbeddedResource Include="Individual Result.resx">
-      <DependentUpon>Individual Result.cs</DependentUpon>
+    <EmbeddedResource Include="AnySubRes.resx">
+      <DependentUpon>AnySubRes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Overall Result.resx">
-      <DependentUpon>Overall Result.cs</DependentUpon>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IndividualResult.resx">
+      <DependentUpon>IndividualResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OverallResult.resx">
+      <DependentUpon>OverallResult.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -93,8 +111,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="SubBothPapers.resx">
-      <DependentUpon>SubBothPapers.cs</DependentUpon>
+    <EmbeddedResource Include="IndividualSubjectResult.resx">
+      <DependentUpon>IndividualSubjectResult.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

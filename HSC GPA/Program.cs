@@ -16,7 +16,7 @@ namespace HSC_GPA
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SubBothPapers());
+            Application.Run(new AnySubRes());
         }
     }
 }
