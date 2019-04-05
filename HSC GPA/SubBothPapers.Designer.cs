@@ -28,736 +28,1113 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBox28 = new System.Windows.Forms.GroupBox();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.groupBox23 = new System.Windows.Forms.GroupBox();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.ICTTotalIndividualPointbox = new System.Windows.Forms.TextBox();
-            this.Biology2ndTotalIndividualPointbox = new System.Windows.Forms.TextBox();
-            this.ICTTotalIndividualGradebox = new System.Windows.Forms.TextBox();
-            this.Physics1stTotalIndividualPointbox = new System.Windows.Forms.TextBox();
-            this.Biology2ndTotalIndividualGradebox = new System.Windows.Forms.TextBox();
-            this.HM2ndTotalIndividualPointbox = new System.Windows.Forms.TextBox();
-            this.Biology1stTotalIndividualPointbox = new System.Windows.Forms.TextBox();
-            this.Bangla1stTotalIndividualGradebox = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.Physics1stTotalIndividualGradebox = new System.Windows.Forms.TextBox();
-            this.HM1stTotalIndividualPointbox = new System.Windows.Forms.TextBox();
-            this.Bangla2ndTotalIndividualGradebox = new System.Windows.Forms.TextBox();
-            this.HM2ndTotalIndividual = new System.Windows.Forms.TextBox();
-            this.HM2ndTotalIndividualGradebox = new System.Windows.Forms.TextBox();
-            this.Chemistry2ndTotalIndividualPointbox = new System.Windows.Forms.TextBox();
-            this.Physics2ndTotalIndividualGradebox = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.English1stTotalIndividualGradebox = new System.Windows.Forms.TextBox();
-            this.English2ndTotalIndividualPointbox = new System.Windows.Forms.TextBox();
-            this.Chemistry1stTotalIndividualGradebox = new System.Windows.Forms.TextBox();
-            this.HM1stTotalIndividual = new System.Windows.Forms.TextBox();
-            this.Biology1stTotalIndividualGradebox = new System.Windows.Forms.TextBox();
-            this.Chemistry1stTotalIndividualPointbox = new System.Windows.Forms.TextBox();
-            this.English2ndTotalIndividualGradebox = new System.Windows.Forms.TextBox();
-            this.English1stTotalIndividual = new System.Windows.Forms.TextBox();
-            this.Chemistry2ndTotalIndividualGradebox = new System.Windows.Forms.TextBox();
-            this.English1stTotalIndividualPointbox = new System.Windows.Forms.TextBox();
-            this.HM1stTotalIndividualGradebox = new System.Windows.Forms.TextBox();
-            this.Bangla2ndTotalIndividual = new System.Windows.Forms.TextBox();
-            this.Physics2ndTotalIndividualPointbox = new System.Windows.Forms.TextBox();
-            this.Bangla1stTotalIndividual = new System.Windows.Forms.TextBox();
-            this.Bangla2ndTotalIndividualPointbox = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.label36 = new System.Windows.Forms.Label();
+            this.OverallResultSubBothPapers = new System.Windows.Forms.TextBox();
+            this.ICTTotalPointbox = new System.Windows.Forms.TextBox();
+            this.Biology2ndTotalPointbox = new System.Windows.Forms.TextBox();
+            this.ICTTotalGradebox = new System.Windows.Forms.TextBox();
+            this.Physics1stTotalPointbox = new System.Windows.Forms.TextBox();
+            this.Biology2ndTotalGradebox = new System.Windows.Forms.TextBox();
+            this.HM2ndTotalPointbox = new System.Windows.Forms.TextBox();
+            this.Biology1stTotalPointbox = new System.Windows.Forms.TextBox();
+            this.Bangla1stTotalGradebox = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.Physics1stTotalGradebox = new System.Windows.Forms.TextBox();
+            this.HM1stTotalPointbox = new System.Windows.Forms.TextBox();
+            this.Bangla2ndTotalGradebox = new System.Windows.Forms.TextBox();
+            this.HM2ndTotal = new System.Windows.Forms.TextBox();
+            this.HM2ndTotalGradebox = new System.Windows.Forms.TextBox();
+            this.Chemistry2ndTotalPointbox = new System.Windows.Forms.TextBox();
+            this.Physics2ndTotalGradebox = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.English1stTotalGradebox = new System.Windows.Forms.TextBox();
+            this.English2ndTotalPointbox = new System.Windows.Forms.TextBox();
+            this.Chemistry1stTotalGradebox = new System.Windows.Forms.TextBox();
+            this.HM1stTotal = new System.Windows.Forms.TextBox();
+            this.Biology1stTotalGradebox = new System.Windows.Forms.TextBox();
+            this.Chemistry1stTotalPointbox = new System.Windows.Forms.TextBox();
+            this.English2ndTotalGradebox = new System.Windows.Forms.TextBox();
+            this.English1stTotal = new System.Windows.Forms.TextBox();
+            this.Chemistry2ndTotalGradebox = new System.Windows.Forms.TextBox();
+            this.English1stTotalPointbox = new System.Windows.Forms.TextBox();
+            this.HM1stTotalGradebox = new System.Windows.Forms.TextBox();
+            this.Bangla2ndTotal = new System.Windows.Forms.TextBox();
+            this.Physics2ndTotalPointbox = new System.Windows.Forms.TextBox();
+            this.Bangla1stTotal = new System.Windows.Forms.TextBox();
+            this.Bangla2ndTotalPointbox = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.Bangla1stTotalPointbox = new System.Windows.Forms.TextBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.English2ndTotal = new System.Windows.Forms.TextBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.ICTTotal = new System.Windows.Forms.TextBox();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.Chemistry2ndTotal = new System.Windows.Forms.TextBox();
+            this.Biology2ndTotal = new System.Windows.Forms.TextBox();
+            this.Physics1stTotal = new System.Windows.Forms.TextBox();
+            this.Biology1stTotal = new System.Windows.Forms.TextBox();
+            this.Physics2ndTotal = new System.Windows.Forms.TextBox();
+            this.Chemistry1stTotal = new System.Windows.Forms.TextBox();
+            this.groupBox18 = new System.Windows.Forms.GroupBox();
+            this.ICTAveragePointbox = new System.Windows.Forms.TextBox();
+            this.BiologyAveragePointbox = new System.Windows.Forms.TextBox();
+            this.ICTAverageGradebox = new System.Windows.Forms.TextBox();
+            this.ChemistryAveragePointbox = new System.Windows.Forms.TextBox();
+            this.BiologyAverageGradebox = new System.Windows.Forms.TextBox();
+            this.PhysicsAveragePointbox = new System.Windows.Forms.TextBox();
+            this.ChemistryAverageGradebox = new System.Windows.Forms.TextBox();
+            this.HMAveragePointbox = new System.Windows.Forms.TextBox();
+            this.PhysicsAverageGradebox = new System.Windows.Forms.TextBox();
+            this.EnglishAveragePointbox = new System.Windows.Forms.TextBox();
+            this.HMAverageGradebox = new System.Windows.Forms.TextBox();
+            this.BanglaAveragePointbox = new System.Windows.Forms.TextBox();
+            this.EnglishAverageGradebox = new System.Windows.Forms.TextBox();
+            this.BanglaAverageGradebox = new System.Windows.Forms.TextBox();
+            this.ICTSubAverage = new System.Windows.Forms.TextBox();
+            this.PhysicsSubAverage = new System.Windows.Forms.TextBox();
+            this.label37 = new System.Windows.Forms.Label();
+            this.BanglaSubAverage = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.Bangla1stTotalIndividualPointbox = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.English2ndTotalIndividual = new System.Windows.Forms.TextBox();
+            this.EnglishSubAverage = new System.Windows.Forms.TextBox();
+            this.HMSubAverage = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.ChemistrySubAverage = new System.Windows.Forms.TextBox();
+            this.BiologySubAverage = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.ICTTotalIndividual = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.Chemistry2ndTotalIndividual = new System.Windows.Forms.TextBox();
-            this.Biology2ndTotalIndividual = new System.Windows.Forms.TextBox();
-            this.Physics1stTotalIndividual = new System.Windows.Forms.TextBox();
-            this.Biology1stTotalIndividual = new System.Windows.Forms.TextBox();
-            this.Physics2ndTotalIndividual = new System.Windows.Forms.TextBox();
-            this.Chemistry1stTotalIndividual = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.groupBox28.SuspendLayout();
-            this.groupBox23.SuspendLayout();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.groupBox4.SuspendLayout();
+            this.groupBox5.SuspendLayout();
+            this.groupBox18.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // groupBox28
-            // 
-            this.groupBox28.Controls.Add(this.label42);
-            this.groupBox28.Controls.Add(this.label43);
-            this.groupBox28.Controls.Add(this.label44);
-            this.groupBox28.Location = new System.Drawing.Point(405, 58);
-            this.groupBox28.Name = "groupBox28";
-            this.groupBox28.Size = new System.Drawing.Size(154, 29);
-            this.groupBox28.TabIndex = 60;
-            this.groupBox28.TabStop = false;
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(117, 12);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(31, 13);
-            this.label42.TabIndex = 2;
-            this.label42.Text = "Point";
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(70, 12);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(36, 13);
-            this.label43.TabIndex = 1;
-            this.label43.Text = "Grade";
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(1, 12);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(63, 13);
-            this.label44.TabIndex = 0;
-            this.label44.Text = "Total Marks";
-            // 
-            // groupBox23
-            // 
-            this.groupBox23.Controls.Add(this.label26);
-            this.groupBox23.Controls.Add(this.label24);
-            this.groupBox23.Controls.Add(this.label23);
-            this.groupBox23.Location = new System.Drawing.Point(146, 58);
-            this.groupBox23.Name = "groupBox23";
-            this.groupBox23.Size = new System.Drawing.Size(154, 29);
-            this.groupBox23.TabIndex = 59;
-            this.groupBox23.TabStop = false;
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(117, 12);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(31, 13);
-            this.label26.TabIndex = 2;
-            this.label26.Text = "Point";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(70, 12);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(36, 13);
-            this.label24.TabIndex = 1;
-            this.label24.Text = "Grade";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(1, 12);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(63, 13);
-            this.label23.TabIndex = 0;
-            this.label23.Text = "Total Marks";
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.ICTTotalIndividualPointbox);
-            this.groupBox1.Controls.Add(this.Biology2ndTotalIndividualPointbox);
-            this.groupBox1.Controls.Add(this.ICTTotalIndividualGradebox);
-            this.groupBox1.Controls.Add(this.Physics1stTotalIndividualPointbox);
-            this.groupBox1.Controls.Add(this.Biology2ndTotalIndividualGradebox);
-            this.groupBox1.Controls.Add(this.HM2ndTotalIndividualPointbox);
-            this.groupBox1.Controls.Add(this.Biology1stTotalIndividualPointbox);
-            this.groupBox1.Controls.Add(this.Bangla1stTotalIndividualGradebox);
-            this.groupBox1.Controls.Add(this.label15);
-            this.groupBox1.Controls.Add(this.Physics1stTotalIndividualGradebox);
-            this.groupBox1.Controls.Add(this.HM1stTotalIndividualPointbox);
-            this.groupBox1.Controls.Add(this.Bangla2ndTotalIndividualGradebox);
-            this.groupBox1.Controls.Add(this.HM2ndTotalIndividual);
-            this.groupBox1.Controls.Add(this.HM2ndTotalIndividualGradebox);
-            this.groupBox1.Controls.Add(this.Chemistry2ndTotalIndividualPointbox);
-            this.groupBox1.Controls.Add(this.Physics2ndTotalIndividualGradebox);
-            this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.English1stTotalIndividualGradebox);
-            this.groupBox1.Controls.Add(this.English2ndTotalIndividualPointbox);
-            this.groupBox1.Controls.Add(this.Chemistry1stTotalIndividualGradebox);
-            this.groupBox1.Controls.Add(this.HM1stTotalIndividual);
-            this.groupBox1.Controls.Add(this.Biology1stTotalIndividualGradebox);
-            this.groupBox1.Controls.Add(this.Chemistry1stTotalIndividualPointbox);
-            this.groupBox1.Controls.Add(this.English2ndTotalIndividualGradebox);
-            this.groupBox1.Controls.Add(this.English1stTotalIndividual);
-            this.groupBox1.Controls.Add(this.Chemistry2ndTotalIndividualGradebox);
-            this.groupBox1.Controls.Add(this.English1stTotalIndividualPointbox);
-            this.groupBox1.Controls.Add(this.HM1stTotalIndividualGradebox);
-            this.groupBox1.Controls.Add(this.Bangla2ndTotalIndividual);
-            this.groupBox1.Controls.Add(this.Physics2ndTotalIndividualPointbox);
-            this.groupBox1.Controls.Add(this.Bangla1stTotalIndividual);
-            this.groupBox1.Controls.Add(this.Bangla2ndTotalIndividualPointbox);
-            this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.Bangla1stTotalIndividualPointbox);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.English2ndTotalIndividual);
-            this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.ICTTotalIndividual);
-            this.groupBox1.Controls.Add(this.label10);
-            this.groupBox1.Controls.Add(this.label13);
-            this.groupBox1.Controls.Add(this.label11);
-            this.groupBox1.Controls.Add(this.label12);
-            this.groupBox1.Controls.Add(this.Chemistry2ndTotalIndividual);
-            this.groupBox1.Controls.Add(this.Biology2ndTotalIndividual);
-            this.groupBox1.Controls.Add(this.Physics1stTotalIndividual);
-            this.groupBox1.Controls.Add(this.Biology1stTotalIndividual);
-            this.groupBox1.Controls.Add(this.Physics2ndTotalIndividual);
-            this.groupBox1.Controls.Add(this.Chemistry1stTotalIndividual);
-            this.groupBox1.Location = new System.Drawing.Point(20, 93);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(539, 215);
-            this.groupBox1.TabIndex = 58;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Individual Totals";
-            // 
-            // ICTTotalIndividualPointbox
-            // 
-            this.ICTTotalIndividualPointbox.Location = new System.Drawing.Point(497, 153);
-            this.ICTTotalIndividualPointbox.Name = "ICTTotalIndividualPointbox";
-            this.ICTTotalIndividualPointbox.ReadOnly = true;
-            this.ICTTotalIndividualPointbox.Size = new System.Drawing.Size(36, 20);
-            this.ICTTotalIndividualPointbox.TabIndex = 61;
-            // 
-            // Biology2ndTotalIndividualPointbox
-            // 
-            this.Biology2ndTotalIndividualPointbox.Location = new System.Drawing.Point(497, 127);
-            this.Biology2ndTotalIndividualPointbox.Name = "Biology2ndTotalIndividualPointbox";
-            this.Biology2ndTotalIndividualPointbox.ReadOnly = true;
-            this.Biology2ndTotalIndividualPointbox.Size = new System.Drawing.Size(36, 20);
-            this.Biology2ndTotalIndividualPointbox.TabIndex = 60;
-            // 
-            // ICTTotalIndividualGradebox
-            // 
-            this.ICTTotalIndividualGradebox.Location = new System.Drawing.Point(455, 153);
-            this.ICTTotalIndividualGradebox.Name = "ICTTotalIndividualGradebox";
-            this.ICTTotalIndividualGradebox.ReadOnly = true;
-            this.ICTTotalIndividualGradebox.Size = new System.Drawing.Size(36, 20);
-            this.ICTTotalIndividualGradebox.TabIndex = 61;
-            // 
-            // Physics1stTotalIndividualPointbox
-            // 
-            this.Physics1stTotalIndividualPointbox.Location = new System.Drawing.Point(238, 177);
-            this.Physics1stTotalIndividualPointbox.Name = "Physics1stTotalIndividualPointbox";
-            this.Physics1stTotalIndividualPointbox.ReadOnly = true;
-            this.Physics1stTotalIndividualPointbox.Size = new System.Drawing.Size(36, 20);
-            this.Physics1stTotalIndividualPointbox.TabIndex = 61;
-            // 
-            // Biology2ndTotalIndividualGradebox
-            // 
-            this.Biology2ndTotalIndividualGradebox.Location = new System.Drawing.Point(455, 127);
-            this.Biology2ndTotalIndividualGradebox.Name = "Biology2ndTotalIndividualGradebox";
-            this.Biology2ndTotalIndividualGradebox.ReadOnly = true;
-            this.Biology2ndTotalIndividualGradebox.Size = new System.Drawing.Size(36, 20);
-            this.Biology2ndTotalIndividualGradebox.TabIndex = 60;
-            // 
-            // HM2ndTotalIndividualPointbox
-            // 
-            this.HM2ndTotalIndividualPointbox.Location = new System.Drawing.Point(238, 150);
-            this.HM2ndTotalIndividualPointbox.Name = "HM2ndTotalIndividualPointbox";
-            this.HM2ndTotalIndividualPointbox.ReadOnly = true;
-            this.HM2ndTotalIndividualPointbox.Size = new System.Drawing.Size(36, 20);
-            this.HM2ndTotalIndividualPointbox.TabIndex = 60;
-            // 
-            // Biology1stTotalIndividualPointbox
-            // 
-            this.Biology1stTotalIndividualPointbox.Location = new System.Drawing.Point(497, 101);
-            this.Biology1stTotalIndividualPointbox.Name = "Biology1stTotalIndividualPointbox";
-            this.Biology1stTotalIndividualPointbox.ReadOnly = true;
-            this.Biology1stTotalIndividualPointbox.Size = new System.Drawing.Size(36, 20);
-            this.Biology1stTotalIndividualPointbox.TabIndex = 59;
-            // 
-            // Bangla1stTotalIndividualGradebox
-            // 
-            this.Bangla1stTotalIndividualGradebox.Location = new System.Drawing.Point(196, 21);
-            this.Bangla1stTotalIndividualGradebox.Name = "Bangla1stTotalIndividualGradebox";
-            this.Bangla1stTotalIndividualGradebox.ReadOnly = true;
-            this.Bangla1stTotalIndividualGradebox.Size = new System.Drawing.Size(36, 20);
-            this.Bangla1stTotalIndividualGradebox.TabIndex = 55;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label15.Location = new System.Drawing.Point(41, 24);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(84, 13);
-            this.label15.TabIndex = 45;
-            this.label15.Text = "Bangla 1st Total";
-            // 
-            // Physics1stTotalIndividualGradebox
-            // 
-            this.Physics1stTotalIndividualGradebox.Location = new System.Drawing.Point(196, 177);
-            this.Physics1stTotalIndividualGradebox.Name = "Physics1stTotalIndividualGradebox";
-            this.Physics1stTotalIndividualGradebox.ReadOnly = true;
-            this.Physics1stTotalIndividualGradebox.Size = new System.Drawing.Size(36, 20);
-            this.Physics1stTotalIndividualGradebox.TabIndex = 61;
-            // 
-            // HM1stTotalIndividualPointbox
-            // 
-            this.HM1stTotalIndividualPointbox.Location = new System.Drawing.Point(238, 125);
-            this.HM1stTotalIndividualPointbox.Name = "HM1stTotalIndividualPointbox";
-            this.HM1stTotalIndividualPointbox.ReadOnly = true;
-            this.HM1stTotalIndividualPointbox.Size = new System.Drawing.Size(36, 20);
-            this.HM1stTotalIndividualPointbox.TabIndex = 59;
-            // 
-            // Bangla2ndTotalIndividualGradebox
-            // 
-            this.Bangla2ndTotalIndividualGradebox.Location = new System.Drawing.Point(196, 47);
-            this.Bangla2ndTotalIndividualGradebox.Name = "Bangla2ndTotalIndividualGradebox";
-            this.Bangla2ndTotalIndividualGradebox.ReadOnly = true;
-            this.Bangla2ndTotalIndividualGradebox.Size = new System.Drawing.Size(36, 20);
-            this.Bangla2ndTotalIndividualGradebox.TabIndex = 56;
-            // 
-            // HM2ndTotalIndividual
-            // 
-            this.HM2ndTotalIndividual.Location = new System.Drawing.Point(126, 150);
-            this.HM2ndTotalIndividual.Name = "HM2ndTotalIndividual";
-            this.HM2ndTotalIndividual.ReadOnly = true;
-            this.HM2ndTotalIndividual.Size = new System.Drawing.Size(64, 20);
-            this.HM2ndTotalIndividual.TabIndex = 13;
-            // 
-            // HM2ndTotalIndividualGradebox
-            // 
-            this.HM2ndTotalIndividualGradebox.Location = new System.Drawing.Point(196, 150);
-            this.HM2ndTotalIndividualGradebox.Name = "HM2ndTotalIndividualGradebox";
-            this.HM2ndTotalIndividualGradebox.ReadOnly = true;
-            this.HM2ndTotalIndividualGradebox.Size = new System.Drawing.Size(36, 20);
-            this.HM2ndTotalIndividualGradebox.TabIndex = 60;
-            // 
-            // Chemistry2ndTotalIndividualPointbox
-            // 
-            this.Chemistry2ndTotalIndividualPointbox.Location = new System.Drawing.Point(497, 75);
-            this.Chemistry2ndTotalIndividualPointbox.Name = "Chemistry2ndTotalIndividualPointbox";
-            this.Chemistry2ndTotalIndividualPointbox.ReadOnly = true;
-            this.Chemistry2ndTotalIndividualPointbox.Size = new System.Drawing.Size(36, 20);
-            this.Chemistry2ndTotalIndividualPointbox.TabIndex = 58;
-            // 
-            // Physics2ndTotalIndividualGradebox
-            // 
-            this.Physics2ndTotalIndividualGradebox.Location = new System.Drawing.Point(455, 23);
-            this.Physics2ndTotalIndividualGradebox.Name = "Physics2ndTotalIndividualGradebox";
-            this.Physics2ndTotalIndividualGradebox.ReadOnly = true;
-            this.Physics2ndTotalIndividualGradebox.Size = new System.Drawing.Size(36, 20);
-            this.Physics2ndTotalIndividualGradebox.TabIndex = 56;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(334, 155);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(51, 13);
-            this.label7.TabIndex = 12;
-            this.label7.Text = "ICT Total";
-            // 
-            // English1stTotalIndividualGradebox
-            // 
-            this.English1stTotalIndividualGradebox.Location = new System.Drawing.Point(196, 73);
-            this.English1stTotalIndividualGradebox.Name = "English1stTotalIndividualGradebox";
-            this.English1stTotalIndividualGradebox.ReadOnly = true;
-            this.English1stTotalIndividualGradebox.Size = new System.Drawing.Size(36, 20);
-            this.English1stTotalIndividualGradebox.TabIndex = 57;
-            // 
-            // English2ndTotalIndividualPointbox
-            // 
-            this.English2ndTotalIndividualPointbox.Location = new System.Drawing.Point(238, 99);
-            this.English2ndTotalIndividualPointbox.Name = "English2ndTotalIndividualPointbox";
-            this.English2ndTotalIndividualPointbox.ReadOnly = true;
-            this.English2ndTotalIndividualPointbox.Size = new System.Drawing.Size(36, 20);
-            this.English2ndTotalIndividualPointbox.TabIndex = 58;
-            // 
-            // Chemistry1stTotalIndividualGradebox
-            // 
-            this.Chemistry1stTotalIndividualGradebox.Location = new System.Drawing.Point(455, 49);
-            this.Chemistry1stTotalIndividualGradebox.Name = "Chemistry1stTotalIndividualGradebox";
-            this.Chemistry1stTotalIndividualGradebox.ReadOnly = true;
-            this.Chemistry1stTotalIndividualGradebox.Size = new System.Drawing.Size(36, 20);
-            this.Chemistry1stTotalIndividualGradebox.TabIndex = 57;
-            // 
-            // HM1stTotalIndividual
-            // 
-            this.HM1stTotalIndividual.Location = new System.Drawing.Point(126, 125);
-            this.HM1stTotalIndividual.Name = "HM1stTotalIndividual";
-            this.HM1stTotalIndividual.ReadOnly = true;
-            this.HM1stTotalIndividual.Size = new System.Drawing.Size(64, 20);
-            this.HM1stTotalIndividual.TabIndex = 11;
-            // 
-            // Biology1stTotalIndividualGradebox
-            // 
-            this.Biology1stTotalIndividualGradebox.Location = new System.Drawing.Point(455, 101);
-            this.Biology1stTotalIndividualGradebox.Name = "Biology1stTotalIndividualGradebox";
-            this.Biology1stTotalIndividualGradebox.ReadOnly = true;
-            this.Biology1stTotalIndividualGradebox.Size = new System.Drawing.Size(36, 20);
-            this.Biology1stTotalIndividualGradebox.TabIndex = 59;
-            // 
-            // Chemistry1stTotalIndividualPointbox
-            // 
-            this.Chemistry1stTotalIndividualPointbox.Location = new System.Drawing.Point(497, 49);
-            this.Chemistry1stTotalIndividualPointbox.Name = "Chemistry1stTotalIndividualPointbox";
-            this.Chemistry1stTotalIndividualPointbox.ReadOnly = true;
-            this.Chemistry1stTotalIndividualPointbox.Size = new System.Drawing.Size(36, 20);
-            this.Chemistry1stTotalIndividualPointbox.TabIndex = 57;
-            // 
-            // English2ndTotalIndividualGradebox
-            // 
-            this.English2ndTotalIndividualGradebox.Location = new System.Drawing.Point(196, 99);
-            this.English2ndTotalIndividualGradebox.Name = "English2ndTotalIndividualGradebox";
-            this.English2ndTotalIndividualGradebox.ReadOnly = true;
-            this.English2ndTotalIndividualGradebox.Size = new System.Drawing.Size(36, 20);
-            this.English2ndTotalIndividualGradebox.TabIndex = 58;
-            // 
-            // English1stTotalIndividual
-            // 
-            this.English1stTotalIndividual.Location = new System.Drawing.Point(126, 73);
-            this.English1stTotalIndividual.Name = "English1stTotalIndividual";
-            this.English1stTotalIndividual.ReadOnly = true;
-            this.English1stTotalIndividual.Size = new System.Drawing.Size(64, 20);
-            this.English1stTotalIndividual.TabIndex = 9;
-            // 
-            // Chemistry2ndTotalIndividualGradebox
-            // 
-            this.Chemistry2ndTotalIndividualGradebox.Location = new System.Drawing.Point(455, 75);
-            this.Chemistry2ndTotalIndividualGradebox.Name = "Chemistry2ndTotalIndividualGradebox";
-            this.Chemistry2ndTotalIndividualGradebox.ReadOnly = true;
-            this.Chemistry2ndTotalIndividualGradebox.Size = new System.Drawing.Size(36, 20);
-            this.Chemistry2ndTotalIndividualGradebox.TabIndex = 58;
-            // 
-            // English1stTotalIndividualPointbox
-            // 
-            this.English1stTotalIndividualPointbox.Location = new System.Drawing.Point(238, 73);
-            this.English1stTotalIndividualPointbox.Name = "English1stTotalIndividualPointbox";
-            this.English1stTotalIndividualPointbox.ReadOnly = true;
-            this.English1stTotalIndividualPointbox.Size = new System.Drawing.Size(36, 20);
-            this.English1stTotalIndividualPointbox.TabIndex = 57;
-            // 
-            // HM1stTotalIndividualGradebox
-            // 
-            this.HM1stTotalIndividualGradebox.Location = new System.Drawing.Point(196, 125);
-            this.HM1stTotalIndividualGradebox.Name = "HM1stTotalIndividualGradebox";
-            this.HM1stTotalIndividualGradebox.ReadOnly = true;
-            this.HM1stTotalIndividualGradebox.Size = new System.Drawing.Size(36, 20);
-            this.HM1stTotalIndividualGradebox.TabIndex = 59;
-            // 
-            // Bangla2ndTotalIndividual
-            // 
-            this.Bangla2ndTotalIndividual.Location = new System.Drawing.Point(126, 47);
-            this.Bangla2ndTotalIndividual.Name = "Bangla2ndTotalIndividual";
-            this.Bangla2ndTotalIndividual.ReadOnly = true;
-            this.Bangla2ndTotalIndividual.Size = new System.Drawing.Size(64, 20);
-            this.Bangla2ndTotalIndividual.TabIndex = 8;
-            // 
-            // Physics2ndTotalIndividualPointbox
-            // 
-            this.Physics2ndTotalIndividualPointbox.Location = new System.Drawing.Point(497, 23);
-            this.Physics2ndTotalIndividualPointbox.Name = "Physics2ndTotalIndividualPointbox";
-            this.Physics2ndTotalIndividualPointbox.ReadOnly = true;
-            this.Physics2ndTotalIndividualPointbox.Size = new System.Drawing.Size(36, 20);
-            this.Physics2ndTotalIndividualPointbox.TabIndex = 56;
-            // 
-            // Bangla1stTotalIndividual
-            // 
-            this.Bangla1stTotalIndividual.Location = new System.Drawing.Point(126, 21);
-            this.Bangla1stTotalIndividual.Name = "Bangla1stTotalIndividual";
-            this.Bangla1stTotalIndividual.ReadOnly = true;
-            this.Bangla1stTotalIndividual.Size = new System.Drawing.Size(64, 20);
-            this.Bangla1stTotalIndividual.TabIndex = 7;
-            // 
-            // Bangla2ndTotalIndividualPointbox
-            // 
-            this.Bangla2ndTotalIndividualPointbox.Location = new System.Drawing.Point(238, 47);
-            this.Bangla2ndTotalIndividualPointbox.Name = "Bangla2ndTotalIndividualPointbox";
-            this.Bangla2ndTotalIndividualPointbox.ReadOnly = true;
-            this.Bangla2ndTotalIndividualPointbox.Size = new System.Drawing.Size(36, 20);
-            this.Bangla2ndTotalIndividualPointbox.TabIndex = 56;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(300, 104);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(85, 13);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Biology 1st Total";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(288, 52);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(96, 13);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Chemistry 1st Total";
-            // 
-            // Bangla1stTotalIndividualPointbox
-            // 
-            this.Bangla1stTotalIndividualPointbox.Location = new System.Drawing.Point(238, 21);
-            this.Bangla1stTotalIndividualPointbox.Name = "Bangla1stTotalIndividualPointbox";
-            this.Bangla1stTotalIndividualPointbox.ReadOnly = true;
-            this.Bangla1stTotalIndividualPointbox.Size = new System.Drawing.Size(36, 20);
-            this.Bangla1stTotalIndividualPointbox.TabIndex = 55;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(38, 180);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(87, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Physics 1st Total";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(57, 128);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(68, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "HM 1st Total";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(38, 76);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(88, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "English 1st Total ";
-            // 
-            // English2ndTotalIndividual
-            // 
-            this.English2ndTotalIndividual.Location = new System.Drawing.Point(126, 99);
-            this.English2ndTotalIndividual.Name = "English2ndTotalIndividual";
-            this.English2ndTotalIndividual.ReadOnly = true;
-            this.English2ndTotalIndividual.Size = new System.Drawing.Size(64, 20);
-            this.English2ndTotalIndividual.TabIndex = 10;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(34, 103);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(92, 13);
-            this.label8.TabIndex = 34;
-            this.label8.Text = "English 2nd Total ";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(53, 154);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(72, 13);
-            this.label9.TabIndex = 35;
-            this.label9.Text = "HM 2nd Total";
-            // 
-            // ICTTotalIndividual
-            // 
-            this.ICTTotalIndividual.Location = new System.Drawing.Point(385, 153);
-            this.ICTTotalIndividual.Name = "ICTTotalIndividual";
-            this.ICTTotalIndividual.ReadOnly = true;
-            this.ICTTotalIndividual.Size = new System.Drawing.Size(64, 20);
-            this.ICTTotalIndividual.TabIndex = 47;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(293, 26);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(91, 13);
-            this.label10.TabIndex = 36;
-            this.label10.Text = "Physics 2nd Total";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(37, 50);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(88, 13);
-            this.label13.TabIndex = 46;
-            this.label13.Text = "Bangla 2nd Total";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(284, 78);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(100, 13);
-            this.label11.TabIndex = 37;
-            this.label11.Text = "Chemistry 2nd Total";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(296, 130);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(89, 13);
-            this.label12.TabIndex = 38;
-            this.label12.Text = "Biology 2nd Total";
-            // 
-            // Chemistry2ndTotalIndividual
-            // 
-            this.Chemistry2ndTotalIndividual.Location = new System.Drawing.Point(385, 75);
-            this.Chemistry2ndTotalIndividual.Name = "Chemistry2ndTotalIndividual";
-            this.Chemistry2ndTotalIndividual.ReadOnly = true;
-            this.Chemistry2ndTotalIndividual.Size = new System.Drawing.Size(64, 20);
-            this.Chemistry2ndTotalIndividual.TabIndex = 42;
-            // 
-            // Biology2ndTotalIndividual
-            // 
-            this.Biology2ndTotalIndividual.Location = new System.Drawing.Point(385, 127);
-            this.Biology2ndTotalIndividual.Name = "Biology2ndTotalIndividual";
-            this.Biology2ndTotalIndividual.ReadOnly = true;
-            this.Biology2ndTotalIndividual.Size = new System.Drawing.Size(64, 20);
-            this.Biology2ndTotalIndividual.TabIndex = 44;
-            // 
-            // Physics1stTotalIndividual
-            // 
-            this.Physics1stTotalIndividual.Location = new System.Drawing.Point(126, 177);
-            this.Physics1stTotalIndividual.Name = "Physics1stTotalIndividual";
-            this.Physics1stTotalIndividual.ReadOnly = true;
-            this.Physics1stTotalIndividual.Size = new System.Drawing.Size(64, 20);
-            this.Physics1stTotalIndividual.TabIndex = 39;
-            // 
-            // Biology1stTotalIndividual
-            // 
-            this.Biology1stTotalIndividual.Location = new System.Drawing.Point(385, 101);
-            this.Biology1stTotalIndividual.Name = "Biology1stTotalIndividual";
-            this.Biology1stTotalIndividual.ReadOnly = true;
-            this.Biology1stTotalIndividual.Size = new System.Drawing.Size(64, 20);
-            this.Biology1stTotalIndividual.TabIndex = 43;
-            // 
-            // Physics2ndTotalIndividual
-            // 
-            this.Physics2ndTotalIndividual.Location = new System.Drawing.Point(385, 23);
-            this.Physics2ndTotalIndividual.Name = "Physics2ndTotalIndividual";
-            this.Physics2ndTotalIndividual.ReadOnly = true;
-            this.Physics2ndTotalIndividual.Size = new System.Drawing.Size(64, 20);
-            this.Physics2ndTotalIndividual.TabIndex = 40;
-            // 
-            // Chemistry1stTotalIndividual
-            // 
-            this.Chemistry1stTotalIndividual.Location = new System.Drawing.Point(385, 49);
-            this.Chemistry1stTotalIndividual.Name = "Chemistry1stTotalIndividual";
-            this.Chemistry1stTotalIndividual.ReadOnly = true;
-            this.Chemistry1stTotalIndividual.Size = new System.Drawing.Size(64, 20);
-            this.Chemistry1stTotalIndividual.TabIndex = 41;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(90, 331);
+            this.button1.Location = new System.Drawing.Point(28, 59);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(65, 23);
             this.button1.TabIndex = 61;
             this.button1.Text = "Submit";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.label17);
+            this.groupBox4.Controls.Add(this.label18);
+            this.groupBox4.Controls.Add(this.label19);
+            this.groupBox4.Location = new System.Drawing.Point(85, 10);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(148, 29);
+            this.groupBox4.TabIndex = 64;
+            this.groupBox4.TabStop = false;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(111, 12);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(31, 13);
+            this.label17.TabIndex = 2;
+            this.label17.Text = "Point";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(70, 13);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(36, 13);
+            this.label18.TabIndex = 1;
+            this.label18.Text = "Grade";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(1, 12);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(63, 13);
+            this.label19.TabIndex = 0;
+            this.label19.Text = "Total Marks";
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.ICTTotalPointbox);
+            this.groupBox5.Controls.Add(this.Biology2ndTotalPointbox);
+            this.groupBox5.Controls.Add(this.ICTTotalGradebox);
+            this.groupBox5.Controls.Add(this.groupBox2);
+            this.groupBox5.Controls.Add(this.Physics1stTotalPointbox);
+            this.groupBox5.Controls.Add(this.Biology2ndTotalGradebox);
+            this.groupBox5.Controls.Add(this.HM2ndTotalPointbox);
+            this.groupBox5.Controls.Add(this.Biology1stTotalPointbox);
+            this.groupBox5.Controls.Add(this.Bangla1stTotalGradebox);
+            this.groupBox5.Controls.Add(this.label20);
+            this.groupBox5.Controls.Add(this.Physics1stTotalGradebox);
+            this.groupBox5.Controls.Add(this.HM1stTotalPointbox);
+            this.groupBox5.Controls.Add(this.Bangla2ndTotalGradebox);
+            this.groupBox5.Controls.Add(this.HM2ndTotal);
+            this.groupBox5.Controls.Add(this.HM2ndTotalGradebox);
+            this.groupBox5.Controls.Add(this.Chemistry2ndTotalPointbox);
+            this.groupBox5.Controls.Add(this.Physics2ndTotalGradebox);
+            this.groupBox5.Controls.Add(this.label21);
+            this.groupBox5.Controls.Add(this.English1stTotalGradebox);
+            this.groupBox5.Controls.Add(this.English2ndTotalPointbox);
+            this.groupBox5.Controls.Add(this.Chemistry1stTotalGradebox);
+            this.groupBox5.Controls.Add(this.HM1stTotal);
+            this.groupBox5.Controls.Add(this.Biology1stTotalGradebox);
+            this.groupBox5.Controls.Add(this.Chemistry1stTotalPointbox);
+            this.groupBox5.Controls.Add(this.English2ndTotalGradebox);
+            this.groupBox5.Controls.Add(this.English1stTotal);
+            this.groupBox5.Controls.Add(this.Chemistry2ndTotalGradebox);
+            this.groupBox5.Controls.Add(this.English1stTotalPointbox);
+            this.groupBox5.Controls.Add(this.HM1stTotalGradebox);
+            this.groupBox5.Controls.Add(this.Bangla2ndTotal);
+            this.groupBox5.Controls.Add(this.Physics2ndTotalPointbox);
+            this.groupBox5.Controls.Add(this.Bangla1stTotal);
+            this.groupBox5.Controls.Add(this.Bangla2ndTotalPointbox);
+            this.groupBox5.Controls.Add(this.label22);
+            this.groupBox5.Controls.Add(this.label25);
+            this.groupBox5.Controls.Add(this.Bangla1stTotalPointbox);
+            this.groupBox5.Controls.Add(this.label27);
+            this.groupBox5.Controls.Add(this.label28);
+            this.groupBox5.Controls.Add(this.label29);
+            this.groupBox5.Controls.Add(this.English2ndTotal);
+            this.groupBox5.Controls.Add(this.label30);
+            this.groupBox5.Controls.Add(this.label31);
+            this.groupBox5.Controls.Add(this.ICTTotal);
+            this.groupBox5.Controls.Add(this.label32);
+            this.groupBox5.Controls.Add(this.label33);
+            this.groupBox5.Controls.Add(this.label34);
+            this.groupBox5.Controls.Add(this.label35);
+            this.groupBox5.Controls.Add(this.Chemistry2ndTotal);
+            this.groupBox5.Controls.Add(this.Biology2ndTotal);
+            this.groupBox5.Controls.Add(this.Physics1stTotal);
+            this.groupBox5.Controls.Add(this.Biology1stTotal);
+            this.groupBox5.Controls.Add(this.Physics2ndTotal);
+            this.groupBox5.Controls.Add(this.Chemistry1stTotal);
+            this.groupBox5.Location = new System.Drawing.Point(12, 12);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(278, 392);
+            this.groupBox5.TabIndex = 63;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Individual Totals";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(36, 36);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(40, 13);
+            this.label36.TabIndex = 67;
+            this.label36.Text = "Overall";
+            // 
+            // OverallResultSubBothPapers
+            // 
+            this.OverallResultSubBothPapers.Location = new System.Drawing.Point(82, 33);
+            this.OverallResultSubBothPapers.Name = "OverallResultSubBothPapers";
+            this.OverallResultSubBothPapers.Size = new System.Drawing.Size(92, 20);
+            this.OverallResultSubBothPapers.TabIndex = 66;
+            // 
+            // ICTTotalPointbox
+            // 
+            this.ICTTotalPointbox.Location = new System.Drawing.Point(228, 361);
+            this.ICTTotalPointbox.Name = "ICTTotalPointbox";
+            this.ICTTotalPointbox.ReadOnly = true;
+            this.ICTTotalPointbox.Size = new System.Drawing.Size(36, 20);
+            this.ICTTotalPointbox.TabIndex = 61;
+            // 
+            // Biology2ndTotalPointbox
+            // 
+            this.Biology2ndTotalPointbox.Location = new System.Drawing.Point(228, 335);
+            this.Biology2ndTotalPointbox.Name = "Biology2ndTotalPointbox";
+            this.Biology2ndTotalPointbox.ReadOnly = true;
+            this.Biology2ndTotalPointbox.Size = new System.Drawing.Size(36, 20);
+            this.Biology2ndTotalPointbox.TabIndex = 60;
+            // 
+            // ICTTotalGradebox
+            // 
+            this.ICTTotalGradebox.Location = new System.Drawing.Point(186, 361);
+            this.ICTTotalGradebox.Name = "ICTTotalGradebox";
+            this.ICTTotalGradebox.ReadOnly = true;
+            this.ICTTotalGradebox.Size = new System.Drawing.Size(36, 20);
+            this.ICTTotalGradebox.TabIndex = 61;
+            // 
+            // Physics1stTotalPointbox
+            // 
+            this.Physics1stTotalPointbox.Location = new System.Drawing.Point(228, 207);
+            this.Physics1stTotalPointbox.Name = "Physics1stTotalPointbox";
+            this.Physics1stTotalPointbox.ReadOnly = true;
+            this.Physics1stTotalPointbox.Size = new System.Drawing.Size(36, 20);
+            this.Physics1stTotalPointbox.TabIndex = 61;
+            // 
+            // Biology2ndTotalGradebox
+            // 
+            this.Biology2ndTotalGradebox.Location = new System.Drawing.Point(186, 335);
+            this.Biology2ndTotalGradebox.Name = "Biology2ndTotalGradebox";
+            this.Biology2ndTotalGradebox.ReadOnly = true;
+            this.Biology2ndTotalGradebox.Size = new System.Drawing.Size(36, 20);
+            this.Biology2ndTotalGradebox.TabIndex = 60;
+            // 
+            // HM2ndTotalPointbox
+            // 
+            this.HM2ndTotalPointbox.Location = new System.Drawing.Point(228, 180);
+            this.HM2ndTotalPointbox.Name = "HM2ndTotalPointbox";
+            this.HM2ndTotalPointbox.ReadOnly = true;
+            this.HM2ndTotalPointbox.Size = new System.Drawing.Size(36, 20);
+            this.HM2ndTotalPointbox.TabIndex = 60;
+            // 
+            // Biology1stTotalPointbox
+            // 
+            this.Biology1stTotalPointbox.Location = new System.Drawing.Point(228, 309);
+            this.Biology1stTotalPointbox.Name = "Biology1stTotalPointbox";
+            this.Biology1stTotalPointbox.ReadOnly = true;
+            this.Biology1stTotalPointbox.Size = new System.Drawing.Size(36, 20);
+            this.Biology1stTotalPointbox.TabIndex = 59;
+            // 
+            // Bangla1stTotalGradebox
+            // 
+            this.Bangla1stTotalGradebox.Location = new System.Drawing.Point(186, 51);
+            this.Bangla1stTotalGradebox.Name = "Bangla1stTotalGradebox";
+            this.Bangla1stTotalGradebox.ReadOnly = true;
+            this.Bangla1stTotalGradebox.Size = new System.Drawing.Size(36, 20);
+            this.Bangla1stTotalGradebox.TabIndex = 55;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label20.Location = new System.Drawing.Point(31, 54);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(84, 13);
+            this.label20.TabIndex = 45;
+            this.label20.Text = "Bangla 1st Total";
+            // 
+            // Physics1stTotalGradebox
+            // 
+            this.Physics1stTotalGradebox.Location = new System.Drawing.Point(186, 207);
+            this.Physics1stTotalGradebox.Name = "Physics1stTotalGradebox";
+            this.Physics1stTotalGradebox.ReadOnly = true;
+            this.Physics1stTotalGradebox.Size = new System.Drawing.Size(36, 20);
+            this.Physics1stTotalGradebox.TabIndex = 61;
+            // 
+            // HM1stTotalPointbox
+            // 
+            this.HM1stTotalPointbox.Location = new System.Drawing.Point(228, 155);
+            this.HM1stTotalPointbox.Name = "HM1stTotalPointbox";
+            this.HM1stTotalPointbox.ReadOnly = true;
+            this.HM1stTotalPointbox.Size = new System.Drawing.Size(36, 20);
+            this.HM1stTotalPointbox.TabIndex = 59;
+            // 
+            // Bangla2ndTotalGradebox
+            // 
+            this.Bangla2ndTotalGradebox.Location = new System.Drawing.Point(186, 77);
+            this.Bangla2ndTotalGradebox.Name = "Bangla2ndTotalGradebox";
+            this.Bangla2ndTotalGradebox.ReadOnly = true;
+            this.Bangla2ndTotalGradebox.Size = new System.Drawing.Size(36, 20);
+            this.Bangla2ndTotalGradebox.TabIndex = 56;
+            // 
+            // HM2ndTotal
+            // 
+            this.HM2ndTotal.Location = new System.Drawing.Point(116, 180);
+            this.HM2ndTotal.Name = "HM2ndTotal";
+            this.HM2ndTotal.Size = new System.Drawing.Size(64, 20);
+            this.HM2ndTotal.TabIndex = 13;
+            // 
+            // HM2ndTotalGradebox
+            // 
+            this.HM2ndTotalGradebox.Location = new System.Drawing.Point(186, 180);
+            this.HM2ndTotalGradebox.Name = "HM2ndTotalGradebox";
+            this.HM2ndTotalGradebox.ReadOnly = true;
+            this.HM2ndTotalGradebox.Size = new System.Drawing.Size(36, 20);
+            this.HM2ndTotalGradebox.TabIndex = 60;
+            // 
+            // Chemistry2ndTotalPointbox
+            // 
+            this.Chemistry2ndTotalPointbox.Location = new System.Drawing.Point(228, 283);
+            this.Chemistry2ndTotalPointbox.Name = "Chemistry2ndTotalPointbox";
+            this.Chemistry2ndTotalPointbox.ReadOnly = true;
+            this.Chemistry2ndTotalPointbox.Size = new System.Drawing.Size(36, 20);
+            this.Chemistry2ndTotalPointbox.TabIndex = 58;
+            // 
+            // Physics2ndTotalGradebox
+            // 
+            this.Physics2ndTotalGradebox.Location = new System.Drawing.Point(186, 231);
+            this.Physics2ndTotalGradebox.Name = "Physics2ndTotalGradebox";
+            this.Physics2ndTotalGradebox.ReadOnly = true;
+            this.Physics2ndTotalGradebox.Size = new System.Drawing.Size(36, 20);
+            this.Physics2ndTotalGradebox.TabIndex = 56;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(65, 363);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(51, 13);
+            this.label21.TabIndex = 12;
+            this.label21.Text = "ICT Total";
+            // 
+            // English1stTotalGradebox
+            // 
+            this.English1stTotalGradebox.Location = new System.Drawing.Point(186, 103);
+            this.English1stTotalGradebox.Name = "English1stTotalGradebox";
+            this.English1stTotalGradebox.ReadOnly = true;
+            this.English1stTotalGradebox.Size = new System.Drawing.Size(36, 20);
+            this.English1stTotalGradebox.TabIndex = 57;
+            // 
+            // English2ndTotalPointbox
+            // 
+            this.English2ndTotalPointbox.Location = new System.Drawing.Point(228, 129);
+            this.English2ndTotalPointbox.Name = "English2ndTotalPointbox";
+            this.English2ndTotalPointbox.ReadOnly = true;
+            this.English2ndTotalPointbox.Size = new System.Drawing.Size(36, 20);
+            this.English2ndTotalPointbox.TabIndex = 58;
+            // 
+            // Chemistry1stTotalGradebox
+            // 
+            this.Chemistry1stTotalGradebox.Location = new System.Drawing.Point(186, 257);
+            this.Chemistry1stTotalGradebox.Name = "Chemistry1stTotalGradebox";
+            this.Chemistry1stTotalGradebox.ReadOnly = true;
+            this.Chemistry1stTotalGradebox.Size = new System.Drawing.Size(36, 20);
+            this.Chemistry1stTotalGradebox.TabIndex = 57;
+            // 
+            // HM1stTotal
+            // 
+            this.HM1stTotal.Location = new System.Drawing.Point(116, 155);
+            this.HM1stTotal.Name = "HM1stTotal";
+            this.HM1stTotal.Size = new System.Drawing.Size(64, 20);
+            this.HM1stTotal.TabIndex = 11;
+            // 
+            // Biology1stTotalGradebox
+            // 
+            this.Biology1stTotalGradebox.Location = new System.Drawing.Point(186, 309);
+            this.Biology1stTotalGradebox.Name = "Biology1stTotalGradebox";
+            this.Biology1stTotalGradebox.ReadOnly = true;
+            this.Biology1stTotalGradebox.Size = new System.Drawing.Size(36, 20);
+            this.Biology1stTotalGradebox.TabIndex = 59;
+            // 
+            // Chemistry1stTotalPointbox
+            // 
+            this.Chemistry1stTotalPointbox.Location = new System.Drawing.Point(228, 257);
+            this.Chemistry1stTotalPointbox.Name = "Chemistry1stTotalPointbox";
+            this.Chemistry1stTotalPointbox.ReadOnly = true;
+            this.Chemistry1stTotalPointbox.Size = new System.Drawing.Size(36, 20);
+            this.Chemistry1stTotalPointbox.TabIndex = 57;
+            // 
+            // English2ndTotalGradebox
+            // 
+            this.English2ndTotalGradebox.Location = new System.Drawing.Point(186, 129);
+            this.English2ndTotalGradebox.Name = "English2ndTotalGradebox";
+            this.English2ndTotalGradebox.ReadOnly = true;
+            this.English2ndTotalGradebox.Size = new System.Drawing.Size(36, 20);
+            this.English2ndTotalGradebox.TabIndex = 58;
+            // 
+            // English1stTotal
+            // 
+            this.English1stTotal.Location = new System.Drawing.Point(116, 103);
+            this.English1stTotal.Name = "English1stTotal";
+            this.English1stTotal.Size = new System.Drawing.Size(64, 20);
+            this.English1stTotal.TabIndex = 9;
+            // 
+            // Chemistry2ndTotalGradebox
+            // 
+            this.Chemistry2ndTotalGradebox.Location = new System.Drawing.Point(186, 283);
+            this.Chemistry2ndTotalGradebox.Name = "Chemistry2ndTotalGradebox";
+            this.Chemistry2ndTotalGradebox.ReadOnly = true;
+            this.Chemistry2ndTotalGradebox.Size = new System.Drawing.Size(36, 20);
+            this.Chemistry2ndTotalGradebox.TabIndex = 58;
+            // 
+            // English1stTotalPointbox
+            // 
+            this.English1stTotalPointbox.Location = new System.Drawing.Point(228, 103);
+            this.English1stTotalPointbox.Name = "English1stTotalPointbox";
+            this.English1stTotalPointbox.ReadOnly = true;
+            this.English1stTotalPointbox.Size = new System.Drawing.Size(36, 20);
+            this.English1stTotalPointbox.TabIndex = 57;
+            // 
+            // HM1stTotalGradebox
+            // 
+            this.HM1stTotalGradebox.Location = new System.Drawing.Point(186, 155);
+            this.HM1stTotalGradebox.Name = "HM1stTotalGradebox";
+            this.HM1stTotalGradebox.ReadOnly = true;
+            this.HM1stTotalGradebox.Size = new System.Drawing.Size(36, 20);
+            this.HM1stTotalGradebox.TabIndex = 59;
+            // 
+            // Bangla2ndTotal
+            // 
+            this.Bangla2ndTotal.Location = new System.Drawing.Point(116, 77);
+            this.Bangla2ndTotal.Name = "Bangla2ndTotal";
+            this.Bangla2ndTotal.Size = new System.Drawing.Size(64, 20);
+            this.Bangla2ndTotal.TabIndex = 8;
+            // 
+            // Physics2ndTotalPointbox
+            // 
+            this.Physics2ndTotalPointbox.Location = new System.Drawing.Point(228, 231);
+            this.Physics2ndTotalPointbox.Name = "Physics2ndTotalPointbox";
+            this.Physics2ndTotalPointbox.ReadOnly = true;
+            this.Physics2ndTotalPointbox.Size = new System.Drawing.Size(36, 20);
+            this.Physics2ndTotalPointbox.TabIndex = 56;
+            // 
+            // Bangla1stTotal
+            // 
+            this.Bangla1stTotal.Location = new System.Drawing.Point(116, 51);
+            this.Bangla1stTotal.Name = "Bangla1stTotal";
+            this.Bangla1stTotal.Size = new System.Drawing.Size(64, 20);
+            this.Bangla1stTotal.TabIndex = 7;
+            // 
+            // Bangla2ndTotalPointbox
+            // 
+            this.Bangla2ndTotalPointbox.Location = new System.Drawing.Point(228, 77);
+            this.Bangla2ndTotalPointbox.Name = "Bangla2ndTotalPointbox";
+            this.Bangla2ndTotalPointbox.ReadOnly = true;
+            this.Bangla2ndTotalPointbox.Size = new System.Drawing.Size(36, 20);
+            this.Bangla2ndTotalPointbox.TabIndex = 56;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(31, 312);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(85, 13);
+            this.label22.TabIndex = 5;
+            this.label22.Text = "Biology 1st Total";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(19, 260);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(96, 13);
+            this.label25.TabIndex = 4;
+            this.label25.Text = "Chemistry 1st Total";
+            // 
+            // Bangla1stTotalPointbox
+            // 
+            this.Bangla1stTotalPointbox.Location = new System.Drawing.Point(228, 51);
+            this.Bangla1stTotalPointbox.Name = "Bangla1stTotalPointbox";
+            this.Bangla1stTotalPointbox.ReadOnly = true;
+            this.Bangla1stTotalPointbox.Size = new System.Drawing.Size(36, 20);
+            this.Bangla1stTotalPointbox.TabIndex = 55;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(28, 210);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(87, 13);
+            this.label27.TabIndex = 3;
+            this.label27.Text = "Physics 1st Total";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(47, 158);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(68, 13);
+            this.label28.TabIndex = 2;
+            this.label28.Text = "HM 1st Total";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.ForeColor = System.Drawing.Color.Black;
+            this.label29.Location = new System.Drawing.Point(28, 106);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(88, 13);
+            this.label29.TabIndex = 1;
+            this.label29.Text = "English 1st Total ";
+            // 
+            // English2ndTotal
+            // 
+            this.English2ndTotal.Location = new System.Drawing.Point(116, 129);
+            this.English2ndTotal.Name = "English2ndTotal";
+            this.English2ndTotal.Size = new System.Drawing.Size(64, 20);
+            this.English2ndTotal.TabIndex = 10;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(24, 133);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(92, 13);
+            this.label30.TabIndex = 34;
+            this.label30.Text = "English 2nd Total ";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(43, 184);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(72, 13);
+            this.label31.TabIndex = 35;
+            this.label31.Text = "HM 2nd Total";
+            // 
+            // ICTTotal
+            // 
+            this.ICTTotal.Location = new System.Drawing.Point(116, 361);
+            this.ICTTotal.Name = "ICTTotal";
+            this.ICTTotal.Size = new System.Drawing.Size(64, 20);
+            this.ICTTotal.TabIndex = 47;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(24, 234);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(91, 13);
+            this.label32.TabIndex = 36;
+            this.label32.Text = "Physics 2nd Total";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(27, 80);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(88, 13);
+            this.label33.TabIndex = 46;
+            this.label33.Text = "Bangla 2nd Total";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(15, 286);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(100, 13);
+            this.label34.TabIndex = 37;
+            this.label34.Text = "Chemistry 2nd Total";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(27, 338);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(89, 13);
+            this.label35.TabIndex = 38;
+            this.label35.Text = "Biology 2nd Total";
+            // 
+            // Chemistry2ndTotal
+            // 
+            this.Chemistry2ndTotal.Location = new System.Drawing.Point(116, 283);
+            this.Chemistry2ndTotal.Name = "Chemistry2ndTotal";
+            this.Chemistry2ndTotal.Size = new System.Drawing.Size(64, 20);
+            this.Chemistry2ndTotal.TabIndex = 42;
+            // 
+            // Biology2ndTotal
+            // 
+            this.Biology2ndTotal.Location = new System.Drawing.Point(116, 335);
+            this.Biology2ndTotal.Name = "Biology2ndTotal";
+            this.Biology2ndTotal.Size = new System.Drawing.Size(64, 20);
+            this.Biology2ndTotal.TabIndex = 44;
+            // 
+            // Physics1stTotal
+            // 
+            this.Physics1stTotal.Location = new System.Drawing.Point(116, 207);
+            this.Physics1stTotal.Name = "Physics1stTotal";
+            this.Physics1stTotal.Size = new System.Drawing.Size(64, 20);
+            this.Physics1stTotal.TabIndex = 39;
+            // 
+            // Biology1stTotal
+            // 
+            this.Biology1stTotal.Location = new System.Drawing.Point(116, 309);
+            this.Biology1stTotal.Name = "Biology1stTotal";
+            this.Biology1stTotal.Size = new System.Drawing.Size(64, 20);
+            this.Biology1stTotal.TabIndex = 43;
+            // 
+            // Physics2ndTotal
+            // 
+            this.Physics2ndTotal.Location = new System.Drawing.Point(116, 231);
+            this.Physics2ndTotal.Name = "Physics2ndTotal";
+            this.Physics2ndTotal.Size = new System.Drawing.Size(64, 20);
+            this.Physics2ndTotal.TabIndex = 40;
+            // 
+            // Chemistry1stTotal
+            // 
+            this.Chemistry1stTotal.Location = new System.Drawing.Point(116, 257);
+            this.Chemistry1stTotal.Name = "Chemistry1stTotal";
+            this.Chemistry1stTotal.Size = new System.Drawing.Size(64, 20);
+            this.Chemistry1stTotal.TabIndex = 41;
+            // 
+            // groupBox18
+            // 
+            this.groupBox18.Controls.Add(this.ICTAveragePointbox);
+            this.groupBox18.Controls.Add(this.BiologyAveragePointbox);
+            this.groupBox18.Controls.Add(this.ICTAverageGradebox);
+            this.groupBox18.Controls.Add(this.groupBox4);
+            this.groupBox18.Controls.Add(this.ChemistryAveragePointbox);
+            this.groupBox18.Controls.Add(this.BiologyAverageGradebox);
+            this.groupBox18.Controls.Add(this.PhysicsAveragePointbox);
+            this.groupBox18.Controls.Add(this.ChemistryAverageGradebox);
+            this.groupBox18.Controls.Add(this.HMAveragePointbox);
+            this.groupBox18.Controls.Add(this.PhysicsAverageGradebox);
+            this.groupBox18.Controls.Add(this.EnglishAveragePointbox);
+            this.groupBox18.Controls.Add(this.HMAverageGradebox);
+            this.groupBox18.Controls.Add(this.BanglaAveragePointbox);
+            this.groupBox18.Controls.Add(this.EnglishAverageGradebox);
+            this.groupBox18.Controls.Add(this.BanglaAverageGradebox);
+            this.groupBox18.Controls.Add(this.ICTSubAverage);
+            this.groupBox18.Controls.Add(this.PhysicsSubAverage);
+            this.groupBox18.Controls.Add(this.label37);
+            this.groupBox18.Controls.Add(this.BanglaSubAverage);
+            this.groupBox18.Controls.Add(this.label5);
+            this.groupBox18.Controls.Add(this.EnglishSubAverage);
+            this.groupBox18.Controls.Add(this.HMSubAverage);
+            this.groupBox18.Controls.Add(this.label6);
+            this.groupBox18.Controls.Add(this.label7);
+            this.groupBox18.Controls.Add(this.ChemistrySubAverage);
+            this.groupBox18.Controls.Add(this.BiologySubAverage);
+            this.groupBox18.Controls.Add(this.label8);
+            this.groupBox18.Controls.Add(this.label9);
+            this.groupBox18.Controls.Add(this.label10);
+            this.groupBox18.Location = new System.Drawing.Point(296, 18);
+            this.groupBox18.Name = "groupBox18";
+            this.groupBox18.Size = new System.Drawing.Size(242, 241);
+            this.groupBox18.TabIndex = 70;
+            this.groupBox18.TabStop = false;
+            this.groupBox18.Text = "Average";
+            // 
+            // ICTAveragePointbox
+            // 
+            this.ICTAveragePointbox.Location = new System.Drawing.Point(197, 199);
+            this.ICTAveragePointbox.Name = "ICTAveragePointbox";
+            this.ICTAveragePointbox.ReadOnly = true;
+            this.ICTAveragePointbox.Size = new System.Drawing.Size(36, 20);
+            this.ICTAveragePointbox.TabIndex = 61;
+            // 
+            // BiologyAveragePointbox
+            // 
+            this.BiologyAveragePointbox.Location = new System.Drawing.Point(197, 173);
+            this.BiologyAveragePointbox.Name = "BiologyAveragePointbox";
+            this.BiologyAveragePointbox.ReadOnly = true;
+            this.BiologyAveragePointbox.Size = new System.Drawing.Size(36, 20);
+            this.BiologyAveragePointbox.TabIndex = 60;
+            // 
+            // ICTAverageGradebox
+            // 
+            this.ICTAverageGradebox.Location = new System.Drawing.Point(155, 199);
+            this.ICTAverageGradebox.Name = "ICTAverageGradebox";
+            this.ICTAverageGradebox.ReadOnly = true;
+            this.ICTAverageGradebox.Size = new System.Drawing.Size(36, 20);
+            this.ICTAverageGradebox.TabIndex = 61;
+            // 
+            // ChemistryAveragePointbox
+            // 
+            this.ChemistryAveragePointbox.Location = new System.Drawing.Point(197, 147);
+            this.ChemistryAveragePointbox.Name = "ChemistryAveragePointbox";
+            this.ChemistryAveragePointbox.ReadOnly = true;
+            this.ChemistryAveragePointbox.Size = new System.Drawing.Size(36, 20);
+            this.ChemistryAveragePointbox.TabIndex = 59;
+            // 
+            // BiologyAverageGradebox
+            // 
+            this.BiologyAverageGradebox.Location = new System.Drawing.Point(155, 173);
+            this.BiologyAverageGradebox.Name = "BiologyAverageGradebox";
+            this.BiologyAverageGradebox.ReadOnly = true;
+            this.BiologyAverageGradebox.Size = new System.Drawing.Size(36, 20);
+            this.BiologyAverageGradebox.TabIndex = 60;
+            // 
+            // PhysicsAveragePointbox
+            // 
+            this.PhysicsAveragePointbox.Location = new System.Drawing.Point(197, 121);
+            this.PhysicsAveragePointbox.Name = "PhysicsAveragePointbox";
+            this.PhysicsAveragePointbox.ReadOnly = true;
+            this.PhysicsAveragePointbox.Size = new System.Drawing.Size(36, 20);
+            this.PhysicsAveragePointbox.TabIndex = 58;
+            // 
+            // ChemistryAverageGradebox
+            // 
+            this.ChemistryAverageGradebox.Location = new System.Drawing.Point(155, 147);
+            this.ChemistryAverageGradebox.Name = "ChemistryAverageGradebox";
+            this.ChemistryAverageGradebox.ReadOnly = true;
+            this.ChemistryAverageGradebox.Size = new System.Drawing.Size(36, 20);
+            this.ChemistryAverageGradebox.TabIndex = 59;
+            // 
+            // HMAveragePointbox
+            // 
+            this.HMAveragePointbox.Location = new System.Drawing.Point(197, 95);
+            this.HMAveragePointbox.Name = "HMAveragePointbox";
+            this.HMAveragePointbox.ReadOnly = true;
+            this.HMAveragePointbox.Size = new System.Drawing.Size(36, 20);
+            this.HMAveragePointbox.TabIndex = 57;
+            // 
+            // PhysicsAverageGradebox
+            // 
+            this.PhysicsAverageGradebox.Location = new System.Drawing.Point(155, 121);
+            this.PhysicsAverageGradebox.Name = "PhysicsAverageGradebox";
+            this.PhysicsAverageGradebox.ReadOnly = true;
+            this.PhysicsAverageGradebox.Size = new System.Drawing.Size(36, 20);
+            this.PhysicsAverageGradebox.TabIndex = 58;
+            // 
+            // EnglishAveragePointbox
+            // 
+            this.EnglishAveragePointbox.Location = new System.Drawing.Point(197, 69);
+            this.EnglishAveragePointbox.Name = "EnglishAveragePointbox";
+            this.EnglishAveragePointbox.ReadOnly = true;
+            this.EnglishAveragePointbox.Size = new System.Drawing.Size(36, 20);
+            this.EnglishAveragePointbox.TabIndex = 56;
+            // 
+            // HMAverageGradebox
+            // 
+            this.HMAverageGradebox.Location = new System.Drawing.Point(155, 95);
+            this.HMAverageGradebox.Name = "HMAverageGradebox";
+            this.HMAverageGradebox.ReadOnly = true;
+            this.HMAverageGradebox.Size = new System.Drawing.Size(36, 20);
+            this.HMAverageGradebox.TabIndex = 57;
+            // 
+            // BanglaAveragePointbox
+            // 
+            this.BanglaAveragePointbox.Location = new System.Drawing.Point(197, 43);
+            this.BanglaAveragePointbox.Name = "BanglaAveragePointbox";
+            this.BanglaAveragePointbox.ReadOnly = true;
+            this.BanglaAveragePointbox.Size = new System.Drawing.Size(36, 20);
+            this.BanglaAveragePointbox.TabIndex = 55;
+            // 
+            // EnglishAverageGradebox
+            // 
+            this.EnglishAverageGradebox.Location = new System.Drawing.Point(155, 69);
+            this.EnglishAverageGradebox.Name = "EnglishAverageGradebox";
+            this.EnglishAverageGradebox.ReadOnly = true;
+            this.EnglishAverageGradebox.Size = new System.Drawing.Size(36, 20);
+            this.EnglishAverageGradebox.TabIndex = 56;
+            // 
+            // BanglaAverageGradebox
+            // 
+            this.BanglaAverageGradebox.Location = new System.Drawing.Point(155, 43);
+            this.BanglaAverageGradebox.Name = "BanglaAverageGradebox";
+            this.BanglaAverageGradebox.ReadOnly = true;
+            this.BanglaAverageGradebox.Size = new System.Drawing.Size(36, 20);
+            this.BanglaAverageGradebox.TabIndex = 55;
+            // 
+            // ICTSubAverage
+            // 
+            this.ICTSubAverage.Location = new System.Drawing.Point(85, 199);
+            this.ICTSubAverage.Name = "ICTSubAverage";
+            this.ICTSubAverage.ReadOnly = true;
+            this.ICTSubAverage.Size = new System.Drawing.Size(64, 20);
+            this.ICTSubAverage.TabIndex = 54;
+            // 
+            // PhysicsSubAverage
+            // 
+            this.PhysicsSubAverage.Location = new System.Drawing.Point(85, 121);
+            this.PhysicsSubAverage.Name = "PhysicsSubAverage";
+            this.PhysicsSubAverage.ReadOnly = true;
+            this.PhysicsSubAverage.Size = new System.Drawing.Size(64, 20);
+            this.PhysicsSubAverage.TabIndex = 51;
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Location = new System.Drawing.Point(55, 204);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(24, 13);
+            this.label37.TabIndex = 45;
+            this.label37.Text = "ICT";
+            // 
+            // BanglaSubAverage
+            // 
+            this.BanglaSubAverage.Location = new System.Drawing.Point(85, 43);
+            this.BanglaSubAverage.Name = "BanglaSubAverage";
+            this.BanglaSubAverage.ReadOnly = true;
+            this.BanglaSubAverage.Size = new System.Drawing.Size(64, 20);
+            this.BanglaSubAverage.TabIndex = 48;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(38, 178);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(41, 13);
+            this.label5.TabIndex = 45;
+            this.label5.Text = "Biology";
+            // 
+            // EnglishSubAverage
+            // 
+            this.EnglishSubAverage.Location = new System.Drawing.Point(85, 69);
+            this.EnglishSubAverage.Name = "EnglishSubAverage";
+            this.EnglishSubAverage.ReadOnly = true;
+            this.EnglishSubAverage.Size = new System.Drawing.Size(64, 20);
+            this.EnglishSubAverage.TabIndex = 49;
+            // 
+            // HMSubAverage
+            // 
+            this.HMSubAverage.Location = new System.Drawing.Point(85, 95);
+            this.HMSubAverage.Name = "HMSubAverage";
+            this.HMSubAverage.ReadOnly = true;
+            this.HMSubAverage.Size = new System.Drawing.Size(64, 20);
+            this.HMSubAverage.TabIndex = 50;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(27, 151);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(52, 13);
+            this.label6.TabIndex = 45;
+            this.label6.Text = "Chemistry";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(35, 126);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(43, 13);
+            this.label7.TabIndex = 45;
+            this.label7.Text = "Physics";
+            // 
+            // ChemistrySubAverage
+            // 
+            this.ChemistrySubAverage.Location = new System.Drawing.Point(85, 147);
+            this.ChemistrySubAverage.Name = "ChemistrySubAverage";
+            this.ChemistrySubAverage.ReadOnly = true;
+            this.ChemistrySubAverage.Size = new System.Drawing.Size(64, 20);
+            this.ChemistrySubAverage.TabIndex = 52;
+            // 
+            // BiologySubAverage
+            // 
+            this.BiologySubAverage.Location = new System.Drawing.Point(85, 173);
+            this.BiologySubAverage.Name = "BiologySubAverage";
+            this.BiologySubAverage.ReadOnly = true;
+            this.BiologySubAverage.Size = new System.Drawing.Size(64, 20);
+            this.BiologySubAverage.TabIndex = 53;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(3, 100);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(78, 13);
+            this.label8.TabIndex = 45;
+            this.label8.Text = "H.Mathematics";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(38, 74);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(41, 13);
+            this.label9.TabIndex = 45;
+            this.label9.Text = "English";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(38, 48);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(40, 13);
+            this.label10.TabIndex = 45;
+            this.label10.Text = "Bangla";
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(109, 59);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(65, 23);
+            this.button2.TabIndex = 72;
+            this.button2.Text = "Reset";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(28, 88);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(146, 23);
+            this.button3.TabIndex = 73;
+            this.button3.Text = "Exit";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.OverallResultSubBothPapers);
+            this.groupBox1.Controls.Add(this.button3);
+            this.groupBox1.Controls.Add(this.label36);
+            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Location = new System.Drawing.Point(317, 274);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(192, 130);
+            this.groupBox1.TabIndex = 74;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Overall Result & Buttons";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.label1);
+            this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Controls.Add(this.label3);
+            this.groupBox2.Location = new System.Drawing.Point(116, 16);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(148, 29);
+            this.groupBox2.TabIndex = 64;
+            this.groupBox2.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(111, 12);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(31, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Point";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(70, 13);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(36, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Grade";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(1, 12);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(63, 13);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Total Marks";
+            // 
             // SubBothPapers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.groupBox28);
-            this.Controls.Add(this.groupBox23);
+            this.ClientSize = new System.Drawing.Size(552, 415);
+            this.Controls.Add(this.groupBox5);
+            this.Controls.Add(this.groupBox18);
             this.Controls.Add(this.groupBox1);
             this.Name = "SubBothPapers";
-            this.Text = "SubBothPapers";
-            this.groupBox28.ResumeLayout(false);
-            this.groupBox28.PerformLayout();
-            this.groupBox23.ResumeLayout(false);
-            this.groupBox23.PerformLayout();
+            this.Text = "Individual Paper Result";
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
+            this.groupBox18.ResumeLayout(false);
+            this.groupBox18.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.GroupBox groupBox28;
-        private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.GroupBox groupBox23;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox ICTTotalIndividualPointbox;
-        private System.Windows.Forms.TextBox Biology2ndTotalIndividualPointbox;
-        private System.Windows.Forms.TextBox ICTTotalIndividualGradebox;
-        private System.Windows.Forms.TextBox Physics1stTotalIndividualPointbox;
-        private System.Windows.Forms.TextBox Biology2ndTotalIndividualGradebox;
-        private System.Windows.Forms.TextBox HM2ndTotalIndividualPointbox;
-        private System.Windows.Forms.TextBox Biology1stTotalIndividualPointbox;
-        private System.Windows.Forms.TextBox Bangla1stTotalIndividualGradebox;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox Physics1stTotalIndividualGradebox;
-        private System.Windows.Forms.TextBox HM1stTotalIndividualPointbox;
-        private System.Windows.Forms.TextBox Bangla2ndTotalIndividualGradebox;
-        private System.Windows.Forms.TextBox HM2ndTotalIndividual;
-        private System.Windows.Forms.TextBox HM2ndTotalIndividualGradebox;
-        private System.Windows.Forms.TextBox Chemistry2ndTotalIndividualPointbox;
-        private System.Windows.Forms.TextBox Physics2ndTotalIndividualGradebox;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox English1stTotalIndividualGradebox;
-        private System.Windows.Forms.TextBox English2ndTotalIndividualPointbox;
-        private System.Windows.Forms.TextBox Chemistry1stTotalIndividualGradebox;
-        private System.Windows.Forms.TextBox HM1stTotalIndividual;
-        private System.Windows.Forms.TextBox Biology1stTotalIndividualGradebox;
-        private System.Windows.Forms.TextBox Chemistry1stTotalIndividualPointbox;
-        private System.Windows.Forms.TextBox English2ndTotalIndividualGradebox;
-        private System.Windows.Forms.TextBox English1stTotalIndividual;
-        private System.Windows.Forms.TextBox Chemistry2ndTotalIndividualGradebox;
-        private System.Windows.Forms.TextBox English1stTotalIndividualPointbox;
-        private System.Windows.Forms.TextBox HM1stTotalIndividualGradebox;
-        private System.Windows.Forms.TextBox Bangla2ndTotalIndividual;
-        private System.Windows.Forms.TextBox Physics2ndTotalIndividualPointbox;
-        private System.Windows.Forms.TextBox Bangla1stTotalIndividual;
-        private System.Windows.Forms.TextBox Bangla2ndTotalIndividualPointbox;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.TextBox ICTTotalPointbox;
+        private System.Windows.Forms.TextBox Biology2ndTotalPointbox;
+        private System.Windows.Forms.TextBox ICTTotalGradebox;
+        private System.Windows.Forms.TextBox Physics1stTotalPointbox;
+        private System.Windows.Forms.TextBox Biology2ndTotalGradebox;
+        private System.Windows.Forms.TextBox HM2ndTotalPointbox;
+        private System.Windows.Forms.TextBox Biology1stTotalPointbox;
+        private System.Windows.Forms.TextBox Bangla1stTotalGradebox;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.TextBox Physics1stTotalGradebox;
+        private System.Windows.Forms.TextBox HM1stTotalPointbox;
+        private System.Windows.Forms.TextBox Bangla2ndTotalGradebox;
+        private System.Windows.Forms.TextBox HM2ndTotal;
+        private System.Windows.Forms.TextBox HM2ndTotalGradebox;
+        private System.Windows.Forms.TextBox Chemistry2ndTotalPointbox;
+        private System.Windows.Forms.TextBox Physics2ndTotalGradebox;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.TextBox English1stTotalGradebox;
+        private System.Windows.Forms.TextBox English2ndTotalPointbox;
+        private System.Windows.Forms.TextBox Chemistry1stTotalGradebox;
+        private System.Windows.Forms.TextBox HM1stTotal;
+        private System.Windows.Forms.TextBox Biology1stTotalGradebox;
+        private System.Windows.Forms.TextBox Chemistry1stTotalPointbox;
+        private System.Windows.Forms.TextBox English2ndTotalGradebox;
+        private System.Windows.Forms.TextBox English1stTotal;
+        private System.Windows.Forms.TextBox Chemistry2ndTotalGradebox;
+        private System.Windows.Forms.TextBox English1stTotalPointbox;
+        private System.Windows.Forms.TextBox HM1stTotalGradebox;
+        private System.Windows.Forms.TextBox Bangla2ndTotal;
+        private System.Windows.Forms.TextBox Physics2ndTotalPointbox;
+        private System.Windows.Forms.TextBox Bangla1stTotal;
+        private System.Windows.Forms.TextBox Bangla2ndTotalPointbox;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.TextBox Bangla1stTotalPointbox;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.TextBox English2ndTotal;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.TextBox ICTTotal;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.TextBox Chemistry2ndTotal;
+        private System.Windows.Forms.TextBox Biology2ndTotal;
+        private System.Windows.Forms.TextBox Physics1stTotal;
+        private System.Windows.Forms.TextBox Biology1stTotal;
+        private System.Windows.Forms.TextBox Physics2ndTotal;
+        private System.Windows.Forms.TextBox Chemistry1stTotal;
+        private System.Windows.Forms.TextBox OverallResultSubBothPapers;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.GroupBox groupBox18;
+        private System.Windows.Forms.TextBox ICTAveragePointbox;
+        private System.Windows.Forms.TextBox BiologyAveragePointbox;
+        private System.Windows.Forms.TextBox ICTAverageGradebox;
+        private System.Windows.Forms.TextBox ChemistryAveragePointbox;
+        private System.Windows.Forms.TextBox BiologyAverageGradebox;
+        private System.Windows.Forms.TextBox PhysicsAveragePointbox;
+        private System.Windows.Forms.TextBox ChemistryAverageGradebox;
+        private System.Windows.Forms.TextBox HMAveragePointbox;
+        private System.Windows.Forms.TextBox PhysicsAverageGradebox;
+        private System.Windows.Forms.TextBox EnglishAveragePointbox;
+        private System.Windows.Forms.TextBox HMAverageGradebox;
+        private System.Windows.Forms.TextBox BanglaAveragePointbox;
+        private System.Windows.Forms.TextBox EnglishAverageGradebox;
+        private System.Windows.Forms.TextBox BanglaAverageGradebox;
+        private System.Windows.Forms.TextBox ICTSubAverage;
+        private System.Windows.Forms.TextBox PhysicsSubAverage;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.TextBox BanglaSubAverage;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox Bangla1stTotalIndividualPointbox;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox English2ndTotalIndividual;
+        private System.Windows.Forms.TextBox EnglishSubAverage;
+        private System.Windows.Forms.TextBox HMSubAverage;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox ChemistrySubAverage;
+        private System.Windows.Forms.TextBox BiologySubAverage;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox ICTTotalIndividual;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox Chemistry2ndTotalIndividual;
-        private System.Windows.Forms.TextBox Biology2ndTotalIndividual;
-        private System.Windows.Forms.TextBox Physics1stTotalIndividual;
-        private System.Windows.Forms.TextBox Biology1stTotalIndividual;
-        private System.Windows.Forms.TextBox Physics2ndTotalIndividual;
-        private System.Windows.Forms.TextBox Chemistry1stTotalIndividual;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }
