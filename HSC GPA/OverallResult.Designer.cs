@@ -244,24 +244,9 @@
             this.groupBox20 = new System.Windows.Forms.GroupBox();
             this.groupBox21 = new System.Windows.Forms.GroupBox();
             this.groupBox22 = new System.Windows.Forms.GroupBox();
-            this.label32 = new System.Windows.Forms.Label();
             this.groupBox26 = new System.Windows.Forms.GroupBox();
-            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.submitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
-            this.resetToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
-            this.instructionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-            this.contactToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox2.SuspendLayout();
             this.groupBox29.SuspendLayout();
             this.groupBox27.SuspendLayout();
@@ -291,7 +276,8 @@
             this.groupBox21.SuspendLayout();
             this.groupBox22.SuspendLayout();
             this.groupBox26.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -450,15 +436,13 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox2.Controls.Add(this.groupBox29);
             this.groupBox2.Controls.Add(this.groupBox27);
             this.groupBox2.Controls.Add(this.groupBox28);
             this.groupBox2.Controls.Add(this.groupBox23);
             this.groupBox2.Controls.Add(this.groupBox1);
-            this.groupBox2.Controls.Add(this.groupBox3);
-            this.groupBox2.Location = new System.Drawing.Point(560, 77);
+            this.groupBox2.Location = new System.Drawing.Point(565, 7);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(695, 511);
+            this.groupBox2.Size = new System.Drawing.Size(551, 514);
             this.groupBox2.TabIndex = 35;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Result";
@@ -468,9 +452,9 @@
             this.groupBox29.Controls.Add(this.button1);
             this.groupBox29.Controls.Add(this.SubmitButton);
             this.groupBox29.Controls.Add(this.ResetButton);
-            this.groupBox29.Location = new System.Drawing.Point(567, 257);
+            this.groupBox29.Location = new System.Drawing.Point(12, 194);
             this.groupBox29.Name = "groupBox29";
-            this.groupBox29.Size = new System.Drawing.Size(105, 112);
+            this.groupBox29.Size = new System.Drawing.Size(105, 14);
             this.groupBox29.TabIndex = 62;
             this.groupBox29.TabStop = false;
             this.groupBox29.Text = "Activity Buttons";
@@ -1117,7 +1101,7 @@
             this.groupBox28.Controls.Add(this.label42);
             this.groupBox28.Controls.Add(this.label43);
             this.groupBox28.Controls.Add(this.label44);
-            this.groupBox28.Location = new System.Drawing.Point(391, 19);
+            this.groupBox28.Location = new System.Drawing.Point(391, 15);
             this.groupBox28.Name = "groupBox28";
             this.groupBox28.Size = new System.Drawing.Size(154, 29);
             this.groupBox28.TabIndex = 57;
@@ -1155,7 +1139,7 @@
             this.groupBox23.Controls.Add(this.label26);
             this.groupBox23.Controls.Add(this.label24);
             this.groupBox23.Controls.Add(this.label23);
-            this.groupBox23.Location = new System.Drawing.Point(132, 19);
+            this.groupBox23.Location = new System.Drawing.Point(126, 15);
             this.groupBox23.Name = "groupBox23";
             this.groupBox23.Size = new System.Drawing.Size(154, 29);
             this.groupBox23.TabIndex = 57;
@@ -1580,9 +1564,9 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.FinalResultbox);
-            this.groupBox3.Location = new System.Drawing.Point(567, 192);
+            this.groupBox3.Location = new System.Drawing.Point(12, 176);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(105, 59);
+            this.groupBox3.Size = new System.Drawing.Size(104, 10);
             this.groupBox3.TabIndex = 36;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Overall Result";
@@ -2342,18 +2326,6 @@
             this.groupBox22.TabStop = false;
             this.groupBox22.Text = "Chemistry";
             // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.BackColor = System.Drawing.Color.Transparent;
-            this.label32.Font = new System.Drawing.Font("Impact", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.ForeColor = System.Drawing.Color.White;
-            this.label32.Location = new System.Drawing.Point(541, 29);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(229, 45);
-            this.label32.TabIndex = 56;
-            this.label32.Text = "HSC GPA Suite";
-            // 
             // groupBox26
             // 
             this.groupBox26.BackColor = System.Drawing.Color.Transparent;
@@ -2364,149 +2336,43 @@
             this.groupBox26.Controls.Add(this.groupBox20);
             this.groupBox26.Controls.Add(this.groupBox22);
             this.groupBox26.Controls.Add(this.groupBox21);
-            this.groupBox26.Location = new System.Drawing.Point(12, 77);
+            this.groupBox26.Location = new System.Drawing.Point(6, 7);
             this.groupBox26.Name = "groupBox26";
-            this.groupBox26.Size = new System.Drawing.Size(542, 511);
+            this.groupBox26.Size = new System.Drawing.Size(553, 514);
             this.groupBox26.TabIndex = 58;
             this.groupBox26.TabStop = false;
             this.groupBox26.Text = "Input";
             // 
-            // fileToolStripMenuItem
+            // panel1
             // 
-            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripSeparator3,
-            this.submitToolStripMenuItem,
-            this.toolStripSeparator,
-            this.resetToolStripMenuItem1,
-            this.toolStripSeparator1,
-            this.exitToolStripMenuItem,
-            this.toolStripSeparator2});
-            this.fileToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("fileToolStripMenuItem.Image")));
-            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
-            this.fileToolStripMenuItem.Text = "&File";
+            this.panel1.Controls.Add(this.groupBox29);
+            this.panel1.Controls.Add(this.groupBox3);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(123, 560);
+            this.panel1.TabIndex = 63;
             // 
-            // toolStripSeparator3
+            // panel2
             // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(177, 6);
-            // 
-            // submitToolStripMenuItem
-            // 
-            this.submitToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("submitToolStripMenuItem.Image")));
-            this.submitToolStripMenuItem.Name = "submitToolStripMenuItem";
-            this.submitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.submitToolStripMenuItem.Text = "Submit";
-            this.submitToolStripMenuItem.Click += new System.EventHandler(this.submitToolStripMenuItem_Click);
-            // 
-            // toolStripSeparator
-            // 
-            this.toolStripSeparator.Name = "toolStripSeparator";
-            this.toolStripSeparator.Size = new System.Drawing.Size(177, 6);
-            // 
-            // resetToolStripMenuItem1
-            // 
-            this.resetToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("resetToolStripMenuItem1.Image")));
-            this.resetToolStripMenuItem1.Name = "resetToolStripMenuItem1";
-            this.resetToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.resetToolStripMenuItem1.Text = "Reset";
-            this.resetToolStripMenuItem1.Click += new System.EventHandler(this.resetToolStripMenuItem1_Click);
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
-            // 
-            // exitToolStripMenuItem
-            // 
-            this.exitToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("exitToolStripMenuItem.Image")));
-            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.exitToolStripMenuItem.Text = "E&xit";
-            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
-            // 
-            // helpToolStripMenuItem
-            // 
-            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripSeparator6,
-            this.instructionsToolStripMenuItem,
-            this.toolStripSeparator4,
-            this.aboutToolStripMenuItem,
-            this.toolStripSeparator5,
-            this.contactToolStripMenuItem});
-            this.helpToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("helpToolStripMenuItem.Image")));
-            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
-            this.helpToolStripMenuItem.Text = "&Help";
-            // 
-            // toolStripSeparator6
-            // 
-            this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(177, 6);
-            // 
-            // instructionsToolStripMenuItem
-            // 
-            this.instructionsToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("instructionsToolStripMenuItem.Image")));
-            this.instructionsToolStripMenuItem.Name = "instructionsToolStripMenuItem";
-            this.instructionsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.instructionsToolStripMenuItem.Text = "Instructions";
-            this.instructionsToolStripMenuItem.Click += new System.EventHandler(this.instructionsToolStripMenuItem_Click);
-            // 
-            // toolStripSeparator4
-            // 
-            this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(177, 6);
-            // 
-            // aboutToolStripMenuItem
-            // 
-            this.aboutToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("aboutToolStripMenuItem.Image")));
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.aboutToolStripMenuItem.Text = "&About...";
-            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
-            // 
-            // toolStripSeparator5
-            // 
-            this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(177, 6);
-            // 
-            // contactToolStripMenuItem
-            // 
-            this.contactToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("contactToolStripMenuItem.Image")));
-            this.contactToolStripMenuItem.Name = "contactToolStripMenuItem";
-            this.contactToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.contactToolStripMenuItem.Text = "Contact";
-            this.contactToolStripMenuItem.Click += new System.EventHandler(this.contactToolStripMenuItem_Click);
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem,
-            this.helpToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1267, 24);
-            this.menuStrip1.TabIndex = 55;
-            this.menuStrip1.Text = "menuStrip1";
+            this.panel2.Controls.Add(this.groupBox26);
+            this.panel2.Controls.Add(this.groupBox2);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(123, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1128, 560);
+            this.panel2.TabIndex = 64;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.ClientSize = new System.Drawing.Size(1267, 596);
-            this.Controls.Add(this.groupBox26);
-            this.Controls.Add(this.label32);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.menuStrip1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.ClientSize = new System.Drawing.Size(1251, 560);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -2560,10 +2426,9 @@
             this.groupBox21.ResumeLayout(false);
             this.groupBox22.ResumeLayout(false);
             this.groupBox26.ResumeLayout(false);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -2696,7 +2561,6 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label32;
         private System.Windows.Forms.GroupBox groupBox18;
         private System.Windows.Forms.TextBox ICTSubAverage;
         private System.Windows.Forms.TextBox PhysicsSubAverage;
@@ -2785,23 +2649,9 @@
         private System.Windows.Forms.Label label43;
         private System.Windows.Forms.Label label44;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
-        private System.Windows.Forms.ToolStripMenuItem submitToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator;
-        private System.Windows.Forms.ToolStripMenuItem resetToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
-        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
-        private System.Windows.Forms.ToolStripMenuItem instructionsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
-        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
-        private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.GroupBox groupBox29;
-        private System.Windows.Forms.ToolStripMenuItem contactToolStripMenuItem;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
     }
 }
 

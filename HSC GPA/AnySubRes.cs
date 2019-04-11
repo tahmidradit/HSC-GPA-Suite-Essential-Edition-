@@ -863,5 +863,17 @@ namespace HSC_GPA
 
             }
         }
+
+        private void PictureBox1_Click(object sender, EventArgs e)
+        {
+            if(panel1.Width == 106)
+            {
+                panel1.Width = 35;
+            }
+            else
+            {
+                panel1.Width = 106 ;
+            }
+        }
     }
 }
