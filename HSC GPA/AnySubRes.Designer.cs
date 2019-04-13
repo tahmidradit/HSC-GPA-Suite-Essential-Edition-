@@ -32,7 +32,6 @@
             this.groupBox26 = new System.Windows.Forms.GroupBox();
             this.groupBox19 = new System.Windows.Forms.GroupBox();
             this.groupBox15 = new System.Windows.Forms.GroupBox();
-            this.button3 = new System.Windows.Forms.Button();
             this.label149 = new System.Windows.Forms.Label();
             this.label150 = new System.Windows.Forms.Label();
             this.Biology1stMCQ = new System.Windows.Forms.TextBox();
@@ -40,7 +39,6 @@
             this.Biology1stPractical = new System.Windows.Forms.TextBox();
             this.Biology1stTheory = new System.Windows.Forms.TextBox();
             this.groupBox14 = new System.Windows.Forms.GroupBox();
-            this.button4 = new System.Windows.Forms.Button();
             this.label137 = new System.Windows.Forms.Label();
             this.label138 = new System.Windows.Forms.Label();
             this.Biology2ndMCQ = new System.Windows.Forms.TextBox();
@@ -48,7 +46,6 @@
             this.Biology2ndPractical = new System.Windows.Forms.TextBox();
             this.Biology2ndTheory = new System.Windows.Forms.TextBox();
             this.groupBox16 = new System.Windows.Forms.GroupBox();
-            this.button15 = new System.Windows.Forms.Button();
             this.label155 = new System.Windows.Forms.Label();
             this.label156 = new System.Windows.Forms.Label();
             this.label157 = new System.Windows.Forms.Label();
@@ -60,25 +57,20 @@
             this.ICTTheory = new System.Windows.Forms.TextBox();
             this.groupBox17 = new System.Windows.Forms.GroupBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.button6 = new System.Windows.Forms.Button();
             this.label31 = new System.Windows.Forms.Label();
             this.Bangla2ndTheory = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.button5 = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
             this.Bangla1stMCQ = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.Bangla1stTheory = new System.Windows.Forms.TextBox();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
             this.label40 = new System.Windows.Forms.Label();
             this.label52 = new System.Windows.Forms.Label();
             this.English2ndPaper = new System.Windows.Forms.TextBox();
             this.English1stPaper = new System.Windows.Forms.TextBox();
             this.groupBox20 = new System.Windows.Forms.GroupBox();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
-            this.button11 = new System.Windows.Forms.Button();
             this.label101 = new System.Windows.Forms.Label();
             this.label102 = new System.Windows.Forms.Label();
             this.Physics1stMCQ = new System.Windows.Forms.TextBox();
@@ -86,7 +78,6 @@
             this.Physics1stPractical = new System.Windows.Forms.TextBox();
             this.Physics1stTheory = new System.Windows.Forms.TextBox();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
-            this.button12 = new System.Windows.Forms.Button();
             this.label89 = new System.Windows.Forms.Label();
             this.label90 = new System.Windows.Forms.Label();
             this.Physics2ndMCQ = new System.Windows.Forms.TextBox();
@@ -95,7 +86,6 @@
             this.Physics2ndTheory = new System.Windows.Forms.TextBox();
             this.groupBox22 = new System.Windows.Forms.GroupBox();
             this.groupBox13 = new System.Windows.Forms.GroupBox();
-            this.button13 = new System.Windows.Forms.Button();
             this.label125 = new System.Windows.Forms.Label();
             this.label126 = new System.Windows.Forms.Label();
             this.Chemistry1stMCQ = new System.Windows.Forms.TextBox();
@@ -103,7 +93,6 @@
             this.Chemistry1stPractical = new System.Windows.Forms.TextBox();
             this.Chemistry1stTheory = new System.Windows.Forms.TextBox();
             this.groupBox12 = new System.Windows.Forms.GroupBox();
-            this.button14 = new System.Windows.Forms.Button();
             this.label113 = new System.Windows.Forms.Label();
             this.label114 = new System.Windows.Forms.Label();
             this.Chemistry2ndMCQ = new System.Windows.Forms.TextBox();
@@ -112,17 +101,28 @@
             this.Chemistry2ndTheory = new System.Windows.Forms.TextBox();
             this.groupBox21 = new System.Windows.Forms.GroupBox();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.button7 = new System.Windows.Forms.Button();
             this.label78 = new System.Windows.Forms.Label();
             this.label79 = new System.Windows.Forms.Label();
             this.HM1stPractical = new System.Windows.Forms.TextBox();
             this.HM1stTheory = new System.Windows.Forms.TextBox();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.button8 = new System.Windows.Forms.Button();
             this.label66 = new System.Windows.Forms.Label();
             this.label67 = new System.Windows.Forms.Label();
             this.HM2ndPractical = new System.Windows.Forms.TextBox();
             this.HM2ndTheory = new System.Windows.Forms.TextBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
             this.groupBox23 = new System.Windows.Forms.GroupBox();
             this.label26 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
@@ -191,6 +191,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.groupBox26.SuspendLayout();
             this.groupBox19.SuspendLayout();
             this.groupBox15.SuspendLayout();
@@ -228,9 +229,9 @@
             this.groupBox26.Controls.Add(this.groupBox20);
             this.groupBox26.Controls.Add(this.groupBox22);
             this.groupBox26.Controls.Add(this.groupBox21);
-            this.groupBox26.Location = new System.Drawing.Point(6, 4);
+            this.groupBox26.Location = new System.Drawing.Point(3, 62);
             this.groupBox26.Name = "groupBox26";
-            this.groupBox26.Size = new System.Drawing.Size(1020, 367);
+            this.groupBox26.Size = new System.Drawing.Size(1020, 308);
             this.groupBox26.TabIndex = 59;
             this.groupBox26.TabStop = false;
             this.groupBox26.Text = "Input";
@@ -240,9 +241,9 @@
             this.groupBox19.BackColor = System.Drawing.Color.Transparent;
             this.groupBox19.Controls.Add(this.groupBox15);
             this.groupBox19.Controls.Add(this.groupBox14);
-            this.groupBox19.Location = new System.Drawing.Point(344, 192);
+            this.groupBox19.Location = new System.Drawing.Point(344, 158);
             this.groupBox19.Name = "groupBox19";
-            this.groupBox19.Size = new System.Drawing.Size(335, 165);
+            this.groupBox19.Size = new System.Drawing.Size(335, 133);
             this.groupBox19.TabIndex = 51;
             this.groupBox19.TabStop = false;
             this.groupBox19.Text = "Biology";
@@ -255,27 +256,12 @@
             this.groupBox15.Controls.Add(this.label151);
             this.groupBox15.Controls.Add(this.Biology1stPractical);
             this.groupBox15.Controls.Add(this.Biology1stTheory);
-            this.groupBox15.Location = new System.Drawing.Point(24, 23);
+            this.groupBox15.Location = new System.Drawing.Point(24, 19);
             this.groupBox15.Name = "groupBox15";
-            this.groupBox15.Size = new System.Drawing.Size(146, 129);
+            this.groupBox15.Size = new System.Drawing.Size(146, 104);
             this.groupBox15.TabIndex = 46;
             this.groupBox15.TabStop = false;
             this.groupBox15.Text = "Biology 1st Paper (178)";
-            // 
-            // button3
-            // 
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(68)))), ((int)(((byte)(82)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(0, 260);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(131, 23);
-            this.button3.TabIndex = 39;
-            this.button3.Text = "Biology 1st";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.Button3_Click);
             // 
             // label149
             // 
@@ -333,27 +319,12 @@
             this.groupBox14.Controls.Add(this.label139);
             this.groupBox14.Controls.Add(this.Biology2ndPractical);
             this.groupBox14.Controls.Add(this.Biology2ndTheory);
-            this.groupBox14.Location = new System.Drawing.Point(177, 23);
+            this.groupBox14.Location = new System.Drawing.Point(177, 19);
             this.groupBox14.Name = "groupBox14";
-            this.groupBox14.Size = new System.Drawing.Size(145, 129);
+            this.groupBox14.Size = new System.Drawing.Size(145, 104);
             this.groupBox14.TabIndex = 47;
             this.groupBox14.TabStop = false;
             this.groupBox14.Text = "Biology 2nd Paper (179)";
-            // 
-            // button4
-            // 
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(68)))), ((int)(((byte)(82)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(0, 289);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(131, 23);
-            this.button4.TabIndex = 39;
-            this.button4.Text = "Biology 2nd";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.Button4_Click);
             // 
             // label137
             // 
@@ -415,27 +386,12 @@
             this.groupBox16.Controls.Add(this.label163);
             this.groupBox16.Controls.Add(this.ICTPractical);
             this.groupBox16.Controls.Add(this.ICTTheory);
-            this.groupBox16.Location = new System.Drawing.Point(687, 284);
+            this.groupBox16.Location = new System.Drawing.Point(687, 219);
             this.groupBox16.Name = "groupBox16";
             this.groupBox16.Size = new System.Drawing.Size(322, 72);
             this.groupBox16.TabIndex = 48;
             this.groupBox16.TabStop = false;
             this.groupBox16.Text = "ICT (275)";
-            // 
-            // button15
-            // 
-            this.button15.FlatAppearance.BorderSize = 0;
-            this.button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(68)))), ((int)(((byte)(82)))));
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Image = ((System.Drawing.Image)(resources.GetObject("button15.Image")));
-            this.button15.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button15.Location = new System.Drawing.Point(0, 435);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(131, 23);
-            this.button15.TabIndex = 46;
-            this.button15.Text = "ICT";
-            this.button15.UseVisualStyleBackColor = true;
-            this.button15.Click += new System.EventHandler(this.Button15_Click);
             // 
             // label155
             // 
@@ -519,7 +475,7 @@
             this.groupBox17.Controls.Add(this.groupBox4);
             this.groupBox17.Location = new System.Drawing.Point(687, 18);
             this.groupBox17.Name = "groupBox17";
-            this.groupBox17.Size = new System.Drawing.Size(322, 155);
+            this.groupBox17.Size = new System.Drawing.Size(322, 116);
             this.groupBox17.TabIndex = 49;
             this.groupBox17.TabStop = false;
             this.groupBox17.Text = "Bangla";
@@ -530,25 +486,10 @@
             this.groupBox6.Controls.Add(this.Bangla2ndTheory);
             this.groupBox6.Location = new System.Drawing.Point(169, 25);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(138, 116);
+            this.groupBox6.Size = new System.Drawing.Size(138, 77);
             this.groupBox6.TabIndex = 37;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Bangla 2nd Paper (102)";
-            // 
-            // button6
-            // 
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(68)))), ((int)(((byte)(82)))));
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(0, 347);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(131, 23);
-            this.button6.TabIndex = 7;
-            this.button6.Text = "Bangla 2nd";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.Button6_Click);
             // 
             // label31
             // 
@@ -574,25 +515,10 @@
             this.groupBox4.Controls.Add(this.Bangla1stTheory);
             this.groupBox4.Location = new System.Drawing.Point(15, 25);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(148, 117);
+            this.groupBox4.Size = new System.Drawing.Size(148, 78);
             this.groupBox4.TabIndex = 35;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Bangla 1st Paper (101)";
-            // 
-            // button5
-            // 
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(68)))), ((int)(((byte)(82)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(0, 318);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(131, 23);
-            this.button5.TabIndex = 39;
-            this.button5.Text = "Bangla 1st";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.Button5_Click);
             // 
             // label14
             // 
@@ -633,42 +559,12 @@
             this.groupBox7.Controls.Add(this.label52);
             this.groupBox7.Controls.Add(this.English2ndPaper);
             this.groupBox7.Controls.Add(this.English1stPaper);
-            this.groupBox7.Location = new System.Drawing.Point(687, 179);
+            this.groupBox7.Location = new System.Drawing.Point(687, 142);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(322, 99);
+            this.groupBox7.Size = new System.Drawing.Size(322, 70);
             this.groupBox7.TabIndex = 38;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "English 1st (107) , English 2nd (108) Paper";
-            // 
-            // button10
-            // 
-            this.button10.FlatAppearance.BorderSize = 0;
-            this.button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(68)))), ((int)(((byte)(82)))));
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Image = ((System.Drawing.Image)(resources.GetObject("button10.Image")));
-            this.button10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button10.Location = new System.Drawing.Point(0, 406);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(131, 23);
-            this.button10.TabIndex = 41;
-            this.button10.Text = "English 2nd";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.Button10_Click);
-            // 
-            // button9
-            // 
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(68)))), ((int)(((byte)(82)))));
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
-            this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.Location = new System.Drawing.Point(0, 377);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(131, 23);
-            this.button9.TabIndex = 40;
-            this.button9.Text = "English 1st";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.Button9_Click);
             // 
             // label40
             // 
@@ -709,7 +605,7 @@
             this.groupBox20.Controls.Add(this.groupBox10);
             this.groupBox20.Location = new System.Drawing.Point(15, 19);
             this.groupBox20.Name = "groupBox20";
-            this.groupBox20.Size = new System.Drawing.Size(323, 168);
+            this.groupBox20.Size = new System.Drawing.Size(323, 131);
             this.groupBox20.TabIndex = 52;
             this.groupBox20.TabStop = false;
             this.groupBox20.Text = "Physics";
@@ -722,27 +618,12 @@
             this.groupBox11.Controls.Add(this.label103);
             this.groupBox11.Controls.Add(this.Physics1stPractical);
             this.groupBox11.Controls.Add(this.Physics1stTheory);
-            this.groupBox11.Location = new System.Drawing.Point(6, 22);
+            this.groupBox11.Location = new System.Drawing.Point(11, 19);
             this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Size = new System.Drawing.Size(146, 132);
+            this.groupBox11.Size = new System.Drawing.Size(146, 103);
             this.groupBox11.TabIndex = 42;
             this.groupBox11.TabStop = false;
             this.groupBox11.Text = "Physics 1st Paper (174)";
-            // 
-            // button11
-            // 
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(68)))), ((int)(((byte)(82)))));
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Image = ((System.Drawing.Image)(resources.GetObject("button11.Image")));
-            this.button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button11.Location = new System.Drawing.Point(0, 86);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(131, 23);
-            this.button11.TabIndex = 39;
-            this.button11.Text = "Physics 1st";
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.Button11_Click);
             // 
             // label101
             // 
@@ -800,28 +681,12 @@
             this.groupBox10.Controls.Add(this.label91);
             this.groupBox10.Controls.Add(this.Physics2ndPractical);
             this.groupBox10.Controls.Add(this.Physics2ndTheory);
-            this.groupBox10.Location = new System.Drawing.Point(158, 22);
+            this.groupBox10.Location = new System.Drawing.Point(163, 19);
             this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Size = new System.Drawing.Size(145, 132);
+            this.groupBox10.Size = new System.Drawing.Size(145, 103);
             this.groupBox10.TabIndex = 43;
             this.groupBox10.TabStop = false;
             this.groupBox10.Text = "Physics 2nd Paper (175)";
-            // 
-            // button12
-            // 
-            this.button12.BackColor = System.Drawing.Color.Transparent;
-            this.button12.FlatAppearance.BorderSize = 0;
-            this.button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(68)))), ((int)(((byte)(82)))));
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Image = ((System.Drawing.Image)(resources.GetObject("button12.Image")));
-            this.button12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button12.Location = new System.Drawing.Point(0, 115);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(131, 23);
-            this.button12.TabIndex = 39;
-            this.button12.Text = "Physics 2nd";
-            this.button12.UseVisualStyleBackColor = false;
-            this.button12.Click += new System.EventHandler(this.Button12_Click);
             // 
             // label89
             // 
@@ -876,9 +741,9 @@
             this.groupBox22.BackColor = System.Drawing.Color.Transparent;
             this.groupBox22.Controls.Add(this.groupBox13);
             this.groupBox22.Controls.Add(this.groupBox12);
-            this.groupBox22.Location = new System.Drawing.Point(15, 194);
+            this.groupBox22.Location = new System.Drawing.Point(15, 160);
             this.groupBox22.Name = "groupBox22";
-            this.groupBox22.Size = new System.Drawing.Size(323, 165);
+            this.groupBox22.Size = new System.Drawing.Size(323, 133);
             this.groupBox22.TabIndex = 54;
             this.groupBox22.TabStop = false;
             this.groupBox22.Text = "Chemistry";
@@ -893,25 +758,10 @@
             this.groupBox13.Controls.Add(this.Chemistry1stTheory);
             this.groupBox13.Location = new System.Drawing.Point(6, 18);
             this.groupBox13.Name = "groupBox13";
-            this.groupBox13.Size = new System.Drawing.Size(146, 132);
+            this.groupBox13.Size = new System.Drawing.Size(146, 107);
             this.groupBox13.TabIndex = 44;
             this.groupBox13.TabStop = false;
             this.groupBox13.Text = "Chemistry 1st Paper (176)";
-            // 
-            // button13
-            // 
-            this.button13.FlatAppearance.BorderSize = 0;
-            this.button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(68)))), ((int)(((byte)(82)))));
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Image = ((System.Drawing.Image)(resources.GetObject("button13.Image")));
-            this.button13.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button13.Location = new System.Drawing.Point(0, 144);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(131, 23);
-            this.button13.TabIndex = 39;
-            this.button13.Text = "  Chemistry 1st";
-            this.button13.UseVisualStyleBackColor = true;
-            this.button13.Click += new System.EventHandler(this.Button13_Click);
             // 
             // label125
             // 
@@ -971,25 +821,10 @@
             this.groupBox12.Controls.Add(this.Chemistry2ndTheory);
             this.groupBox12.Location = new System.Drawing.Point(160, 17);
             this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Size = new System.Drawing.Size(148, 132);
+            this.groupBox12.Size = new System.Drawing.Size(148, 107);
             this.groupBox12.TabIndex = 45;
             this.groupBox12.TabStop = false;
             this.groupBox12.Text = "Chemistry 2nd Paper (177)";
-            // 
-            // button14
-            // 
-            this.button14.FlatAppearance.BorderSize = 0;
-            this.button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(68)))), ((int)(((byte)(82)))));
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Image = ((System.Drawing.Image)(resources.GetObject("button14.Image")));
-            this.button14.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button14.Location = new System.Drawing.Point(0, 173);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(131, 23);
-            this.button14.TabIndex = 39;
-            this.button14.Text = "  Chemistry 2nd";
-            this.button14.UseVisualStyleBackColor = true;
-            this.button14.Click += new System.EventHandler(this.Button14_Click);
             // 
             // label113
             // 
@@ -1046,7 +881,7 @@
             this.groupBox21.Controls.Add(this.groupBox8);
             this.groupBox21.Location = new System.Drawing.Point(344, 18);
             this.groupBox21.Name = "groupBox21";
-            this.groupBox21.Size = new System.Drawing.Size(335, 168);
+            this.groupBox21.Size = new System.Drawing.Size(322, 131);
             this.groupBox21.TabIndex = 53;
             this.groupBox21.TabStop = false;
             this.groupBox21.Text = "Higher Mathematics";
@@ -1060,25 +895,10 @@
             this.groupBox9.Controls.Add(this.HM1stTheory);
             this.groupBox9.Location = new System.Drawing.Point(9, 24);
             this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(146, 117);
+            this.groupBox9.Size = new System.Drawing.Size(146, 91);
             this.groupBox9.TabIndex = 40;
             this.groupBox9.TabStop = false;
             this.groupBox9.Text = "HM 1st Paper (265)";
-            // 
-            // button7
-            // 
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(68)))), ((int)(((byte)(82)))));
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
-            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(0, 202);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(131, 23);
-            this.button7.TabIndex = 38;
-            this.button7.Text = "HM 1st";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.Button7_Click);
             // 
             // label78
             // 
@@ -1119,27 +939,12 @@
             this.groupBox8.Controls.Add(this.label67);
             this.groupBox8.Controls.Add(this.HM2ndPractical);
             this.groupBox8.Controls.Add(this.HM2ndTheory);
-            this.groupBox8.Location = new System.Drawing.Point(176, 25);
+            this.groupBox8.Location = new System.Drawing.Point(161, 26);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(146, 116);
+            this.groupBox8.Size = new System.Drawing.Size(146, 90);
             this.groupBox8.TabIndex = 41;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "HM 2nd Paper (266)";
-            // 
-            // button8
-            // 
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(68)))), ((int)(((byte)(82)))));
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Image = ((System.Drawing.Image)(resources.GetObject("button8.Image")));
-            this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button8.Location = new System.Drawing.Point(0, 231);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(131, 23);
-            this.button8.TabIndex = 42;
-            this.button8.Text = "HM 2nd";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.Button8_Click);
             // 
             // label66
             // 
@@ -1172,6 +977,202 @@
             this.HM2ndTheory.Name = "HM2ndTheory";
             this.HM2ndTheory.Size = new System.Drawing.Size(64, 20);
             this.HM2ndTheory.TabIndex = 6;
+            // 
+            // button3
+            // 
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(68)))), ((int)(((byte)(82)))));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(0, 260);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(131, 23);
+            this.button3.TabIndex = 39;
+            this.button3.Text = "Biology 1st";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.Button3_Click);
+            // 
+            // button4
+            // 
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(68)))), ((int)(((byte)(82)))));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(0, 289);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(131, 23);
+            this.button4.TabIndex = 39;
+            this.button4.Text = "Biology 2nd";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.Button4_Click);
+            // 
+            // button15
+            // 
+            this.button15.FlatAppearance.BorderSize = 0;
+            this.button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(68)))), ((int)(((byte)(82)))));
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button15.Image = ((System.Drawing.Image)(resources.GetObject("button15.Image")));
+            this.button15.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button15.Location = new System.Drawing.Point(0, 435);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(131, 23);
+            this.button15.TabIndex = 46;
+            this.button15.Text = "ICT";
+            this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.Button15_Click);
+            // 
+            // button6
+            // 
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(68)))), ((int)(((byte)(82)))));
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
+            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.Location = new System.Drawing.Point(0, 347);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(131, 23);
+            this.button6.TabIndex = 7;
+            this.button6.Text = "Bangla 2nd";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.Button6_Click);
+            // 
+            // button5
+            // 
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(68)))), ((int)(((byte)(82)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.Location = new System.Drawing.Point(0, 318);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(131, 23);
+            this.button5.TabIndex = 39;
+            this.button5.Text = "Bangla 1st";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.Button5_Click);
+            // 
+            // button10
+            // 
+            this.button10.FlatAppearance.BorderSize = 0;
+            this.button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(68)))), ((int)(((byte)(82)))));
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.Image = ((System.Drawing.Image)(resources.GetObject("button10.Image")));
+            this.button10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button10.Location = new System.Drawing.Point(0, 406);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(131, 23);
+            this.button10.TabIndex = 41;
+            this.button10.Text = "English 2nd";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.Button10_Click);
+            // 
+            // button9
+            // 
+            this.button9.FlatAppearance.BorderSize = 0;
+            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(68)))), ((int)(((byte)(82)))));
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
+            this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button9.Location = new System.Drawing.Point(0, 377);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(131, 23);
+            this.button9.TabIndex = 40;
+            this.button9.Text = "English 1st";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.Button9_Click);
+            // 
+            // button11
+            // 
+            this.button11.FlatAppearance.BorderSize = 0;
+            this.button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(68)))), ((int)(((byte)(82)))));
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Image = ((System.Drawing.Image)(resources.GetObject("button11.Image")));
+            this.button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button11.Location = new System.Drawing.Point(0, 86);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(131, 23);
+            this.button11.TabIndex = 39;
+            this.button11.Text = "Physics 1st";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.Button11_Click);
+            // 
+            // button12
+            // 
+            this.button12.BackColor = System.Drawing.Color.Transparent;
+            this.button12.FlatAppearance.BorderSize = 0;
+            this.button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(68)))), ((int)(((byte)(82)))));
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button12.Image = ((System.Drawing.Image)(resources.GetObject("button12.Image")));
+            this.button12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button12.Location = new System.Drawing.Point(0, 115);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(131, 23);
+            this.button12.TabIndex = 39;
+            this.button12.Text = "Physics 2nd";
+            this.button12.UseVisualStyleBackColor = false;
+            this.button12.Click += new System.EventHandler(this.Button12_Click);
+            // 
+            // button13
+            // 
+            this.button13.FlatAppearance.BorderSize = 0;
+            this.button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(68)))), ((int)(((byte)(82)))));
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.Image = ((System.Drawing.Image)(resources.GetObject("button13.Image")));
+            this.button13.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button13.Location = new System.Drawing.Point(0, 144);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(131, 23);
+            this.button13.TabIndex = 39;
+            this.button13.Text = "  Chemistry 1st";
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.Button13_Click);
+            // 
+            // button14
+            // 
+            this.button14.FlatAppearance.BorderSize = 0;
+            this.button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(68)))), ((int)(((byte)(82)))));
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button14.Image = ((System.Drawing.Image)(resources.GetObject("button14.Image")));
+            this.button14.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button14.Location = new System.Drawing.Point(0, 173);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(131, 23);
+            this.button14.TabIndex = 39;
+            this.button14.Text = "  Chemistry 2nd";
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.Button14_Click);
+            // 
+            // button7
+            // 
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(68)))), ((int)(((byte)(82)))));
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
+            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button7.Location = new System.Drawing.Point(0, 202);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(131, 23);
+            this.button7.TabIndex = 38;
+            this.button7.Text = "HM 1st";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.Button7_Click);
+            // 
+            // button8
+            // 
+            this.button8.FlatAppearance.BorderSize = 0;
+            this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(68)))), ((int)(((byte)(82)))));
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Image = ((System.Drawing.Image)(resources.GetObject("button8.Image")));
+            this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button8.Location = new System.Drawing.Point(0, 231);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(131, 23);
+            this.button8.TabIndex = 42;
+            this.button8.Text = "HM 2nd";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.Button8_Click);
             // 
             // groupBox23
             // 
@@ -1268,7 +1269,7 @@
             this.groupBox1.Controls.Add(this.Biology1stTotal);
             this.groupBox1.Controls.Add(this.Physics2ndTotal);
             this.groupBox1.Controls.Add(this.Chemistry1stTotal);
-            this.groupBox1.Location = new System.Drawing.Point(6, 376);
+            this.groupBox1.Location = new System.Drawing.Point(3, 376);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(818, 178);
             this.groupBox1.TabIndex = 61;
@@ -1820,6 +1821,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.groupBox26);
             this.panel2.Controls.Add(this.groupBox1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -1828,11 +1830,20 @@
             this.panel2.Size = new System.Drawing.Size(1038, 558);
             this.panel2.TabIndex = 63;
             // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.SystemColors.Highlight;
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1038, 56);
+            this.panel3.TabIndex = 62;
+            // 
             // AnySubRes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(184)))), ((int)(((byte)(196)))));
             this.ClientSize = new System.Drawing.Size(1144, 558);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -2048,5 +2059,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
     }
 }

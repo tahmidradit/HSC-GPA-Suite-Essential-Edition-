@@ -1083,5 +1083,30 @@ namespace HSC_GPA
                 }
             }
         }
+
+        private void PictureBox1_Click(object sender, EventArgs e)
+        {
+            if(groupBox5.Width == 271)
+            {
+                groupBox5.Width = 186;
+            }
+            else
+            {
+                groupBox5.Width = 271;
+            }
+
+        }
+
+        private void PictureBox2_Click(object sender, EventArgs e)
+        {
+            if (groupBox18.Width == 239)
+            {
+                groupBox18.Width = 155;
+            }
+            else
+            {
+                groupBox18.Width = 239;
+            }
+        }
     }
 }

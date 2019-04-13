@@ -165,20 +165,20 @@ namespace HSC_GPA
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void PictureBox5_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Maximized;
+        //private void PictureBox5_Click(object sender, EventArgs e)
+        //{
+        //    this.WindowState = FormWindowState.Maximized;
             
-            //pictureBox5.Visible = true ;
-            //pictureBox6.Visible = false;
-        }
+        //    //pictureBox5.Visible = true ;
+        //    //pictureBox6.Visible = false;
+        //}
 
-        private void PictureBox6_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Normal;
-            //pictureBox6.Visible = true;
-            //pictureBox5.Visible = false;
-        }
+        //private void PictureBox6_Click(object sender, EventArgs e)
+        //{
+        //    this.WindowState = FormWindowState.Normal;
+        //    //pictureBox6.Visible = true;
+        //    //pictureBox5.Visible = false;
+        //}
 
         private void PictureBox3_MouseHover(object sender, EventArgs e)
         {
@@ -190,25 +190,25 @@ namespace HSC_GPA
             pictureBox3.BackColor = Color.Transparent;
         }
 
-        private void PictureBox5_MouseHover(object sender, EventArgs e)
-        {
-            pictureBox5.BackColor = Color.LightSteelBlue;
-        }
+        //private void PictureBox5_MouseHover(object sender, EventArgs e)
+        //{
+        //    pictureBox5.BackColor = Color.LightSteelBlue;
+        //}
 
-        private void PictureBox5_MouseLeave(object sender, EventArgs e)
-        {
-            pictureBox5.BackColor = Color.Transparent;
-        }
+        //private void PictureBox5_MouseLeave(object sender, EventArgs e)
+        //{
+        //    pictureBox5.BackColor = Color.Transparent;
+        //}
 
-        private void PictureBox6_MouseHover(object sender, EventArgs e)
-        {
-            pictureBox6.BackColor = Color.LightSteelBlue;
-        }
+        //private void PictureBox6_MouseHover(object sender, EventArgs e)
+        //{
+        //    pictureBox6.BackColor = Color.LightSteelBlue;
+        //}
 
-        private void PictureBox6_MouseLeave(object sender, EventArgs e)
-        {
-            pictureBox6.BackColor = Color.Transparent;
-        }
+        //private void PictureBox6_MouseLeave(object sender, EventArgs e)
+        //{
+        //    pictureBox6.BackColor = Color.Transparent;
+        //}
 
         private void PictureBox4_MouseHover(object sender, EventArgs e)
         {

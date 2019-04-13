@@ -247,6 +247,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label32 = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             this.groupBox27.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -278,6 +280,7 @@
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -408,7 +411,7 @@
             this.groupBox2.Controls.Add(this.groupBox28);
             this.groupBox2.Controls.Add(this.groupBox23);
             this.groupBox2.Controls.Add(this.groupBox1);
-            this.groupBox2.Location = new System.Drawing.Point(555, 6);
+            this.groupBox2.Location = new System.Drawing.Point(555, 50);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(553, 506);
             this.groupBox2.TabIndex = 35;
@@ -2270,7 +2273,7 @@
             this.groupBox26.Controls.Add(this.groupBox20);
             this.groupBox26.Controls.Add(this.groupBox22);
             this.groupBox26.Controls.Add(this.groupBox21);
-            this.groupBox26.Location = new System.Drawing.Point(3, 6);
+            this.groupBox26.Location = new System.Drawing.Point(3, 50);
             this.groupBox26.Name = "groupBox26";
             this.groupBox26.Size = new System.Drawing.Size(546, 506);
             this.groupBox26.TabIndex = 58;
@@ -2305,7 +2308,7 @@
             this.SubmitButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.SubmitButton.Location = new System.Drawing.Point(-1, 217);
             this.SubmitButton.Name = "SubmitButton";
-            this.SubmitButton.Size = new System.Drawing.Size(132, 23);
+            this.SubmitButton.Size = new System.Drawing.Size(138, 23);
             this.SubmitButton.TabIndex = 14;
             this.SubmitButton.Text = "   Submit";
             this.SubmitButton.UseVisualStyleBackColor = true;
@@ -2322,7 +2325,7 @@
             this.ResetButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.ResetButton.Location = new System.Drawing.Point(0, 242);
             this.ResetButton.Name = "ResetButton";
-            this.ResetButton.Size = new System.Drawing.Size(134, 23);
+            this.ResetButton.Size = new System.Drawing.Size(137, 23);
             this.ResetButton.TabIndex = 15;
             this.ResetButton.Text = "   Reset";
             this.ResetButton.UseVisualStyleBackColor = true;
@@ -2357,7 +2360,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel1.Location = new System.Drawing.Point(1114, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(137, 560);
+            this.panel1.Size = new System.Drawing.Size(137, 568);
             this.panel1.TabIndex = 59;
             // 
             // pictureBox1
@@ -2373,20 +2376,42 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.groupBox26);
             this.panel2.Controls.Add(this.groupBox2);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1114, 560);
+            this.panel2.Size = new System.Drawing.Size(1114, 568);
             this.panel2.TabIndex = 60;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.SystemColors.Highlight;
+            this.panel3.Controls.Add(this.label32);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1114, 44);
+            this.panel3.TabIndex = 59;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Bernard MT Condensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.ForeColor = System.Drawing.SystemColors.Control;
+            this.label32.Location = new System.Drawing.Point(466, 8);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(142, 28);
+            this.label32.TabIndex = 0;
+            this.label32.Text = "Overall Result";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1251, 560);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(185)))), ((int)(((byte)(214)))));
+            this.ClientSize = new System.Drawing.Size(1251, 568);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -2446,6 +2471,8 @@
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -2670,6 +2697,8 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label32;
     }
 }
 
