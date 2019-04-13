@@ -67,6 +67,19 @@ namespace HSC_GPA
             this.panelDock.Tag = psw;
             psw.Show();
         }
+        private void insub(object InSub)
+        {
+            if(this.panelDock.Controls.Count > 0)
+            {
+                this.panelDock.Controls.RemoveAt(0);
+            }
+            Form insb = InSub as Form;
+            insb.TopLevel = false;
+            insb.Dock = DockStyle.Fill;
+            this.panelDock.Controls.Add(insb);
+            this.panelDock.Tag = insb;
+            insb.Show();
+        }
 
         private void Home_Load(object sender, EventArgs e)
         {
@@ -100,24 +113,31 @@ namespace HSC_GPA
 
         private void Button3_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            SubBothPapers sbp = new SubBothPapers();
-            sbp.Show();
+            //this.Hide();
+            //SubBothPapers sbp = new SubBothPapers();
+            //sbp.Show();
+            insub(new SubBothPapers());
+            
+        }
+        private void menucollapsemain()
+        {
+            if (panel2.Width == 176)
+            {
+                panel2.Width = 40;
+            }
+            else
+            {
+                panel2.Width = 176;
+            }
             
         }
 
         private void PictureBox1_Click(object sender, EventArgs e)
         {
-            if(panel2.Width == 176 )
-            {
-                panel2.Width = 40;
-            }
-            else
-            
-                panel2.Width = 176;
-            
+            menucollapsemain();
         }
-
+       
+       
         private void Panel1_MouseDown(object sender, MouseEventArgs e)
         {
             ReleaseCapture();
@@ -127,8 +147,9 @@ namespace HSC_GPA
         private void PictureBox3_Click(object sender, EventArgs e)
         {
             Application.Exit();
+            
         }
-
+        
         private void Button4_Click(object sender, EventArgs e)
         {
             ParticularSubject(new AnySubRes());
@@ -137,6 +158,76 @@ namespace HSC_GPA
         private void Button5_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void PictureBox4_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void PictureBox5_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+            
+            //pictureBox5.Visible = true ;
+            //pictureBox6.Visible = false;
+        }
+
+        private void PictureBox6_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Normal;
+            //pictureBox6.Visible = true;
+            //pictureBox5.Visible = false;
+        }
+
+        private void PictureBox3_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox3.BackColor = Color.LightSteelBlue;
+        }
+
+        private void PictureBox3_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox3.BackColor = Color.Transparent;
+        }
+
+        private void PictureBox5_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox5.BackColor = Color.LightSteelBlue;
+        }
+
+        private void PictureBox5_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox5.BackColor = Color.Transparent;
+        }
+
+        private void PictureBox6_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox6.BackColor = Color.LightSteelBlue;
+        }
+
+        private void PictureBox6_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox6.BackColor = Color.Transparent;
+        }
+
+        private void PictureBox4_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox4.BackColor = Color.LightSteelBlue;
+        }
+
+        private void PictureBox4_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox4.BackColor = Color.Transparent;
+        }
+
+        private void PictureBox1_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox1.BackColor = Color.LightSteelBlue;
+        }
+
+        private void PictureBox1_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox1.BackColor = Color.Transparent;
         }
     }
 }

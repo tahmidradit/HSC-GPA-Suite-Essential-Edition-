@@ -43,12 +43,7 @@
             this.HM1stTotal = new System.Windows.Forms.TextBox();
             this.HM2ndTotal = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.SubmitButton = new System.Windows.Forms.Button();
-            this.ResetButton = new System.Windows.Forms.Button();
-            this.FinalResultbox = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox29 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.groupBox27 = new System.Windows.Forms.GroupBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.ICTSubjectTotalPointbox = new System.Windows.Forms.TextBox();
@@ -165,7 +160,6 @@
             this.Biology1stTotal = new System.Windows.Forms.TextBox();
             this.Physics2ndTotal = new System.Windows.Forms.TextBox();
             this.Chemistry1stTotal = new System.Windows.Forms.TextBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.label14 = new System.Windows.Forms.Label();
             this.Bangla1stMCQ = new System.Windows.Forms.TextBox();
@@ -245,10 +239,15 @@
             this.groupBox21 = new System.Windows.Forms.GroupBox();
             this.groupBox22 = new System.Windows.Forms.GroupBox();
             this.groupBox26 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.SubmitButton = new System.Windows.Forms.Button();
+            this.ResetButton = new System.Windows.Forms.Button();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.FinalResultbox = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox2.SuspendLayout();
-            this.groupBox29.SuspendLayout();
             this.groupBox27.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox25.SuspendLayout();
@@ -257,7 +256,6 @@
             this.groupBox28.SuspendLayout();
             this.groupBox23.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.groupBox7.SuspendLayout();
@@ -276,7 +274,9 @@
             this.groupBox21.SuspendLayout();
             this.groupBox22.SuspendLayout();
             this.groupBox26.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -401,38 +401,6 @@
             this.label7.TabIndex = 12;
             this.label7.Text = "ICT Total";
             // 
-            // SubmitButton
-            // 
-            this.SubmitButton.Image = ((System.Drawing.Image)(resources.GetObject("SubmitButton.Image")));
-            this.SubmitButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.SubmitButton.Location = new System.Drawing.Point(16, 26);
-            this.SubmitButton.Name = "SubmitButton";
-            this.SubmitButton.Size = new System.Drawing.Size(75, 23);
-            this.SubmitButton.TabIndex = 14;
-            this.SubmitButton.Text = "   Submit";
-            this.SubmitButton.UseVisualStyleBackColor = true;
-            this.SubmitButton.Click += new System.EventHandler(this.SubmitButton_Click);
-            // 
-            // ResetButton
-            // 
-            this.ResetButton.Image = ((System.Drawing.Image)(resources.GetObject("ResetButton.Image")));
-            this.ResetButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ResetButton.Location = new System.Drawing.Point(16, 50);
-            this.ResetButton.Name = "ResetButton";
-            this.ResetButton.Size = new System.Drawing.Size(75, 23);
-            this.ResetButton.TabIndex = 15;
-            this.ResetButton.Text = "   Reset";
-            this.ResetButton.UseVisualStyleBackColor = true;
-            this.ResetButton.Click += new System.EventHandler(this.ResetButton_Click);
-            // 
-            // FinalResultbox
-            // 
-            this.FinalResultbox.Location = new System.Drawing.Point(16, 23);
-            this.FinalResultbox.Name = "FinalResultbox";
-            this.FinalResultbox.ReadOnly = true;
-            this.FinalResultbox.Size = new System.Drawing.Size(75, 20);
-            this.FinalResultbox.TabIndex = 16;
-            // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.Transparent;
@@ -440,36 +408,12 @@
             this.groupBox2.Controls.Add(this.groupBox28);
             this.groupBox2.Controls.Add(this.groupBox23);
             this.groupBox2.Controls.Add(this.groupBox1);
-            this.groupBox2.Location = new System.Drawing.Point(565, 7);
+            this.groupBox2.Location = new System.Drawing.Point(555, 6);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(551, 514);
+            this.groupBox2.Size = new System.Drawing.Size(553, 506);
             this.groupBox2.TabIndex = 35;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Result";
-            // 
-            // groupBox29
-            // 
-            this.groupBox29.Controls.Add(this.button1);
-            this.groupBox29.Controls.Add(this.SubmitButton);
-            this.groupBox29.Controls.Add(this.ResetButton);
-            this.groupBox29.Location = new System.Drawing.Point(12, 194);
-            this.groupBox29.Name = "groupBox29";
-            this.groupBox29.Size = new System.Drawing.Size(105, 14);
-            this.groupBox29.TabIndex = 62;
-            this.groupBox29.TabStop = false;
-            this.groupBox29.Text = "Activity Buttons";
-            // 
-            // button1
-            // 
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(16, 76);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 17;
-            this.button1.Text = "Exit";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // groupBox27
             // 
@@ -477,7 +421,7 @@
             this.groupBox27.Controls.Add(this.groupBox25);
             this.groupBox27.Controls.Add(this.groupBox18);
             this.groupBox27.Controls.Add(this.groupBox24);
-            this.groupBox27.Location = new System.Drawing.Point(6, 257);
+            this.groupBox27.Location = new System.Drawing.Point(8, 253);
             this.groupBox27.Name = "groupBox27";
             this.groupBox27.Size = new System.Drawing.Size(539, 248);
             this.groupBox27.TabIndex = 58;
@@ -1561,16 +1505,6 @@
             this.Chemistry1stTotal.Size = new System.Drawing.Size(64, 20);
             this.Chemistry1stTotal.TabIndex = 41;
             // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.FinalResultbox);
-            this.groupBox3.Location = new System.Drawing.Point(12, 176);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(104, 10);
-            this.groupBox3.TabIndex = 36;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Overall Result";
-            // 
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.label14);
@@ -2336,38 +2270,122 @@
             this.groupBox26.Controls.Add(this.groupBox20);
             this.groupBox26.Controls.Add(this.groupBox22);
             this.groupBox26.Controls.Add(this.groupBox21);
-            this.groupBox26.Location = new System.Drawing.Point(6, 7);
+            this.groupBox26.Location = new System.Drawing.Point(3, 6);
             this.groupBox26.Name = "groupBox26";
-            this.groupBox26.Size = new System.Drawing.Size(553, 514);
+            this.groupBox26.Size = new System.Drawing.Size(546, 506);
             this.groupBox26.TabIndex = 58;
             this.groupBox26.TabStop = false;
             this.groupBox26.Text = "Input";
             // 
+            // button1
+            // 
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(0, 268);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(134, 23);
+            this.button1.TabIndex = 17;
+            this.button1.Text = "Exit";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            // 
+            // SubmitButton
+            // 
+            this.SubmitButton.FlatAppearance.BorderSize = 0;
+            this.SubmitButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.SubmitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SubmitButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SubmitButton.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.SubmitButton.Image = ((System.Drawing.Image)(resources.GetObject("SubmitButton.Image")));
+            this.SubmitButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.SubmitButton.Location = new System.Drawing.Point(-1, 217);
+            this.SubmitButton.Name = "SubmitButton";
+            this.SubmitButton.Size = new System.Drawing.Size(132, 23);
+            this.SubmitButton.TabIndex = 14;
+            this.SubmitButton.Text = "   Submit";
+            this.SubmitButton.UseVisualStyleBackColor = true;
+            this.SubmitButton.Click += new System.EventHandler(this.SubmitButton_Click_1);
+            // 
+            // ResetButton
+            // 
+            this.ResetButton.FlatAppearance.BorderSize = 0;
+            this.ResetButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.ResetButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ResetButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ResetButton.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.ResetButton.Image = ((System.Drawing.Image)(resources.GetObject("ResetButton.Image")));
+            this.ResetButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ResetButton.Location = new System.Drawing.Point(0, 242);
+            this.ResetButton.Name = "ResetButton";
+            this.ResetButton.Size = new System.Drawing.Size(134, 23);
+            this.ResetButton.TabIndex = 15;
+            this.ResetButton.Text = "   Reset";
+            this.ResetButton.UseVisualStyleBackColor = true;
+            this.ResetButton.Click += new System.EventHandler(this.ResetButton_Click);
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.FinalResultbox);
+            this.groupBox3.Location = new System.Drawing.Point(13, 95);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(112, 53);
+            this.groupBox3.TabIndex = 63;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Overall Result";
+            // 
+            // FinalResultbox
+            // 
+            this.FinalResultbox.Location = new System.Drawing.Point(19, 19);
+            this.FinalResultbox.Name = "FinalResultbox";
+            this.FinalResultbox.ReadOnly = true;
+            this.FinalResultbox.Size = new System.Drawing.Size(75, 20);
+            this.FinalResultbox.TabIndex = 16;
+            // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.groupBox29);
+            this.panel1.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.groupBox3);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Controls.Add(this.SubmitButton);
+            this.panel1.Controls.Add(this.ResetButton);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel1.Location = new System.Drawing.Point(1114, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(123, 560);
-            this.panel1.TabIndex = 63;
+            this.panel1.Size = new System.Drawing.Size(137, 560);
+            this.panel1.TabIndex = 59;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(3, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(16, 18);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 64;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.PictureBox1_Click);
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.groupBox26);
             this.panel2.Controls.Add(this.groupBox2);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(123, 0);
+            this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1128, 560);
-            this.panel2.TabIndex = 64;
+            this.panel2.Size = new System.Drawing.Size(1114, 560);
+            this.panel2.TabIndex = 60;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1251, 560);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -2378,7 +2396,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HSC GPA Suite";
             this.groupBox2.ResumeLayout(false);
-            this.groupBox29.ResumeLayout(false);
             this.groupBox27.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
@@ -2394,8 +2411,6 @@
             this.groupBox23.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.groupBox6.ResumeLayout(false);
@@ -2426,7 +2441,10 @@
             this.groupBox21.ResumeLayout(false);
             this.groupBox22.ResumeLayout(false);
             this.groupBox26.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -2448,11 +2466,7 @@
         private System.Windows.Forms.TextBox HM1stTotal;
         private System.Windows.Forms.TextBox HM2ndTotal;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button SubmitButton;
-        private System.Windows.Forms.Button ResetButton;
-        private System.Windows.Forms.TextBox FinalResultbox;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.TextBox Bangla1stMCQ;
@@ -2649,9 +2663,13 @@
         private System.Windows.Forms.Label label43;
         private System.Windows.Forms.Label label44;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.GroupBox groupBox29;
+        private System.Windows.Forms.Button SubmitButton;
+        private System.Windows.Forms.Button ResetButton;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.TextBox FinalResultbox;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
