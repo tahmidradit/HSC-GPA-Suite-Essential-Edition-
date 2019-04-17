@@ -45,12 +45,15 @@
             this.button4 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panelDock = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panelDock.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -143,7 +146,7 @@
             this.button1.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(0, 103);
+            this.button1.Location = new System.Drawing.Point(0, 123);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(176, 36);
             this.button1.TabIndex = 1;
@@ -164,11 +167,11 @@
             this.button2.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(0, 145);
+            this.button2.Location = new System.Drawing.Point(0, 165);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(199, 34);
             this.button2.TabIndex = 4;
-            this.button2.Text = "      Subject Total";
+            this.button2.Text = " Subject Total";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
@@ -180,9 +183,9 @@
             this.button3.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(0, 185);
+            this.button3.Location = new System.Drawing.Point(0, 205);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(191, 38);
+            this.button3.Size = new System.Drawing.Size(191, 28);
             this.button3.TabIndex = 5;
             this.button3.Text = "       Individual Subjects";
             this.button3.UseVisualStyleBackColor = true;
@@ -198,7 +201,7 @@
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button5.Location = new System.Drawing.Point(0, 273);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(199, 27);
+            this.button5.Size = new System.Drawing.Size(199, 28);
             this.button5.TabIndex = 7;
             this.button5.Text = "Exit";
             this.button5.UseVisualStyleBackColor = true;
@@ -207,6 +210,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(125)))), ((int)(((byte)(216)))));
+            this.panel2.Controls.Add(this.button6);
             this.panel2.Controls.Add(this.button4);
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.button5);
@@ -228,11 +232,11 @@
             this.button4.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(0, 229);
+            this.button4.Location = new System.Drawing.Point(0, 239);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(191, 38);
+            this.button4.Size = new System.Drawing.Size(191, 28);
             this.button4.TabIndex = 8;
-            this.button4.Text = "       Particular Subjects";
+            this.button4.Text = "       Particular Results";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.Button4_Click);
             // 
@@ -248,11 +252,40 @@
             // 
             // panelDock
             // 
+            this.panelDock.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.panelDock.Controls.Add(this.label1);
             this.panelDock.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDock.Location = new System.Drawing.Point(176, 43);
             this.panelDock.Name = "panelDock";
             this.panelDock.Size = new System.Drawing.Size(1119, 572);
             this.panelDock.TabIndex = 9;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Bauhaus 93", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label1.Location = new System.Drawing.Point(264, 230);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(534, 108);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "WELCOME !";
+            // 
+            // button6
+            // 
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
+            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.Location = new System.Drawing.Point(0, 91);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(179, 26);
+            this.button6.TabIndex = 9;
+            this.button6.Text = "Home";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.Button6_Click);
             // 
             // Home
             // 
@@ -274,6 +307,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panelDock.ResumeLayout(false);
+            this.panelDock.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -295,5 +330,7 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Panel panelDock;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button6;
     }
 }

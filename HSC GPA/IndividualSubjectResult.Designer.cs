@@ -123,12 +123,12 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox18.SuspendLayout();
@@ -1034,19 +1034,7 @@
             this.button2.TabIndex = 72;
             this.button2.Text = "Reset";
             this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSlateGray;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(0, 116);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(113, 23);
-            this.button3.TabIndex = 73;
-            this.button3.Text = "Exit";
-            this.button3.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // panel1
             // 
@@ -1099,6 +1087,19 @@
             this.label4.Size = new System.Drawing.Size(278, 41);
             this.label4.TabIndex = 0;
             this.label4.Text = "Individual Subjects ";
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Transparent;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSlateGray;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Location = new System.Drawing.Point(0, 116);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(113, 23);
+            this.button3.TabIndex = 73;
+            this.button3.Text = "Instructions";
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // SubBothPapers
             // 
@@ -1222,7 +1223,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel2;
@@ -1230,5 +1230,6 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button3;
     }
 }

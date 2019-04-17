@@ -229,5 +229,12 @@ namespace HSC_GPA
         {
             pictureBox1.BackColor = Color.Transparent;
         }
+
+        private void Button6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Home hm = new Home();
+            hm.Show();
+        }
     }
 }

@@ -875,5 +875,30 @@ namespace HSC_GPA
                 panel1.Width = 106 ;
             }
         }
+
+        private void PictureBox1_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox1.BackColor = Color.White;
+        }
+
+        private void PictureBox1_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox1.BackColor = Color.Transparent;
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            Bangla1stTheory.Text = ""; Bangla1stMCQ.Text = ""; Bangla2ndTheory.Text = ""; Biology1stTheory.Text = ""; Biology1stPractical.Text = ""; Biology1stMCQ.Text = ""; Biology2ndTheory.Text = ""; Biology2ndPractical.Text = ""; Biology2ndMCQ.Text = ""; Chemistry1stTheory.Text = ""; Chemistry1stPractical.Text = ""; Chemistry1stMCQ.Text = ""; Chemistry2ndTheory.Text = ""; Chemistry2ndPractical.Text = ""; Chemistry2ndMCQ.Text = ""; English1stPaper.Text = ""; English2ndPaper.Text = ""; HM1stTheory.Text = ""; HM1stPractical.Text = ""; HM2ndTheory.Text = ""; HM2ndPractical.Text = "";
+            Physics1stTheory.Text = ""; Physics1stPractical.Text = ""; Physics1stMCQ.Text = ""; Physics2ndTheory.Text = ""; Physics2ndPractical.Text = ""; Physics2ndMCQ.Text = ""; ICTTheory.Text = ""; ICTPractical.Text = ""; ICTMCQ.Text = "";
+            Bangla1stTotalPointbox.Text = ""; Bangla1stTotalGradebox.Text = ""; Bangla2ndTotalPointbox.Text = "";
+            Bangla2ndTotalGradebox.Text = ""; Biology1stTotalPointbox.Text = ""; Biology1stTotalGradebox.Text = ""; Biology2ndTotalPointbox.Text = ""; Biology2ndTotalGradebox.Text = ""; Chemistry1stTotalPointbox.Text = "";
+            Chemistry1stTotalGradebox.Text = ""; Chemistry2ndTotalPointbox.Text = ""; Chemistry2ndTotalGradebox.Text = "";
+            English1stTotalPointbox.Text = ""; English1stTotalGradebox.Text = ""; English2ndTotalPointbox.Text = ""; English2ndTotalGradebox.Text = ""; HM1stTotalPointbox.Text = ""; HM1stTotalGradebox.Text = ""; HM2ndTotalPointbox.Text = ""; HM2ndTotalGradebox.Text = ""; ICTTotalPointbox.Text = ""; ICTTotalGradebox.Text = ""; Physics1stTotalPointbox.Text = ""; Physics1stTotalGradebox.Text = ""; Physics2ndTotalPointbox.Text = "";
+            Physics2ndTotalGradebox.Text = "";Bangla1stTotal.Text = ""; Bangla2ndTotal.Text = ""; Biology1stTotal.Text = ""; Biology2ndTotal.Text = ""; Chemistry1stTotal.Text = "";
+            Chemistry2ndTotal.Text = ""; English1stTotal.Text = ""; English2ndTotal.Text = ""; HM1stTotal.Text = ""; HM2ndTotal.Text = ""; ICTTotal.Text = "";
+            Physics1stTotal.Text = ""; Physics2ndTotal.Text = ""; 
+            
+              
+        }
     }
 }

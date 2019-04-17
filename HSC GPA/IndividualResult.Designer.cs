@@ -125,9 +125,9 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSlateGray;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(0, 58);
+            this.button1.Location = new System.Drawing.Point(0, 65);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(107, 23);
             this.button1.TabIndex = 6;
             this.button1.Text = "Submit";
             this.button1.UseVisualStyleBackColor = true;
@@ -145,23 +145,24 @@
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSlateGray;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(0, 87);
+            this.button2.Location = new System.Drawing.Point(0, 94);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(107, 23);
             this.button2.TabIndex = 8;
             this.button2.Text = "Reset";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // button3
             // 
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSlateGray;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(0, 116);
+            this.button3.Location = new System.Drawing.Point(0, 123);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(107, 23);
             this.button3.TabIndex = 9;
-            this.button3.Text = "Exit";
+            this.button3.Text = "Instructions";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -330,13 +331,13 @@
             this.IndividualResultBox.Location = new System.Drawing.Point(10, 32);
             this.IndividualResultBox.Name = "IndividualResultBox";
             this.IndividualResultBox.ReadOnly = true;
-            this.IndividualResultBox.Size = new System.Drawing.Size(60, 20);
+            this.IndividualResultBox.Size = new System.Drawing.Size(84, 20);
             this.IndividualResultBox.TabIndex = 24;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(7, 7);
+            this.label8.Location = new System.Drawing.Point(20, 7);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(65, 13);
             this.label8.TabIndex = 25;
@@ -379,7 +380,7 @@
             this.panel1.Controls.Add(this.label8);
             this.panel1.Location = new System.Drawing.Point(641, 191);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(75, 144);
+            this.panel1.Size = new System.Drawing.Size(107, 167);
             this.panel1.TabIndex = 29;
             // 
             // groupBox1
@@ -425,6 +426,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(7, 20);
             this.pictureBox1.Name = "pictureBox1";
@@ -433,6 +435,8 @@
             this.pictureBox1.TabIndex = 29;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.PictureBox1_Click);
+            this.pictureBox1.MouseLeave += new System.EventHandler(this.PictureBox1_MouseLeave);
+            this.pictureBox1.MouseHover += new System.EventHandler(this.PictureBox1_MouseHover);
             // 
             // panel2
             // 
@@ -467,7 +471,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(201)))), ((int)(((byte)(249)))));
+            this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(805, 487);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);

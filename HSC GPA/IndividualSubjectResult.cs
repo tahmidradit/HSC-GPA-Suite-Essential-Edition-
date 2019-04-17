@@ -1108,5 +1108,23 @@ namespace HSC_GPA
                 groupBox18.Width = 239;
             }
         }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            Bangla1stTotalPointbox.Text = ""; Bangla1stTotalGradebox.Text = ""; Bangla2ndTotalPointbox.Text = "";
+            Bangla2ndTotalGradebox.Text = ""; Biology1stTotalPointbox.Text = ""; Biology1stTotalGradebox.Text = ""; Biology2ndTotalPointbox.Text = ""; Biology2ndTotalGradebox.Text = ""; Chemistry1stTotalPointbox.Text = "";
+            Chemistry1stTotalGradebox.Text = ""; Chemistry2ndTotalPointbox.Text = ""; Chemistry2ndTotalGradebox.Text = "";
+            English1stTotalPointbox.Text = ""; English1stTotalGradebox.Text = ""; English2ndTotalPointbox.Text = ""; English2ndTotalGradebox.Text = ""; HM1stTotalPointbox.Text = ""; HM1stTotalGradebox.Text = ""; HM2ndTotalPointbox.Text = ""; HM2ndTotalGradebox.Text = ""; ICTTotalPointbox.Text = ""; ICTTotalGradebox.Text = ""; Physics1stTotalPointbox.Text = ""; Physics1stTotalGradebox.Text = ""; Physics2ndTotalPointbox.Text = "";
+            Physics2ndTotalGradebox.Text = ""; 
+            BanglaAveragePointbox.Text = ""; BanglaAverageGradebox.Text = ""; BiologyAveragePointbox.Text = ""; BiologyAverageGradebox.Text = ""; ChemistryAveragePointbox.Text = ""; ChemistryAverageGradebox.Text = ""; EnglishAveragePointbox.Text = ""; EnglishAverageGradebox.Text = ""; HMAveragePointbox.Text = ""; HMAverageGradebox.Text = ""; ICTAveragePointbox.Text = ""; ICTAverageGradebox.Text = ""; PhysicsAveragePointbox.Text = ""; PhysicsAverageGradebox.Text = "";
+            Bangla1stTotal.Text = ""; Bangla2ndTotal.Text = ""; Biology1stTotal.Text = ""; Biology2ndTotal.Text = ""; Chemistry1stTotal.Text = "";
+            Chemistry2ndTotal.Text = ""; English1stTotal.Text = ""; English2ndTotal.Text = ""; HM1stTotal.Text = ""; HM2ndTotal.Text = ""; ICTTotal.Text = "";
+            Physics1stTotal.Text = ""; Physics2ndTotal.Text = "";  BanglaSubAverage.Text = "";
+            BiologySubAverage.Text = ""; ChemistrySubAverage.Text = ""; EnglishSubAverage.Text = ""; HMSubAverage.Text = ""; ICTSubAverage.Text = "";
+            PhysicsSubAverage.Text = ""; 
+            
+        }
+
+        
     }
 }

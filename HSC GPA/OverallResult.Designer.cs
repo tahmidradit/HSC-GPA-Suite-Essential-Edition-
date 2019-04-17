@@ -2293,7 +2293,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(134, 23);
             this.button1.TabIndex = 17;
-            this.button1.Text = "Exit";
+            this.button1.Text = "Instructions";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
