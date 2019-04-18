@@ -1789,7 +1789,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(107)))), ((int)(((byte)(153)))));
+            this.panel1.BackColor = System.Drawing.Color.SlateGray;
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.button15);
@@ -1823,7 +1823,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(115, 23);
             this.button2.TabIndex = 48;
-            this.button2.Text = "RESET";
+            this.button2.Text = "    RESET";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
@@ -1867,7 +1867,7 @@
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Bernard MT Condensed", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.SystemColors.Control;
-            this.label22.Location = new System.Drawing.Point(441, 11);
+            this.label22.Location = new System.Drawing.Point(478, 12);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(211, 34);
             this.label22.TabIndex = 1;

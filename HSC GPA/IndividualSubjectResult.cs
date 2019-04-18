@@ -1125,6 +1125,24 @@ namespace HSC_GPA
             
         }
 
-        
+        private void PictureBox1_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox1.BackColor = Color.White;
+        }
+
+        private void PictureBox1_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox1.BackColor = Color.Transparent;
+        }
+
+        private void PictureBox2_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox2.BackColor = Color.White;
+        }
+
+        private void PictureBox2_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox2.BackColor = Color.Transparent;
+        }
     }
 }

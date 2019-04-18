@@ -125,6 +125,8 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSlateGray;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(0, 65);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(107, 23);
@@ -145,6 +147,8 @@
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSlateGray;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.Location = new System.Drawing.Point(0, 94);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(107, 23);
@@ -158,11 +162,13 @@
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSlateGray;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.Location = new System.Drawing.Point(0, 123);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(107, 23);
             this.button3.TabIndex = 9;
-            this.button3.Text = "Instructions";
+            this.button3.Text = "    Instructions";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -380,7 +386,7 @@
             this.panel1.Controls.Add(this.label8);
             this.panel1.Location = new System.Drawing.Point(641, 191);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(107, 167);
+            this.panel1.Size = new System.Drawing.Size(107, 155);
             this.panel1.TabIndex = 29;
             // 
             // groupBox1

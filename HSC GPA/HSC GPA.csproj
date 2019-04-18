@@ -69,6 +69,12 @@
     <Compile Include="IndividualResult.Designer.cs">
       <DependentUpon>IndividualResult.cs</DependentUpon>
     </Compile>
+    <Compile Include="Instructions_Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Instructions_Home.Designer.cs">
+      <DependentUpon>Instructions_Home.cs</DependentUpon>
+    </Compile>
     <Compile Include="OverallResult.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +104,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="IndividualResult.resx">
       <DependentUpon>IndividualResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Instructions_Home.resx">
+      <DependentUpon>Instructions_Home.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OverallResult.resx">
       <DependentUpon>OverallResult.cs</DependentUpon>

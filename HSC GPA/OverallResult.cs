@@ -2128,5 +2128,15 @@ namespace HSC_GPA
         {
             Application.Exit();
         }
+
+        private void PictureBox1_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox1.BackColor = Color.White;
+        }
+
+        private void PictureBox1_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox1.BackColor = Color.Transparent;
+        }
     }
 }

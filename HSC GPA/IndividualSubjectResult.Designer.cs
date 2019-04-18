@@ -124,11 +124,11 @@
             this.label10 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
             this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox18.SuspendLayout();
@@ -145,6 +145,8 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSlateGray;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(0, 58);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(113, 23);
@@ -283,6 +285,8 @@
             this.pictureBox1.TabIndex = 65;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.PictureBox1_Click);
+            this.pictureBox1.MouseLeave += new System.EventHandler(this.PictureBox1_MouseLeave);
+            this.pictureBox1.MouseHover += new System.EventHandler(this.PictureBox1_MouseHover);
             // 
             // ICTTotalPointbox
             // 
@@ -783,6 +787,8 @@
             this.pictureBox2.TabIndex = 66;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.PictureBox2_Click);
+            this.pictureBox2.MouseLeave += new System.EventHandler(this.PictureBox2_MouseLeave);
+            this.pictureBox2.MouseHover += new System.EventHandler(this.PictureBox2_MouseHover);
             // 
             // ICTAveragePointbox
             // 
@@ -1028,6 +1034,8 @@
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSlateGray;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.Location = new System.Drawing.Point(0, 87);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(113, 23);
@@ -1048,6 +1056,21 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(113, 150);
             this.panel1.TabIndex = 75;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Transparent;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSlateGray;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(0, 116);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(113, 23);
+            this.button3.TabIndex = 73;
+            this.button3.Text = "   Instructions";
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 
@@ -1084,22 +1107,9 @@
             this.label4.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.label4.Location = new System.Drawing.Point(394, 9);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(278, 41);
+            this.label4.Size = new System.Drawing.Size(257, 41);
             this.label4.TabIndex = 0;
-            this.label4.Text = "Individual Subjects ";
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSlateGray;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(0, 116);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(113, 23);
-            this.button3.TabIndex = 73;
-            this.button3.Text = "Instructions";
-            this.button3.UseVisualStyleBackColor = false;
+            this.label4.Text = "Individual Results";
             // 
             // SubBothPapers
             // 

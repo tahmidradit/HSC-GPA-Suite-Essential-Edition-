@@ -2283,24 +2283,24 @@
             // button1
             // 
             this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(0, 268);
+            this.button1.Location = new System.Drawing.Point(-1, 275);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(134, 23);
+            this.button1.Size = new System.Drawing.Size(138, 23);
             this.button1.TabIndex = 17;
-            this.button1.Text = "Instructions";
+            this.button1.Text = "      Instructions";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // SubmitButton
             // 
             this.SubmitButton.FlatAppearance.BorderSize = 0;
-            this.SubmitButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.SubmitButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.SubmitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SubmitButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SubmitButton.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
@@ -2317,15 +2317,15 @@
             // ResetButton
             // 
             this.ResetButton.FlatAppearance.BorderSize = 0;
-            this.ResetButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.ResetButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ResetButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ResetButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ResetButton.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.ResetButton.Image = ((System.Drawing.Image)(resources.GetObject("ResetButton.Image")));
             this.ResetButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ResetButton.Location = new System.Drawing.Point(0, 242);
+            this.ResetButton.Location = new System.Drawing.Point(-1, 246);
             this.ResetButton.Name = "ResetButton";
-            this.ResetButton.Size = new System.Drawing.Size(137, 23);
+            this.ResetButton.Size = new System.Drawing.Size(138, 23);
             this.ResetButton.TabIndex = 15;
             this.ResetButton.Text = "   Reset";
             this.ResetButton.UseVisualStyleBackColor = true;
@@ -2373,6 +2373,8 @@
             this.pictureBox1.TabIndex = 64;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.PictureBox1_Click);
+            this.pictureBox1.MouseLeave += new System.EventHandler(this.PictureBox1_MouseLeave);
+            this.pictureBox1.MouseHover += new System.EventHandler(this.PictureBox1_MouseHover);
             // 
             // panel2
             // 
