@@ -429,7 +429,7 @@
             this.groupBox27.Size = new System.Drawing.Size(539, 248);
             this.groupBox27.TabIndex = 58;
             this.groupBox27.TabStop = false;
-            this.groupBox27.Text = "Total & Average";
+            this.groupBox27.Text = "Subject Total & Average";
             // 
             // groupBox5
             // 

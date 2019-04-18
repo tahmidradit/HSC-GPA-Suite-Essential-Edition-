@@ -2126,7 +2126,7 @@ namespace HSC_GPA
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Input in the 'TPM' section only.It's mandatory not to leave any input fields.Don't input in 'Overall GPA', 'Individual Totals', 'Total Average', 'Grade', 'Point' textboxes.", "Instructions_Overall Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Input in the 'TPM' section only.It's mandatory not to leave any input fields.Don't input in 'Overall GPA', 'Individual Totals', 'Subject Total Average', 'Grade', 'Point' textboxes.", "Instructions_Overall Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void PictureBox1_MouseHover(object sender, EventArgs e)

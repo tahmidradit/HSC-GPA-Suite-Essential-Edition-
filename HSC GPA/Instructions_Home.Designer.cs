@@ -86,9 +86,9 @@
             this.label3.ForeColor = System.Drawing.SystemColors.Control;
             this.label3.Location = new System.Drawing.Point(431, 225);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(260, 16);
+            this.label3.Size = new System.Drawing.Size(316, 16);
             this.label3.TabIndex = 3;
-            this.label3.Text = "button in where you need more space.";
+            this.label3.Text = "at where you need more space or better look.";
             // 
             // label4
             // 

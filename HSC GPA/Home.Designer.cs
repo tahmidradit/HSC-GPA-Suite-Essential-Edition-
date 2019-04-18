@@ -77,9 +77,9 @@
             this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Default;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(1057, 13);
+            this.pictureBox4.Location = new System.Drawing.Point(1045, 8);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(22, 20);
+            this.pictureBox4.Size = new System.Drawing.Size(28, 26);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 10;
             this.pictureBox4.TabStop = false;
@@ -93,9 +93,9 @@
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Default;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(1085, 12);
+            this.pictureBox3.Location = new System.Drawing.Point(1079, 8);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(22, 20);
+            this.pictureBox3.Size = new System.Drawing.Size(28, 26);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 9;
             this.pictureBox3.TabStop = false;
@@ -119,22 +119,22 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label4.Font = new System.Drawing.Font("Ubuntu Mono", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.label4.Location = new System.Drawing.Point(71, 20);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(39, 12);
+            this.label4.Size = new System.Drawing.Size(43, 13);
             this.label4.TabIndex = 3;
             this.label4.Text = "label4";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label3.Font = new System.Drawing.Font("Ubuntu Mono", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.label3.Location = new System.Drawing.Point(71, 8);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(39, 12);
+            this.label3.Size = new System.Drawing.Size(43, 13);
             this.label3.TabIndex = 2;
             this.label3.Text = "label3";
             // 
