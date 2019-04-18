@@ -732,6 +732,7 @@
             // 
             this.OverallResultSubBothPapers.Location = new System.Drawing.Point(9, 23);
             this.OverallResultSubBothPapers.Name = "OverallResultSubBothPapers";
+            this.OverallResultSubBothPapers.ReadOnly = true;
             this.OverallResultSubBothPapers.Size = new System.Drawing.Size(92, 20);
             this.OverallResultSubBothPapers.TabIndex = 66;
             // 
@@ -1071,6 +1072,7 @@
             this.button3.TabIndex = 73;
             this.button3.Text = "   Instructions";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.Button3_Click);
             // 
             // panel2
             // 

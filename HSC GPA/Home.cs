@@ -236,5 +236,24 @@ namespace HSC_GPA
             Home hm = new Home();
             hm.Show();
         }
+
+        private void InsHome(object insHome)
+        {
+            if(this.panelDock.Controls.Count > 0)
+            {
+                this.panelDock.Controls.RemoveAt(0);
+            }
+            Form inshome = insHome as Form;
+            inshome.TopLevel = false;
+            inshome.Dock = DockStyle.Fill;
+            this.panelDock.Controls.Add(inshome);
+            this.panelDock.Tag = inshome;
+            inshome.Show();
+        }
+
+        private void Button7_Click(object sender, EventArgs e)
+        {
+            InsHome(new Instructions_Home());
+        }
     }
 }

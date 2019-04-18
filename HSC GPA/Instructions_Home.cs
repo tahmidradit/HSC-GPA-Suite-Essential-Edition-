@@ -16,5 +16,12 @@ namespace HSC_GPA
         {
             InitializeComponent();
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Home hm = new Home();
+            hm.Show();
+        }
     }
 }

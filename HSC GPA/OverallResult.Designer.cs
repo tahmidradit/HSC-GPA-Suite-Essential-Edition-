@@ -2278,7 +2278,7 @@
             this.groupBox26.Size = new System.Drawing.Size(546, 506);
             this.groupBox26.TabIndex = 58;
             this.groupBox26.TabStop = false;
-            this.groupBox26.Text = "Input";
+            this.groupBox26.Text = "TPM";
             // 
             // button1
             // 

@@ -900,5 +900,10 @@ namespace HSC_GPA
             
               
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Make sure to input in 'Particular Subjects' section only at one or more subjects separately ! No need to input at all of the textboxes at a time.Don't input in 'Individual Totals' section, 'Grade', 'Point' textboxes.", "Instructions_Particular Subjects",MessageBoxButtons.OK,MessageBoxIcon.Information);
+        }
     }
 }

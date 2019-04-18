@@ -170,6 +170,7 @@
             this.button3.TabIndex = 9;
             this.button3.Text = "    Instructions";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.Button3_Click);
             // 
             // label1
             // 
@@ -238,6 +239,7 @@
             // 
             this.BanglaIndiTotalGrade.Location = new System.Drawing.Point(173, 46);
             this.BanglaIndiTotalGrade.Name = "BanglaIndiTotalGrade";
+            this.BanglaIndiTotalGrade.ReadOnly = true;
             this.BanglaIndiTotalGrade.Size = new System.Drawing.Size(41, 20);
             this.BanglaIndiTotalGrade.TabIndex = 17;
             // 
@@ -245,6 +247,7 @@
             // 
             this.BiologyIndiTotalGrade.Location = new System.Drawing.Point(173, 72);
             this.BiologyIndiTotalGrade.Name = "BiologyIndiTotalGrade";
+            this.BiologyIndiTotalGrade.ReadOnly = true;
             this.BiologyIndiTotalGrade.Size = new System.Drawing.Size(41, 20);
             this.BiologyIndiTotalGrade.TabIndex = 18;
             // 
@@ -252,6 +255,7 @@
             // 
             this.EnglishIndiTotalGrade.Location = new System.Drawing.Point(174, 97);
             this.EnglishIndiTotalGrade.Name = "EnglishIndiTotalGrade";
+            this.EnglishIndiTotalGrade.ReadOnly = true;
             this.EnglishIndiTotalGrade.Size = new System.Drawing.Size(40, 20);
             this.EnglishIndiTotalGrade.TabIndex = 19;
             // 
@@ -259,6 +263,7 @@
             // 
             this.ChemistryIndiTotalGrade.Location = new System.Drawing.Point(174, 124);
             this.ChemistryIndiTotalGrade.Name = "ChemistryIndiTotalGrade";
+            this.ChemistryIndiTotalGrade.ReadOnly = true;
             this.ChemistryIndiTotalGrade.Size = new System.Drawing.Size(40, 20);
             this.ChemistryIndiTotalGrade.TabIndex = 20;
             // 
@@ -266,6 +271,7 @@
             // 
             this.PhysicsIndiTotalGrade.Location = new System.Drawing.Point(174, 151);
             this.PhysicsIndiTotalGrade.Name = "PhysicsIndiTotalGrade";
+            this.PhysicsIndiTotalGrade.ReadOnly = true;
             this.PhysicsIndiTotalGrade.Size = new System.Drawing.Size(40, 20);
             this.PhysicsIndiTotalGrade.TabIndex = 21;
             // 
@@ -273,6 +279,7 @@
             // 
             this.HMIndiTotalGrade.Location = new System.Drawing.Point(174, 176);
             this.HMIndiTotalGrade.Name = "HMIndiTotalGrade";
+            this.HMIndiTotalGrade.ReadOnly = true;
             this.HMIndiTotalGrade.Size = new System.Drawing.Size(40, 20);
             this.HMIndiTotalGrade.TabIndex = 22;
             // 
@@ -280,6 +287,7 @@
             // 
             this.ICTIndiTotalGrade.Location = new System.Drawing.Point(174, 204);
             this.ICTIndiTotalGrade.Name = "ICTIndiTotalGrade";
+            this.ICTIndiTotalGrade.ReadOnly = true;
             this.ICTIndiTotalGrade.Size = new System.Drawing.Size(40, 20);
             this.ICTIndiTotalGrade.TabIndex = 23;
             // 
@@ -287,6 +295,7 @@
             // 
             this.BanglaIndiTotalPoint.Location = new System.Drawing.Point(219, 46);
             this.BanglaIndiTotalPoint.Name = "BanglaIndiTotalPoint";
+            this.BanglaIndiTotalPoint.ReadOnly = true;
             this.BanglaIndiTotalPoint.Size = new System.Drawing.Size(41, 20);
             this.BanglaIndiTotalPoint.TabIndex = 17;
             // 
@@ -294,6 +303,7 @@
             // 
             this.BiologyIndiTotalPoint.Location = new System.Drawing.Point(219, 72);
             this.BiologyIndiTotalPoint.Name = "BiologyIndiTotalPoint";
+            this.BiologyIndiTotalPoint.ReadOnly = true;
             this.BiologyIndiTotalPoint.Size = new System.Drawing.Size(41, 20);
             this.BiologyIndiTotalPoint.TabIndex = 18;
             // 
@@ -301,6 +311,7 @@
             // 
             this.EnglishIndiTotalPoint.Location = new System.Drawing.Point(219, 97);
             this.EnglishIndiTotalPoint.Name = "EnglishIndiTotalPoint";
+            this.EnglishIndiTotalPoint.ReadOnly = true;
             this.EnglishIndiTotalPoint.Size = new System.Drawing.Size(41, 20);
             this.EnglishIndiTotalPoint.TabIndex = 19;
             // 
@@ -308,6 +319,7 @@
             // 
             this.ChemistryIndiTotalPoint.Location = new System.Drawing.Point(219, 124);
             this.ChemistryIndiTotalPoint.Name = "ChemistryIndiTotalPoint";
+            this.ChemistryIndiTotalPoint.ReadOnly = true;
             this.ChemistryIndiTotalPoint.Size = new System.Drawing.Size(41, 20);
             this.ChemistryIndiTotalPoint.TabIndex = 20;
             // 
@@ -315,6 +327,7 @@
             // 
             this.PhysicsIndiTotalPoint.Location = new System.Drawing.Point(219, 151);
             this.PhysicsIndiTotalPoint.Name = "PhysicsIndiTotalPoint";
+            this.PhysicsIndiTotalPoint.ReadOnly = true;
             this.PhysicsIndiTotalPoint.Size = new System.Drawing.Size(41, 20);
             this.PhysicsIndiTotalPoint.TabIndex = 21;
             // 
@@ -322,6 +335,7 @@
             // 
             this.HMIndiTotalPoint.Location = new System.Drawing.Point(219, 176);
             this.HMIndiTotalPoint.Name = "HMIndiTotalPoint";
+            this.HMIndiTotalPoint.ReadOnly = true;
             this.HMIndiTotalPoint.Size = new System.Drawing.Size(41, 20);
             this.HMIndiTotalPoint.TabIndex = 22;
             // 
@@ -329,6 +343,7 @@
             // 
             this.ICTIndiTotalPoint.Location = new System.Drawing.Point(219, 204);
             this.ICTIndiTotalPoint.Name = "ICTIndiTotalPoint";
+            this.ICTIndiTotalPoint.ReadOnly = true;
             this.ICTIndiTotalPoint.Size = new System.Drawing.Size(41, 20);
             this.ICTIndiTotalPoint.TabIndex = 23;
             // 

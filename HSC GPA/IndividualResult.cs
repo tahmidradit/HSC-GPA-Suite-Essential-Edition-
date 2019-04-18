@@ -435,5 +435,10 @@ namespace HSC_GPA
             HMIndiTotal.Text = "";
             ICTIndiTotal.Text = "";
         }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Input the sum of the 1st paper & the 2nd paper marks under 'Total Marks' label only. It's mandatory not to leave any input fields.Don't input in 'Overall GPA', 'Grade', 'Point' textboxes.","Instructions_Subject Total",MessageBoxButtons.OK,MessageBoxIcon.Information);
+        }
     }
 }
