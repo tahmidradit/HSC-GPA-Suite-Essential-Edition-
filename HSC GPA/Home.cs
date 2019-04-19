@@ -155,9 +155,23 @@ namespace HSC_GPA
             ParticularSubject(new AnySubRes());
         }
 
+        private void Contact(object contact)
+        {
+            if(this.panelDock.Controls.Count > 0)
+            {
+                this.panelDock.Controls.RemoveAt(0);
+            }
+            Form cntct = contact as Form;
+            cntct.TopLevel = false;
+            cntct.Dock = DockStyle.Fill;
+            this.panelDock.Controls.Add(cntct);
+            this.panelDock.Tag = cntct;
+            cntct.Show();
+        }
         private void Button5_Click(object sender, EventArgs e)
         {
             Application.Exit();
+            //Contact(new Contact());
         }
 
         private void PictureBox4_Click(object sender, EventArgs e)
@@ -254,6 +268,30 @@ namespace HSC_GPA
         private void Button7_Click(object sender, EventArgs e)
         {
             InsHome(new Instructions_Home());
+        }
+
+        private void Button8_Click(object sender, EventArgs e)
+        {
+            Contact(new Contact());
+        }
+
+        private void About(object about)
+        {
+            if (this.panelDock.Controls.Count > 0)
+            {
+                this.panelDock.Controls.RemoveAt(0);
+            }
+            Form abt = about as Form;
+            abt.TopLevel = false;
+            abt.Dock = DockStyle.Fill;
+            this.panelDock.Controls.Add(abt);
+            this.panelDock.Tag = abt;
+            abt.Show();
+        }
+
+        private void Button9_Click(object sender, EventArgs e)
+        {
+            About(new About());
         }
     }
 }
