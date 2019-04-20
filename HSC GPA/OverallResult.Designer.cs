@@ -245,10 +245,14 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.FinalResultbox = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.label45 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label32 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             this.groupBox27.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -278,6 +282,7 @@
             this.groupBox26.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -2289,13 +2294,15 @@
             this.button1.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(-1, 275);
+            this.button1.Location = new System.Drawing.Point(-1, 214);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(138, 23);
             this.button1.TabIndex = 17;
             this.button1.Text = "      Instructions";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
+            this.button1.MouseLeave += new System.EventHandler(this.Button1_MouseLeave);
+            this.button1.MouseHover += new System.EventHandler(this.Button1_MouseHover);
             // 
             // SubmitButton
             // 
@@ -2306,7 +2313,7 @@
             this.SubmitButton.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.SubmitButton.Image = ((System.Drawing.Image)(resources.GetObject("SubmitButton.Image")));
             this.SubmitButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.SubmitButton.Location = new System.Drawing.Point(-1, 217);
+            this.SubmitButton.Location = new System.Drawing.Point(-1, 156);
             this.SubmitButton.Name = "SubmitButton";
             this.SubmitButton.Size = new System.Drawing.Size(138, 23);
             this.SubmitButton.TabIndex = 14;
@@ -2323,7 +2330,7 @@
             this.ResetButton.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.ResetButton.Image = ((System.Drawing.Image)(resources.GetObject("ResetButton.Image")));
             this.ResetButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ResetButton.Location = new System.Drawing.Point(-1, 246);
+            this.ResetButton.Location = new System.Drawing.Point(-1, 185);
             this.ResetButton.Name = "ResetButton";
             this.ResetButton.Size = new System.Drawing.Size(138, 23);
             this.ResetButton.TabIndex = 15;
@@ -2352,6 +2359,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.groupBox3);
@@ -2362,6 +2370,39 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(137, 568);
             this.panel1.TabIndex = 59;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.Black;
+            this.panel4.Controls.Add(this.richTextBox1);
+            this.panel4.Controls.Add(this.label45);
+            this.panel4.Location = new System.Drawing.Point(3, 241);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(131, 324);
+            this.panel4.TabIndex = 65;
+            this.panel4.Visible = false;
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.richTextBox1.Font = new System.Drawing.Font("Ubuntu Mono", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox1.ForeColor = System.Drawing.Color.White;
+            this.richTextBox1.Location = new System.Drawing.Point(3, 71);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(125, 210);
+            this.richTextBox1.TabIndex = 17;
+            this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Font = new System.Drawing.Font("Ubuntu Mono", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label45.ForeColor = System.Drawing.SystemColors.Control;
+            this.label45.Location = new System.Drawing.Point(-3, 42);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(140, 22);
+            this.label45.TabIndex = 16;
+            this.label45.Text = "Instructions ";
             // 
             // pictureBox1
             // 
@@ -2379,6 +2420,7 @@
             // panel2
             // 
             this.panel2.Controls.Add(this.panel3);
+            this.panel2.Controls.Add(this.label46);
             this.panel2.Controls.Add(this.groupBox26);
             this.panel2.Controls.Add(this.groupBox2);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -2407,6 +2449,18 @@
             this.label32.Size = new System.Drawing.Size(142, 28);
             this.label32.TabIndex = 0;
             this.label32.Text = "Overall Result";
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label46.ForeColor = System.Drawing.Color.Red;
+            this.label46.Location = new System.Drawing.Point(3, 556);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(468, 12);
+            this.label46.TabIndex = 60;
+            this.label46.Text = "Please make sure to view Overall Result right panel fully to view instructions in" +
+    " a full view.";
             // 
             // Form1
             // 
@@ -2471,8 +2525,11 @@
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.panel1.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.ResumeLayout(false);
@@ -2701,6 +2758,10 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.Label label46;
     }
 }
 

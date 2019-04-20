@@ -172,6 +172,9 @@
         y2F2uHrA4jdKHo32dRnBbgAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Input in the 'Individual Totals' section only under 'Total Marks' label.It's mandatory not to leave any input fields.Don't input in 'Overall GPA','Average' section, 'Grade', 'Point' textboxes.Use 'TAB' button from the keyboard to move into the next textbox.</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAYAAAAAAAEAIAAoIAQAZgAAABAQAAABACAAaAQAAI4gBAAwMAAAAQAgAKglAAD2JAQAICAAAAEA

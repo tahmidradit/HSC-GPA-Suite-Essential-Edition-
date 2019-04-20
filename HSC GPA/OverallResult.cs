@@ -2126,7 +2126,7 @@ namespace HSC_GPA
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Input in the 'TPM' section only.It's mandatory not to leave any input fields.Don't input in 'Overall GPA', 'Individual Totals', 'Subject Total Average', 'Grade', 'Point' textboxes.", "Instructions_Overall Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //MessageBox.Show("Input in the 'TPM' section only.It's mandatory not to leave any input fields.Don't input in 'Overall GPA', 'Individual Totals', 'Subject Total Average', 'Grade', 'Point' textboxes.\nUse 'Arrow keys' from the keyboard to move into the right/left/up/down textboxes.", "Instructions_Overall Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void PictureBox1_MouseHover(object sender, EventArgs e)
@@ -2137,6 +2137,16 @@ namespace HSC_GPA
         private void PictureBox1_MouseLeave(object sender, EventArgs e)
         {
             pictureBox1.BackColor = Color.Transparent;
+        }
+
+        private void Button1_MouseHover(object sender, EventArgs e)
+        {
+            panel4.Visible = true;
+        }
+
+        private void Button1_MouseLeave(object sender, EventArgs e)
+        {
+            panel4.Visible = false;
         }
     }
 }

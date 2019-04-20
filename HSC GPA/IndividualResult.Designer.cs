@@ -71,11 +71,15 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
+            this.panelINS = new System.Windows.Forms.Panel();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.label13 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.panelINS.SuspendLayout();
             this.SuspendLayout();
             // 
             // BanglaIndiTotal
@@ -171,6 +175,8 @@
             this.button3.Text = "    Instructions";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.Button3_Click);
+            this.button3.MouseLeave += new System.EventHandler(this.Button3_MouseLeave);
+            this.button3.MouseHover += new System.EventHandler(this.Button3_MouseHover);
             // 
             // label1
             // 
@@ -474,7 +480,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(805, 50);
+            this.panel3.Size = new System.Drawing.Size(1027, 50);
             this.panel3.TabIndex = 32;
             // 
             // label12
@@ -488,12 +494,47 @@
             this.label12.TabIndex = 0;
             this.label12.Text = "Subject Total";
             // 
+            // panelINS
+            // 
+            this.panelINS.BackColor = System.Drawing.Color.Black;
+            this.panelINS.Controls.Add(this.richTextBox1);
+            this.panelINS.Controls.Add(this.label13);
+            this.panelINS.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panelINS.Location = new System.Drawing.Point(754, 50);
+            this.panelINS.Name = "panelINS";
+            this.panelINS.Size = new System.Drawing.Size(273, 437);
+            this.panelINS.TabIndex = 33;
+            this.panelINS.Visible = false;
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.richTextBox1.Font = new System.Drawing.Font("Ubuntu Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox1.ForeColor = System.Drawing.Color.White;
+            this.richTextBox1.Location = new System.Drawing.Point(13, 163);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(248, 174);
+            this.richTextBox1.TabIndex = 17;
+            this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Ubuntu Mono", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.SystemColors.Control;
+            this.label13.Location = new System.Drawing.Point(21, 115);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(249, 35);
+            this.label13.TabIndex = 16;
+            this.label13.Text = "Instructions ";
+            // 
             // Individual_Result
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.ClientSize = new System.Drawing.Size(805, 487);
+            this.ClientSize = new System.Drawing.Size(1027, 487);
+            this.Controls.Add(this.panelINS);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -509,6 +550,8 @@
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            this.panelINS.ResumeLayout(false);
+            this.panelINS.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -557,5 +600,8 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Panel panelINS;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Label label13;
     }
 }

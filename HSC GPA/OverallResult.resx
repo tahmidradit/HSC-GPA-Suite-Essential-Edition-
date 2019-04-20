@@ -158,6 +158,9 @@
         ACgxasCQNwCUmUAZAyRACgZlJJA+cJYEcUCmkYKBmhlSASSQYfH4cGNHAAAAAElFTkSuQmCC
 </value>
   </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Input in the 'TPM' section only.It's mandatory not to leave any input fields.Don't input in 'Overall GPA', 'Individual Totals', 'Subject Total Average', 'Grade', 'Point' textboxes.Use 'Arrow keys' from the keyboard to move into the right/left/up/down textboxes.</value>
+  </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO

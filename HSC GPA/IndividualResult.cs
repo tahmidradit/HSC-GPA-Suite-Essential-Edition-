@@ -28,8 +28,7 @@ namespace HSC_GPA
             gis.ICTSubIndividual = float.Parse(ICTIndiTotal.Text);
             gis.PhysicsIndividual = float.Parse(PhysicsIndiTotal.Text);
             SubjectTotal st = new SubjectTotal();
-            try
-            {
+            
                 st.BanglaSubTotal = gis.BanglaIndividual;
                 if (st.BanglaSubTotal < 201)
                 {
@@ -380,12 +379,12 @@ namespace HSC_GPA
                 {
                     MessageBox.Show("Inputs can't exceed 200 marks in total for Physics !", "Stop !", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                 }
-            }
+            
 
-            finally
-            {
-                MessageBox.Show("You can't leave any fields empty !", "Stop", MessageBoxButtons.OK, MessageBoxIcon.Stop);
-            }
+            //finally
+            //{
+            //    MessageBox.Show("You can't leave any fields empty !", "Stop", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+            //}
 
             gis.BanglaIndividual = float.Parse(BanglaIndiTotal.Text);
             gis.BiologyIndividual = float.Parse(BiologyIndiTotal.Text);
@@ -427,18 +426,33 @@ namespace HSC_GPA
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            BanglaIndiTotal.Text = "";
-            BiologyIndiTotal.Text = "";
-            EnglishIndiTotal.Text = "";
-            ChemistryIndiTotal.Text = "";
-            PhysicsIndiTotal.Text = "";
-            HMIndiTotal.Text = "";
-            ICTIndiTotal.Text = "";
+            BanglaIndiTotal.Text = ""; BanglaIndiTotalGrade.Text = ""; BanglaIndiTotalPoint.Text = "";
+            BiologyIndiTotal.Text = "";BiologyIndiTotalGrade.Text = ""; BiologyIndiTotalPoint.Text = "";
+            EnglishIndiTotal.Text = "";EnglishIndiTotalGrade.Text = ""; EnglishIndiTotalPoint.Text = "";
+            ChemistryIndiTotal.Text = "";ChemistryIndiTotalGrade.Text = ""; ChemistryIndiTotalPoint.Text = "";
+            PhysicsIndiTotal.Text = ""; PhysicsIndiTotalGrade.Text = ""; PhysicsIndiTotalPoint.Text = "";
+            HMIndiTotal.Text = ""; HMIndiTotalGrade.Text = ""; HMIndiTotalPoint.Text = "";
+            ICTIndiTotal.Text = "";ICTIndiTotalGrade.Text = ""; ICTIndiTotalPoint.Text = ""; IndividualResultBox.Text = "";
         }
 
+        
         private void Button3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Input the sum of the 1st paper & the 2nd paper marks under 'Total Marks' label only. It's mandatory not to leave any input fields.Don't input in 'Overall GPA', 'Grade', 'Point' textboxes.","Instructions_Subject Total",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            //MessageBox.Show("Input the sum of the 1st paper & the 2nd paper marks under 'Total Marks' label only. It's mandatory not to leave any input fields.Don't input in 'Overall GPA', 'Grade', 'Point' textboxes.\nUse 'TAB' button from the keyboard to move into the next textbox.","Instructions_Subject Total",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            
+        }
+
+        private void Button3_MouseHover(object sender, EventArgs e)
+        {
+            //richTextBox1.Visible = true;
+            //Insst(new InsST());
+            panelINS.Visible = true;
+        }
+
+        private void Button3_MouseLeave(object sender, EventArgs e)
+        {
+            //richTextBox1.Visible = false;
+            panelINS.Visible = false;
         }
     }
 }

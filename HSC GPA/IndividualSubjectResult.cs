@@ -1147,7 +1147,17 @@ namespace HSC_GPA
 
         private void Button3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Input in the 'Individual Totals' section only under 'Total Marks' label.It's mandatory not to leave any input fields.Don't input in 'Overall GPA','Average' section, 'Grade', 'Point' textboxes.", "Instructions_Individual Results", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //MessageBox.Show("Input in the 'Individual Totals' section only under 'Total Marks' label.It's mandatory not to leave any input fields.Don't input in 'Overall GPA','Average' section, 'Grade', 'Point' textboxes.\nUse 'TAB' button from the keyboard to move into the next textbox.", "Instructions_Individual Results", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void Button3_MouseHover(object sender, EventArgs e)
+        {
+            panel5.Visible = true;
+        }
+
+        private void Button3_MouseLeave(object sender, EventArgs e)
+        {
+            panel5.Visible = false;
         }
     }
 }

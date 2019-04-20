@@ -306,6 +306,16 @@
         ALAVUNTERBW5MDayGDofFxtrJUFNPArwAQYGAHWViGFz8Gn7AAAAAElFTkSuQmCC
 </value>
   </data>
+  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAEpJREFUSEtjGAXEgHAaY4b/QPwPigmxkcXQ+bjYDJNpjEfBSADvaYyxClITj4KR
+        ALAVUNTERBW5MDayGDofFxtrJUFNPArwAQYGAHWViGFz8Gn7AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Make sure to input in 'Particular Subjects' section only at one or more subjects separately ! No need to input at all of the textboxes at a time.Don't input in 'Individual Totals' section, 'Grade', 'Point' textboxes.</value>
+  </data>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>25</value>
   </metadata>
