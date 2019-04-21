@@ -174,7 +174,6 @@
             this.button3.TabIndex = 9;
             this.button3.Text = "    Instructions";
             this.button3.UseVisualStyleBackColor = true;
-            
             this.button3.MouseLeave += new System.EventHandler(this.Button3_MouseLeave);
             this.button3.MouseHover += new System.EventHandler(this.Button3_MouseHover);
             // 
@@ -511,9 +510,9 @@
             this.richTextBox1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.richTextBox1.Font = new System.Drawing.Font("Ubuntu Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox1.ForeColor = System.Drawing.Color.White;
-            this.richTextBox1.Location = new System.Drawing.Point(13, 163);
+            this.richTextBox1.Location = new System.Drawing.Point(13, 58);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(248, 174);
+            this.richTextBox1.Size = new System.Drawing.Size(248, 367);
             this.richTextBox1.TabIndex = 17;
             this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
             // 
@@ -522,7 +521,7 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Ubuntu Mono", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.SystemColors.Control;
-            this.label13.Location = new System.Drawing.Point(21, 115);
+            this.label13.Location = new System.Drawing.Point(21, 10);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(249, 35);
             this.label13.TabIndex = 16;

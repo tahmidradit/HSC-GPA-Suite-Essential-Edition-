@@ -1135,9 +1135,9 @@
             this.richTextBox1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.richTextBox1.Font = new System.Drawing.Font("Ubuntu Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox1.ForeColor = System.Drawing.Color.White;
-            this.richTextBox1.Location = new System.Drawing.Point(7, 147);
+            this.richTextBox1.Location = new System.Drawing.Point(7, 82);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(212, 219);
+            this.richTextBox1.Size = new System.Drawing.Size(221, 406);
             this.richTextBox1.TabIndex = 15;
             this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
             // 
@@ -1146,7 +1146,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Ubuntu Mono", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.SystemColors.Control;
-            this.label11.Location = new System.Drawing.Point(3, 99);
+            this.label11.Location = new System.Drawing.Point(3, 34);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(249, 35);
             this.label11.TabIndex = 14;

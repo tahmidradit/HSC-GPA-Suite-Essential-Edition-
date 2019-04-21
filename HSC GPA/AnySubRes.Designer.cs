@@ -1837,7 +1837,6 @@
             this.button1.TabIndex = 49;
             this.button1.Text = "      Instructions";
             this.button1.UseVisualStyleBackColor = true;
-            
             this.button1.MouseLeave += new System.EventHandler(this.Button1_MouseLeave);
             this.button1.MouseHover += new System.EventHandler(this.Button1_MouseHover);
             // 
@@ -1927,7 +1926,6 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 65;
             this.pictureBox2.TabStop = false;
-            
             // 
             // panel4
             // 
@@ -1946,9 +1944,9 @@
             this.richTextBox1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.richTextBox1.Font = new System.Drawing.Font("Ubuntu Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox1.ForeColor = System.Drawing.Color.White;
-            this.richTextBox1.Location = new System.Drawing.Point(5, 145);
+            this.richTextBox1.Location = new System.Drawing.Point(5, 66);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(173, 215);
+            this.richTextBox1.Size = new System.Drawing.Size(173, 432);
             this.richTextBox1.TabIndex = 15;
             this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
             // 
@@ -1957,7 +1955,7 @@
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Ubuntu Mono", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.SystemColors.Control;
-            this.label25.Location = new System.Drawing.Point(0, 102);
+            this.label25.Location = new System.Drawing.Point(0, 25);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(208, 29);
             this.label25.TabIndex = 14;
