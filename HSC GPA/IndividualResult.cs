@@ -10,8 +10,10 @@ using System.Windows.Forms;
 
 namespace HSC_GPA
 {
+    
     public partial class Individual_Result : Form
     {
+        
         public Individual_Result()
         {
             InitializeComponent();
@@ -20,15 +22,11 @@ namespace HSC_GPA
         private void button1_Click(object sender, EventArgs e)
         {
             GetIndividualSub gis = new GetIndividualSub();
-            gis.BanglaIndividual = float.Parse(BanglaIndiTotal.Text);
-            gis.BiologyIndividual = float.Parse(BiologyIndiTotal.Text);
-            gis.ChemistryIndividual = float.Parse(ChemistryIndiTotal.Text);
-            gis.EnglishIndividual = float.Parse(EnglishIndiTotal.Text);
-            gis.HigherMathIndividual = float.Parse(HMIndiTotal.Text);
-            gis.ICTSubIndividual = float.Parse(ICTIndiTotal.Text);
-            gis.PhysicsIndividual = float.Parse(PhysicsIndiTotal.Text);
-            SubjectTotal st = new SubjectTotal();
-            
+            try
+            {
+
+                gis.BanglaIndividual = float.Parse(BanglaIndiTotal.Text);
+                SubjectTotal st = new SubjectTotal();
                 st.BanglaSubTotal = gis.BanglaIndividual;
                 if (st.BanglaSubTotal < 201)
                 {
@@ -77,6 +75,18 @@ namespace HSC_GPA
                 }
                 else { MessageBox.Show("Inputs can't exceed 200 marks in total for Bangali !", "Stop !", MessageBoxButtons.OK, MessageBoxIcon.Stop); }
 
+            }
+            catch
+            {
+                //MessageBox.Show("Unexpected error occured.You can't leave any fields empty or illegal characters entered !", "Stop_Bangali", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+            }
+
+
+            try
+            {
+
+                gis.BiologyIndividual = float.Parse(BiologyIndiTotal.Text);
+                SubjectTotal st = new SubjectTotal();
                 st.BiologySubTotal = gis.BiologyIndividual;
                 if (st.BiologySubTotal < 201)
                 {
@@ -121,15 +131,25 @@ namespace HSC_GPA
                         BiologyIndiTotalPoint.Text = "5";
                         BiologyIndiTotalGrade.Text = "A+";
                     }
-                    else {  }
+                    else { }
                 }
                 else
                 {
                     MessageBox.Show("Inputs can't exceed 200 marks in total for Biology !", "Stop !", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                 }
+            }
+            catch
+            {
+                //MessageBox.Show("Unexpected error occured.You can't leave any fields empty or illegal characters entered !", "Stop_Biology", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+            }
 
+            try
+            {
+                
+                gis.ChemistryIndividual = float.Parse(ChemistryIndiTotal.Text);
+                SubjectTotal st = new SubjectTotal();
                 st.ChemistrySubTotal = gis.ChemistryIndividual;
-                if(st.ChemistrySubTotal < 201 )
+                if (st.ChemistrySubTotal < 201)
                 {
                     if (st.ChemistrySubTotal / 2 <= 32)
                     {
@@ -178,9 +198,19 @@ namespace HSC_GPA
                 {
                     MessageBox.Show("Inputs can't exceed 200 marks in total for Chemistry !", "Stop !", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                 }
+            }
+            catch
+            {
+                //MessageBox.Show("Unexpected error occured.You can't leave any fields empty or illegal characters entered !", "Stop_Chemistry", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+            }
 
+            try
+            {
+                
+                gis.EnglishIndividual = float.Parse(EnglishIndiTotal.Text);
+                SubjectTotal st = new SubjectTotal();
                 st.EnglishSubTotal = gis.EnglishIndividual;
-                if(st.EnglishSubTotal < 201)
+                if (st.EnglishSubTotal < 201)
                 {
                     if (st.EnglishSubTotal / 2 <= 32)
                     {
@@ -229,8 +259,19 @@ namespace HSC_GPA
                 {
                     MessageBox.Show("Inputs can't exceed 200 marks in total for English !", "Stop !", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                 }
+            }
+            catch
+            {
+                //MessageBox.Show("Unexpected error occured.You can't leave any fields empty or illegal characters entered !", "Stop_English", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+            }
+
+            try
+            {
+               
+                gis.HigherMathIndividual = float.Parse(HMIndiTotal.Text);
+                SubjectTotal st = new SubjectTotal();
                 st.HigherMathSubTotal = gis.HigherMathIndividual;
-                if(st.HigherMathSubTotal < 201)
+                if (st.HigherMathSubTotal < 201)
                 {
                     if (st.HigherMathSubTotal / 2 <= 32)
                     {
@@ -279,8 +320,19 @@ namespace HSC_GPA
                 {
                     MessageBox.Show("Inputs can't exceed 200 marks in total for Higher Mathematics !", "Stop !", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                 }
+            }
+            catch
+            {
+                //MessageBox.Show("Unexpected error occured.You can't leave any fields empty or illegal characters entered !", "Stop_Higher Mathematics", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+            }
+
+            try
+            {
+                
+                gis.ICTSubIndividual = float.Parse(ICTIndiTotal.Text);
+                SubjectTotal st = new SubjectTotal();
                 st.ICTSubTotal = gis.ICTSubIndividual;
-                if(st.ICTSubTotal < 201)
+                if (st.ICTSubTotal < 201)
                 {
                     if (st.ICTSubTotal <= 32)
                     {
@@ -329,8 +381,20 @@ namespace HSC_GPA
                 {
                     MessageBox.Show("Inputs can't exceed 200 marks in total for ICT !", "Stop !", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                 }
+            }
+            catch
+            {
+                //MessageBox.Show("Unexpected error occured.You can't leave any fields empty or illegal characters entered !", "Stop_ICT", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+            }
+
+
+            try
+            {
+                
+                gis.PhysicsIndividual = float.Parse(PhysicsIndiTotal.Text);
+                SubjectTotal st = new SubjectTotal();
                 st.PhysicsSubTotal = gis.PhysicsIndividual;
-                if(st.PhysicsSubTotal < 201)
+                if (st.PhysicsSubTotal < 201)
                 {
                     if (st.PhysicsSubTotal / 2 <= 32)
                     {
@@ -379,24 +443,23 @@ namespace HSC_GPA
                 {
                     MessageBox.Show("Inputs can't exceed 200 marks in total for Physics !", "Stop !", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                 }
+            }
+            catch
+            {
+                //MessageBox.Show("Unexpected error occured.You can't leave any fields empty or illegal characters entered !", "Stop_Physics", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+            }
+
+            try
+            {
+                float IndiSubTotal = float.Parse(BanglaIndiTotalPoint.Text) + float.Parse(BiologyIndiTotalPoint.Text) + float.Parse(ChemistryIndiTotalPoint.Text) + float.Parse(EnglishIndiTotalPoint.Text) + float.Parse(HMIndiTotalPoint.Text) + float.Parse(ICTIndiTotalPoint.Text) + float.Parse(PhysicsIndiTotalPoint.Text);
+                float avg = (IndiSubTotal - 2) / 6;
+                IndividualResultBox.Text = avg.ToString();
+            }
+            catch
+            {
+                MessageBox.Show("Unexpected error occured.You can't leave any fields empty or illegal characters entered !", "Stop", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+            }
             
-
-            //finally
-            //{
-            //    MessageBox.Show("You can't leave any fields empty !", "Stop", MessageBoxButtons.OK, MessageBoxIcon.Stop);
-            //}
-
-            gis.BanglaIndividual = float.Parse(BanglaIndiTotal.Text);
-            gis.BiologyIndividual = float.Parse(BiologyIndiTotal.Text);
-            gis.ChemistryIndividual = float.Parse(ChemistryIndiTotal.Text);
-            gis.EnglishIndividual = float.Parse(EnglishIndiTotal.Text);
-            gis.HigherMathIndividual = float.Parse(HMIndiTotal.Text);
-            gis.ICTSubIndividual = float.Parse(ICTIndiTotal.Text);
-            gis.PhysicsIndividual = float.Parse(PhysicsIndiTotal.Text);
-
-            float IndiSubTotal = float.Parse(BanglaIndiTotalPoint.Text) + float.Parse(BiologyIndiTotalPoint.Text) + float.Parse(ChemistryIndiTotalPoint.Text) + float.Parse(EnglishIndiTotalPoint.Text) + float.Parse(HMIndiTotalPoint.Text) + float.Parse(ICTIndiTotalPoint.Text) + float.Parse(PhysicsIndiTotalPoint.Text);
-            float avg = (IndiSubTotal - 2) / 6;
-            IndividualResultBox.Text = avg.ToString();
 
             
 
@@ -435,24 +498,16 @@ namespace HSC_GPA
             ICTIndiTotal.Text = "";ICTIndiTotalGrade.Text = ""; ICTIndiTotalPoint.Text = ""; IndividualResultBox.Text = "";
         }
 
-        
-        private void Button3_Click(object sender, EventArgs e)
-        {
-            //MessageBox.Show("Input the sum of the 1st paper & the 2nd paper marks under 'Total Marks' label only. It's mandatory not to leave any input fields.Don't input in 'Overall GPA', 'Grade', 'Point' textboxes.\nUse 'TAB' button from the keyboard to move into the next textbox.","Instructions_Subject Total",MessageBoxButtons.OK,MessageBoxIcon.Information);
-            
-        }
-
         private void Button3_MouseHover(object sender, EventArgs e)
         {
-            //richTextBox1.Visible = true;
-            //Insst(new InsST());
-            panelINS.Visible = true;
+          panelINS.Visible = true;
         }
 
         private void Button3_MouseLeave(object sender, EventArgs e)
         {
-            //richTextBox1.Visible = false;
-            panelINS.Visible = false;
+          panelINS.Visible = false;
         }
+
+        
     }
 }

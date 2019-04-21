@@ -88,7 +88,7 @@ namespace HSC_GPA
             }
             catch
             {
-                MessageBox.Show("Unexpected error occured or you can't leave any fields empty !", "Stop_Physics 1st Paper", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                MessageBox.Show("Unexpected error occured ; you can't leave any fields empty or illegal characters entered.", "Stop_Physics 1st Paper", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
 
         }
@@ -161,7 +161,7 @@ namespace HSC_GPA
             }
             catch
             {
-                MessageBox.Show("Unexpected error occured or you can't leave any fields empty !", "Stop_Physics 2nd Paper", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                MessageBox.Show("Unexpected error occured ; you can't leave any fields empty or illegal characters entered.", "Stop_Physics 2nd Paper", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
 
         }
@@ -235,7 +235,7 @@ namespace HSC_GPA
             }
             catch
             {
-                MessageBox.Show("Unexpected error occured or you can't leave any fields empty !", "Stop_Chemistry 1st Paper", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                MessageBox.Show("Unexpected error occured ; you can't leave any fields empty or illegal characters entered.", "Stop_Chemistry 1st Paper", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
 
         }
@@ -307,7 +307,7 @@ namespace HSC_GPA
             }
             catch
             {
-                MessageBox.Show("Unexpected error occured or you can't leave any fields empty !", "Stop_Chemistry 2nd Paper", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                MessageBox.Show("Unexpected error occured ; you can't leave any fields empty or illegal characters entered.", "Stop_Chemistry 2nd Paper", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
         }
 
@@ -378,7 +378,7 @@ namespace HSC_GPA
             }
             catch
             {
-                MessageBox.Show("Unexpected error occured or you can't leave any fields empty !", "Stop_Higher Mathematics 1st Paper", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                MessageBox.Show("Unexpected error occured ; you can't leave any fields empty or illegal characters entered.", "Stop_Higher Mathematics 1st Paper", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
 
         }
@@ -449,7 +449,7 @@ namespace HSC_GPA
             }
             catch
             {
-                MessageBox.Show("Unexpected error occured or you can't leave any fields empty !", "Stop_Higher Mathematics 2nd Paper", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                MessageBox.Show("Unexpected error occured ; you can't leave any fields empty or illegal characters entered.", "Stop_Higher Mathematics 2nd Paper", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
 
         }
@@ -522,7 +522,7 @@ namespace HSC_GPA
             }
             catch
             {
-                MessageBox.Show("Unexpected error occured or you can't leave any fields empty !", "Stop_Biology 1st Paper", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                MessageBox.Show("Unexpected error occured ; you can't leave any fields empty or illegal characters entered.", "Stop_Biology 1st Paper", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
 
         }
@@ -595,7 +595,7 @@ namespace HSC_GPA
             }
             catch
             {
-                MessageBox.Show("Unexpected error occured or you can't leave any fields empty !", "Stop_Biology 2nd Paper", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                MessageBox.Show("Unexpected error occured ; you can't leave any fields empty or illegal characters entered.", "Stop_Biology 2nd Paper", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
 
         }
@@ -669,7 +669,7 @@ namespace HSC_GPA
             }
             catch
             {
-                MessageBox.Show("Unexpected error occured or you can't leave any fields empty !", "Stop_Bangla 1st Paper", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                MessageBox.Show("Unexpected error occured ; you can't leave any fields empty or illegal characters entered.", "Stop_Bangla 1st Paper", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
 
         }
@@ -740,7 +740,7 @@ namespace HSC_GPA
             }
             catch
             {
-                MessageBox.Show("Unexpected error occured or you can't leave any fields empty !", "Stop_Bangla 2nd Paper", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                MessageBox.Show("Unexpected error occured ; you can't leave any fields empty or illegal characters entered.", "Stop_Bangla 2nd Paper", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
 
         }
@@ -811,7 +811,7 @@ namespace HSC_GPA
             }
             catch
             {
-                MessageBox.Show("Unexpected error occured or you can't leave any fields empty !", "Stop_English 1st Paper", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                MessageBox.Show("Unexpected error occured ; you can't leave any fields empty or illegal characters entered.", "Stop_English 1st Paper", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
 
         }
@@ -882,7 +882,7 @@ namespace HSC_GPA
             }
             catch
             {
-                MessageBox.Show("Unexpected error occured or you can't leave any fields empty !", "Stop_English 2nd Paper", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                MessageBox.Show("Unexpected error occured ; you can't leave any fields empty or illegal characters entered.", "Stop_English 2nd Paper", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
 
         }
@@ -955,7 +955,7 @@ namespace HSC_GPA
             }
             catch
             {
-                MessageBox.Show("Unexpected error occured or you can't leave any fields empty !", "Stop_ICT", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                MessageBox.Show("Unexpected error occured ; you can't leave any fields empty or illegal characters entered.", "Stop_ICT", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
 
         }
@@ -996,12 +996,6 @@ namespace HSC_GPA
             
               
         }
-
-        private void Button1_Click(object sender, EventArgs e)
-        {
-            //MessageBox.Show("Make sure to input in 'Particular Subjects' section only at one or more subjects separately ! No need to input at all of the textboxes at a time.Don't input in 'Individual Totals' section, 'Grade', 'Point' textboxes.", "Instructions_Particular Subjects",MessageBoxButtons.OK,MessageBoxIcon.Information);
-        }
-
         private void Button1_MouseHover(object sender, EventArgs e)
         {
             panel4.Visible = true;
@@ -1012,9 +1006,5 @@ namespace HSC_GPA
             panel4.Visible = false;
         }
 
-        private void PictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

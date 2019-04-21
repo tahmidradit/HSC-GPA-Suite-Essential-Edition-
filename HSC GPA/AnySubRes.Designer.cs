@@ -1837,7 +1837,7 @@
             this.button1.TabIndex = 49;
             this.button1.Text = "      Instructions";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            
             this.button1.MouseLeave += new System.EventHandler(this.Button1_MouseLeave);
             this.button1.MouseHover += new System.EventHandler(this.Button1_MouseHover);
             // 
@@ -1927,7 +1927,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 65;
             this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.PictureBox2_Click);
+            
             // 
             // panel4
             // 

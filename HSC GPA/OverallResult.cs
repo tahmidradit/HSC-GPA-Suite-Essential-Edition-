@@ -2102,7 +2102,7 @@ namespace HSC_GPA
             }
             catch
             {
-                MessageBox.Show("One or more parameters exceed 100 marks in 'Individual Totals' or the input boxes may remain empty & unable to find out the overall result or the result is incorrect.\nPlease input again ! If doesn't work, please re-enter marks.", "Input Validation", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("One or more parameters exceed 100 marks in 'Individual Totals' or the input boxes can't remain empty & unable to find out the overall result or the result is incorrect or illegal characters entered.\nPlease input again ! If doesn't work, please re-enter marks.", "Input Validation", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

@@ -174,7 +174,7 @@
             this.button3.TabIndex = 9;
             this.button3.Text = "    Instructions";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.Button3_Click);
+            
             this.button3.MouseLeave += new System.EventHandler(this.Button3_MouseLeave);
             this.button3.MouseHover += new System.EventHandler(this.Button3_MouseHover);
             // 
